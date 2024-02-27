@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.dsti-food.com/"
+	xmlns:ds="http://www.dsti-food.com/"
+	elementFormDefault="qualified"
+	attributeFormDefault="unqualified">
+	<xs:element name="Food">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="ds:recipe"/>
+				<xs:element maxOccurs="unbounded" ref="ds:cuisines"/>
+				<xs:element maxOccurs="unbounded" ref="ds:nutritional"/>
+				<xs:element maxOccurs="unbounded" ref="ds:mealTypes"/>
+				<xs:element maxOccurs="unbounded" ref="ds:dietCategories"/>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="keycusine">
+			<xs:selector xpath="ds:cusines/ds:cusine"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:keyref name="cuisi"
+		           refer="ds:keycusine">
+			<xs:selector xpath="ds:recipe"/>
+			<xs:field xpath="@c"/>
+		</xs:keyref>
+		<xs:keyref name="cuine"
+		           refer="ds:keycusine">
+			<xs:selector xpath="ds:recipe"/>
+			<xs:field xpath="cref"/>
+		</xs:keyref>
+		<xs:key name="keynutrition">
+			<xs:selector xpath="ds:nutritional/ds:nutrition"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:keyref name="nutritions"
+		           refer="ds:keynutrition">
+			<xs:selector xpath="ds:recipe"/>
+			<xs:field xpath="@nf"/>
+		</xs:keyref>
+		<xs:keyref name="nutri"
+		           refer="ds:keynutrition">
+			<xs:selector xpath="ds:recipe"/>
+			<xs:field xpath="nfref"/>
+		</xs:keyref>
+		<xs:key name="keymealtype">
+			<xs:selector xpath="ds:mealTypes/ds:mealType"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:keyref name="meal"
+		           refer="ds:keymealtype">
+			<xs:selector xpath="ds:recipe"/>
+			<xs:field xpath="@mt"/>
+		</xs:keyref>
+		<xs:keyref name="mtype"
+		           refer="ds:keymealtype">
+			<xs:selector xpath="ds:recipe"/>
+			<xs:field xpath="mtref"/>
+		</xs:keyref>
+		<xs:key name="keydietCategory">
+			<xs:selector xpath="ds:dietCategories/ds:dietCategory"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:keyref name="diet"
+		           refer="ds:keydietCategory">
+			<xs:selector xpath="ds:recipe"/>
+			<xs:field xpath="@dc"/>
+		</xs:keyref>
+		<xs:keyref name="dcat"
+		           refer="ds:keydietCategory">
+			<xs:selector xpath="ds:recipe"/>
+			<xs:field xpath="dcref"/>
+		</xs:keyref>
+	</xs:element>
+	<xs:element name="recipe">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="title" type="xs:string"/>
+				<xs:element name="dietCategory">
+					<xs:complexType>
+						<xs:attribute name="dcref" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="cuisine">
+					<xs:complexType>
+						<xs:attribute name="cref"
+						              type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="mealtime"
+				            maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="mtref"
+						              type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="preptime"
+				            type="xs:duration"/>
+				<xs:element name="totaltime"
+				            type="xs:duration"/>
+				<xs:element name="calories"
+				            type="xs:int"/>
+				<xs:element name="description"
+				            type="xs:string"/>
+				<xs:element name="rating"
+				            type="xs:double"/>
+				<xs:element name="ingredients">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ingredient"
+							            maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name"
+									              type="xs:string"/>
+									<xs:attribute name="quantity"
+									              type="xs:string"/>
+									<xs:attribute name="unit"
+									              type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="servings"
+						              type="xs:int"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="instructions">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="li"
+							            maxOccurs="unbounded"
+							            type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="nutri_value"
+				            maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="value" type="xs:double"/>
+							<xs:element name="percentage" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="nfref"
+						              type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cuisines">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cuisine"
+				            maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name"
+							            type="xs:string"/>
+							<xs:element name="description"
+							            type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="id"
+						              type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nutritional">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nutrition"
+				            maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name"
+							            type="xs:string"/>
+							<xs:element name="quantity_type"
+							            type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="id"
+						              type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="mealTypes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="mealType"
+				            maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name"
+							            type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="id"
+						              type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="dietCategories">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="dietCategory"
+				            maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name"
+							            type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="id"
+						              type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

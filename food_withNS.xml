@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Food xmlns="http://www.dsti-food.com/" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd"> 
+	<!-- List of recipes -->
+	<recipe>
+		<title>7-Layer Beet Salad</title>
+		<dietCategory dcref="dc6"/>
+		<cuisine cref="c10"/>
+		<mealtime mtref="mt2"/>
+		<mealtime mtref="mt3"/>
+		<!-- Duration of 15 minutes -->
+		<preptime>PT15M</preptime>
+		<totaltime>PT15M</totaltime>
+		<calories>212</calories>
+		<description>This 7-Layer Beet Salad is a stunner! Studded with cooked beets, supremed oranges, chopped pistachios, creamy truffle ricotta, and a bit of fresh mint. So fresh, so good! 
+		</description>
+		<rating>4.9</rating>
+		<ingredients servings="6">
+			<ingredient name="Chopped Kale" quantity="32-48" unit="grams"/>
+			<ingredient name="Balsemic dressing or Green salad dressing or olive oil and lemon" quantity="59" unit="ml"/>
+			<ingredient name="Oranges" quantity="2-3"/>
+			<ingredient name="Cooked beets" quantity="8" unit="small"/>
+			<ingredient name="Minced shallot" quantity="1"/>
+			<ingredient name="Truffle ricotta or ricotta cheese" quantity="124" unit="grams"/>
+			<ingredient name="Chopped pistachios" quantity="62" unit="grams"/>
+			<ingredient name="Fresh mint" quantity="2" unit="tbsp"/>
+		</ingredients>
+		<instructions>
+			<li>Massage kale with a bit of the dressing to soften it.</li>
+			<li>steamed them for about 20 minutes and then pulled the skins off once they were cooked.Cut the beets into round shapes and cut oranges also into round shapes</li>
+			<li>Spread a little bit of your creamy element onto the serving platter. If this is a salad for one, I would use about 3 tablespoons. If it’s a salad for 4-6, I would use more like 1/2 cup.</li>
+			<li>Layer the rest of the 6 ingredients: massaged kale, beets, oranges, shallots, pistachios, and herbs. Finish with olive oil, salt, and pepper if you want. I love this salad with a hunk of good focaccia.</li>
+		</instructions>
+		<nutri_value nfref="nf1">
+			<value>9.8</value>
+			<percentage>13%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf2">
+			<value>12.6</value>
+			<percentage>4%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf3">
+			<value>274.8</value>
+			<percentage>12%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf4">
+			<value>27.5</value>
+			<percentage>10%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf5">
+			<value>6.7</value>
+			<percentage>24%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf6">
+			<value>15.8</value>
+		</nutri_value>
+		<nutri_value nfref="nf7">
+			<value>8.4</value>
+			<percentage>17%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf8">
+			<value>90.4</value>
+			<percentage>10%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf9">
+			<value>52.4</value>
+			<percentage>58%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf10">
+			<value>1.9</value>
+			<percentage>11%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf11">
+			<value>734.1</value>
+			<percentage>16%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf12">
+			<value>176.2</value>
+			<percentage>14%</percentage>
+		</nutri_value>
+	</recipe>
+	<!-- List of cuisines -->
+	<cuisines>
+		<cuisine id="c1">
+			<name>Italian Cuisine</name>
+			<description>Known for pasta, pizza, risotto, and various sauces like marinara and pesto.</description>
+		</cuisine>
+		<cuisine id="c2">
+			<name>French Cuisine</name>
+			<description>Characterized by dishes such as coq au vin, boeuf bourguignon, croissants, and escargot.</description>
+		</cuisine>
+		<cuisine id="c3">
+			<name>Chinese Cuisine</name>
+			<description>Includes dishes like stir-fries, dumplings, Peking duck, and various noodle dishes.</description>
+		</cuisine>
+		<cuisine id="c4">
+			<name>Indian Cuisine</name>
+			<description>Offers a wide variety of flavors and spices, including dishes like curry, biryani, tandoori chicken, and naan bread.</description>
+		</cuisine>
+		<cuisine id="c5">
+			<name>Japanese Cuisine</name>
+			<description>Known for sushi, sashimi, tempura, ramen, and dishes like teriyaki and miso soup.</description>
+		</cuisine>
+		<cuisine id="c6">
+			<name>Mexican Cuisine</name>
+			<description>Features dishes such as tacos, enchiladas, burritos, guacamole, and salsa.</description>
+		</cuisine>
+		<cuisine id="c7">
+			<name>Thai Cuisine</name>
+			<description>Known for its balance of sweet, sour, spicy, and salty flavors, with dishes like pad Thai, green curry, and tom yum soup.</description>
+		</cuisine>
+		<cuisine id="c8">
+			<name>Mediterranean Cuisine</name>
+			<description>Includes dishes from countries like Greece, Spain, and Turkey, featuring ingredients like olive oil, olives, feta cheese, and grilled meats and seafood.</description>
+		</cuisine>
+		<cuisine id="c9">
+			<name>Middle Eastern Cuisine</name>
+			<description>Includes dishes like falafel, hummus, kebabs, tabbouleh, and shawarma.</description>
+		</cuisine>
+		<cuisine id="c10">
+			<name>American Cuisine</name>
+			<description>Varied and diverse, with regional specialties such as hamburgers, hot dogs, barbecue, clam chowder, and southern fried chicken.</description>
+		</cuisine>
+	</cuisines>
+	<!-- List of nutritional values -->
+	<nutritional>
+		<nutrition id="nf1">
+			<name>Total Fat</name>
+			<quantity_type>g</quantity_type>
+		</nutrition>
+		<nutrition id="nf2">
+			<name>Cholesterol</name>
+			<quantity_type>mg</quantity_type>
+		</nutrition>
+		<nutrition id="nf3">
+			<name>Sodium</name>
+			<quantity_type>mg</quantity_type>
+		</nutrition>
+		<nutrition id="nf4">
+			<name>Total Carbohydrate</name>
+			<quantity_type>g</quantity_type>
+		</nutrition>
+		<nutrition id="nf5">
+			<name>Dietary Fiber</name>
+			<quantity_type>g</quantity_type>
+		</nutrition>
+		<nutrition id="nf6">
+			<name>Sugars</name>
+			<quantity_type>g</quantity_type>
+		</nutrition>
+		<nutrition id="nf7">
+			<name>Protein</name>
+			<quantity_type>g</quantity_type>
+		</nutrition>
+		<nutrition id="nf8">
+			<name>Vitamin A</name>
+			<quantity_type>µg</quantity_type>
+		</nutrition>
+		<nutrition id="nf9">
+			<name>Vitamin C</name>
+			<quantity_type>mg</quantity_type>
+		</nutrition>
+		<nutrition id="nf10">
+			<name>Iron</name>
+			<quantity_type>mg</quantity_type>
+		</nutrition>
+		<nutrition id="nf11">
+			<name>Potassium</name>
+			<quantity_type>mg</quantity_type>
+		</nutrition>
+		<nutrition id="nf12">
+			<name>Phosphorus</name>
+			<quantity_type>mg</quantity_type>
+		</nutrition>
+	</nutritional>
+	<!-- List of Meal types -->
+	<mealTypes>
+		<mealType id="mt1">
+			<name>Breakfast</name>
+		</mealType>
+		<mealType id="mt2">
+			<name>Lunch</name>
+		</mealType>
+		<mealType id="mt3">
+			<name>Dinner</name>
+		</mealType>
+		<mealType id="mt4">
+			<name>Appetizer</name>
+		</mealType>
+		<mealType id="mt5">
+			<name>Snacks</name>
+		</mealType>
+		<mealType id="mt6">
+			<name>Desserts</name>
+		</mealType>
+		<mealType id="mt7">
+			<name>Drinks</name>
+		</mealType>
+	</mealTypes>
+	<!-- List of Diet categories -->
+	<dietCategories>
+		<dietCategory id="dc1">
+			<name>Dairy-Free</name>
+		</dietCategory>
+		<dietCategory id="dc2">
+			<name>Gluten-Free</name>
+		</dietCategory>
+		<dietCategory id="dc3">
+			<name>Healthy</name>
+		</dietCategory>
+		<dietCategory id="dc4">
+			<name>Sugar-Free</name>
+		</dietCategory>
+		<dietCategory id="dc5">
+			<name>Vegan</name>
+		</dietCategory>
+		<dietCategory id="dc6">
+			<name>Vegetarian</name>
+		</dietCategory>
+	</dietCategories>
+</Food>
