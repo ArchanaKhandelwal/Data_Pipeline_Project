@@ -1,84 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Food xmlns="http://www.dsti-food.com/" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd"> 
+<Food xmlns="http://www.dsti-food.com/"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.dsti-food.com/ Food.xsd">
 	<!-- List of recipes -->
 	<recipe>
 		<title>7-Layer Beet Salad</title>
-		<dietCategory dcref="dc6"/>
+		<categoryofDiet>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
 		<cuisine cref="c10"/>
-		<mealtime mtref="mt2"/>
-		<mealtime mtref="mt3"/>
-		<!-- Duration of 15 minutes -->
+		<course ctref="ct3"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s2"/>
+			<season sref="s3"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m6"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt2"/>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
 		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT0M</cooktime>
+		<!-- Total cooking time -->
 		<totaltime>PT15M</totaltime>
 		<calories>212</calories>
 		<description>This 7-Layer Beet Salad is a stunner! Studded with cooked beets, supremed oranges, chopped pistachios, creamy truffle ricotta, and a bit of fresh mint. So fresh, so good! 
 		</description>
-		<rating>4.9</rating>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>20</numReviews>
+			<averageRating>4.9</averageRating>
+		</reviews>
 		<ingredients servings="6">
-			<ingredient name="Chopped Kale" quantity="32-48" unit="grams"/>
-			<ingredient name="Balsemic dressing or Green salad dressing or olive oil and lemon" quantity="59" unit="ml"/>
-			<ingredient name="Oranges" quantity="2-3"/>
-			<ingredient name="Cooked beets" quantity="8" unit="small"/>
-			<ingredient name="Minced shallot" quantity="1"/>
-			<ingredient name="Truffle ricotta or ricotta cheese" quantity="124" unit="grams"/>
-			<ingredient name="Chopped pistachios" quantity="62" unit="grams"/>
-			<ingredient name="Fresh mint" quantity="2" unit="tbsp"/>
+			<ingredient name="Chopped Kale"
+			            quantity="32-48"
+			            unit="grams"/>
+			<ingredient name="Balsemic dressing or Green salad dressing or olive oil and lemon"
+			            quantity="59"
+			            unit="ml"/>
+			<ingredient name="Oranges"
+			            quantity="2-3"/>
+			<ingredient name="Cooked beets"
+			            quantity="8"
+			            unit="small"/>
+			<ingredient name="Minced shallot"
+			            quantity="1"/>
+			<ingredient name="Truffle ricotta or ricotta cheese"
+			            quantity="124"
+			            unit="grams"/>
+			<ingredient name="Chopped pistachios"
+			            quantity="62"
+			            unit="grams"/>
+			<ingredient name="Fresh mint"
+			            quantity="2"
+			            unit="tbsp"/>
 		</ingredients>
 		<instructions>
-			<li>Massage kale with a bit of the dressing to soften it.</li>
-			<li>steamed them for about 20 minutes and then pulled the skins off once they were cooked.Cut the beets into round shapes and cut oranges also into round shapes</li>
-			<li>Spread a little bit of your creamy element onto the serving platter. If this is a salad for one, I would use about 3 tablespoons. If it’s a salad for 4-6, I would use more like 1/2 cup.</li>
-			<li>Layer the rest of the 6 ingredients: massaged kale, beets, oranges, shallots, pistachios, and herbs. Finish with olive oil, salt, and pepper if you want. I love this salad with a hunk of good focaccia.</li>
+			<steps>Massage kale with a bit of the dressing to soften it.</steps>
+			<steps>steamed them for about 20 minutes and then pulled the skins off once they were cooked.Cut the beets into round shapes and cut oranges also into round shapes</steps>
+			<steps>Spread a little bit of your creamy element onto the serving platter. If this is a salad for one, I would use about 3 tablespoons. If it’s a salad for 4-6, I would use more like 1/2 cup.</steps>
+			<steps>Layer the rest of the 6 ingredients: massaged kale, beets, oranges, shallots, pistachios, and herbs. Finish with olive oil, salt, and pepper if you want. I love this salad with a hunk of good focaccia.</steps>
 		</instructions>
-		<nutri_value nfref="nf1">
-			<value>9.8</value>
-			<percentage>13%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf2">
-			<value>12.6</value>
-			<percentage>4%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf3">
-			<value>274.8</value>
-			<percentage>12%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf4">
-			<value>27.5</value>
-			<percentage>10%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf5">
-			<value>6.7</value>
-			<percentage>24%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf6">
-			<value>15.8</value>
-		</nutri_value>
-		<nutri_value nfref="nf7">
-			<value>8.4</value>
-			<percentage>17%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf8">
-			<value>90.4</value>
-			<percentage>10%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf9">
-			<value>52.4</value>
-			<percentage>58%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf10">
-			<value>1.9</value>
-			<percentage>11%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf11">
-			<value>734.1</value>
-			<percentage>16%</percentage>
-		</nutri_value>
-		<nutri_value nfref="nf12">
-			<value>176.2</value>
-			<percentage>14%</percentage>
-		</nutri_value>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>9.8</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>12.6</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>274.8</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>27.5</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>6.7</value>
+				<percentage>24%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>15.8</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>8.4</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>90.4</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>52.4</value>
+				<percentage>58%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.9</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>734.1</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>176.2</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Can I use something besides ricotta?</Question>
+				<Answer>Yes! Try full fat plain yogurt instead. If you want a dairy-free option, use an almond-based product like Kite Hill dip or spread instead.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>What kind of beets do you buy?</Question>
+				<Answer>It’s easiest to use pre-cooked beets (Love Beets brand is perfect and sold at many grocery stores); otherwise, you can steam your own beets. Red or golden beets can work in this salad!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How do you cut your oranges?</Question>
+				<Answer>To do what’s called “supreme an orange”, cut the bottom off so it rests flat on your cutting board. Then cut around the sides to remove the peel and white layer. Finally, cut the centers into rounds.</Answer>
+			</FAQ>
+		</FAQs>
+		
+		<featured_comment>
+			<content>Made this for lunch today and it was delish! I used plain ricotta (salted and peppered) with arugula for my greens dressed in a maple balsamic. I was able to get some Cara Cara oranges to use it in too, yum! I didn’t have pistachios, so I used sunflower seeds instead which worked great to add a little nuttiness and crunch. Will definitely be making this one again, and love how you can swap in what you have and it’s still tasty</content>
+		</featured_comment>
+
 	</recipe>
 	<!-- List of cuisines -->
 	<cuisines>
@@ -186,15 +245,9 @@ xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
 			<name>Dinner</name>
 		</mealType>
 		<mealType id="mt4">
-			<name>Appetizer</name>
-		</mealType>
-		<mealType id="mt5">
 			<name>Snacks</name>
 		</mealType>
-		<mealType id="mt6">
-			<name>Desserts</name>
-		</mealType>
-		<mealType id="mt7">
+		<mealType id="mt5">
 			<name>Drinks</name>
 		</mealType>
 	</mealTypes>
@@ -219,4 +272,70 @@ xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
 			<name>Vegetarian</name>
 		</dietCategory>
 	</dietCategories>
+	<!-- List of Course type -->
+	<courseType>
+		<course id="ct1">
+			<name>Appetizer</name>
+		</course>
+		<course id="ct2">
+			<name>Soups</name>
+		</course>
+		<course id="ct3">
+			<name>Salads</name>
+		</course>
+		<course id="ct4">
+			<name>Sauces</name>
+		</course>
+		<course id="ct5">
+			<name>Desserts</name>
+		</course>
+		<course id="ct6">
+			<name>Snacks</name>
+		</course>
+		<course id="ct7">
+			<name>Baking</name>
+		</course>
+		<course id="ct8">
+			<name>Sandwiches</name>
+		</course>
+		<course id="ct9">
+			<name>Main Dishes</name>
+		</course>
+	</courseType>
+	<!-- List of season -->
+	<seasons>
+		<season id="s1">
+			<name>Spring</name>
+		</season>
+		<season id="s2">
+			<name>Summer</name>
+		</season>
+		<season id="s3">
+			<name>Fall</name>
+		</season>
+		<season id="s4">
+			<name>Winter</name>
+		</season>
+	</seasons>
+	<!-- List of method use in recipe -->
+	<methods>
+		<method id="m1">
+			<name>Casserole</name>
+		</method>
+		<method id="m2">
+			<name>Instant Pot</name>
+		</method>
+		<method id="m3">
+			<name>Slow Cooker</name>
+		</method>
+		<method id="m4">
+			<name>Sheet Pan</name>
+		</method>
+		<method id="m5">
+			<name>Stovetop</name>
+		</method>
+		<method id="m6">
+			<name>Chop</name>
+		</method>
+	</methods>
 </Food>
