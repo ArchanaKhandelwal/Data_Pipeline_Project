@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Food xmlns="http://www.dsti-food.com/"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
+	xmlns:al="http://allergens.dsti.com/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
 	<!-- List of recipes -->
 	<recipe>
 		<title>7-Layer Beet Salad</title>
@@ -64,6 +65,9 @@
 			            quantity="2"
 			            unit="tbsp"/>
 		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+		</allergens>
 		<instructions>
 			<steps>Massage kale with a bit of the dressing to soften it.</steps>
 			<steps>steamed them for about 20 minutes and then pulled the skins off once they were cooked.Cut the beets into round shapes and cut oranges also into round shapes</steps>
@@ -338,4 +342,13 @@
 			<name>Chop</name>
 		</method>
 	</methods>
+	<!-- List of allergens, taken from GreenChef.co.uk -->
+	<al:allergies>
+		<al:allergie id="al1">
+			<al:name>Cereals containing gluten</al:name>
+		</al:allergie>
+		<al:allergie id="al2">
+			<al:name>Celery</al:name>
+		</al:allergie>
+	</al:allergies>
 </Food>
