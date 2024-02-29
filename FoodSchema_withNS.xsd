@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.dsti-food.com/" xmlns:ds="http://www.dsti-food.com/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.dsti-food.com/" 
+	xmlns:ds="http://www.dsti-food.com/" 
+	xmlns:al="http://allergens.dsti.com/"
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified">
+	<xs:import namespace="http://allergens.dsti.com/" schemaLocation="FoodAllergens.xsd"/>
 	<xs:element name="Food">
 		<xs:complexType>
 			<xs:sequence>
@@ -11,91 +17,72 @@
 				<xs:element maxOccurs="unbounded" ref="ds:courseType"/>
 				<xs:element maxOccurs="unbounded" ref="ds:seasons"/>
 				<xs:element maxOccurs="unbounded" ref="ds:methods"/>
+				<xs:element maxOccurs="unbounded" ref="al:allergies"/>
 			</xs:sequence>
 		</xs:complexType>
 		<xs:key name="keycusine">
 			<xs:selector xpath="ds:cusines/ds:cusine"/>
 			<xs:field xpath="@id"/>
 		</xs:key>
-		<xs:keyref name="cuisi" refer="ds:keycusine">
-			<xs:selector xpath="ds:recipe"/>
-			<xs:field xpath="@c"/>
-		</xs:keyref>
 		<xs:keyref name="cuine" refer="ds:keycusine">
 			<xs:selector xpath="ds:recipe"/>
-			<xs:field xpath="cref"/>
+			<xs:field xpath="@cref"/>
 		</xs:keyref>
 		<xs:key name="keynutrition">
 			<xs:selector xpath="ds:nutritional/ds:nutrition"/>
 			<xs:field xpath="@id"/>
 		</xs:key>
-		<xs:keyref name="nutritions" refer="ds:keynutrition">
-			<xs:selector xpath="ds:recipe"/>
-			<xs:field xpath="@nf"/>
-		</xs:keyref>
 		<xs:keyref name="nutri" refer="ds:keynutrition">
 			<xs:selector xpath="ds:recipe"/>
-			<xs:field xpath="nfref"/>
+			<xs:field xpath="@nfref"/>
 		</xs:keyref>
 		<xs:key name="keymealType">
 			<xs:selector xpath="ds:mealTypes/ds:mealType"/>
 			<xs:field xpath="@id"/>
 		</xs:key>
-		<xs:keyref name="meal" refer="ds:keymealType">
-			<xs:selector xpath="ds:recipe/ds:mealtimes/ds:mealtime"/>
-			<xs:field xpath="@mt"/>
-		</xs:keyref>
 		<xs:keyref name="mtype" refer="ds:keymealType">
 			<xs:selector xpath="ds:recipe/ds:mealtimes/ds:mealtime"/>
-			<xs:field xpath="mtref"/>
+			<xs:field xpath="@mtref"/>
 		</xs:keyref>
 		<xs:key name="keydietCategory">
 			<xs:selector xpath="ds:dietCategories/ds:dietCategory"/>
 			<xs:field xpath="@id"/>
 		</xs:key>
-		<xs:keyref name="diet" refer="ds:keydietCategory">
-			<xs:selector xpath="ds:recipe/ds:categoryofDiet/ds:dietCategory"/>
-			<xs:field xpath="@dc"/>
-		</xs:keyref>
 		<xs:keyref name="dcat" refer="ds:keydietCategory">
 			<xs:selector xpath="ds:recipe/ds:categoryofDiet/ds:dietCategory"/>
-			<xs:field xpath="dcref"/>
+			<xs:field xpath="@dcref"/>
 		</xs:keyref>
 		<xs:key name="keycourse">
 			<xs:selector xpath="ds:courseType/ds:course"/>
 			<xs:field xpath="@id"/>
 		</xs:key>
-		<xs:keyref name="course" refer="ds:keycourse">
-			<xs:selector xpath="ds:recipe"/>
-			<xs:field xpath="@ct"/>
-		</xs:keyref>
 		<xs:keyref name="cours" refer="ds:keycourse">
 			<xs:selector xpath="ds:recipe"/>
-			<xs:field xpath="ctref"/>
+			<xs:field xpath="@ctref"/>
 		</xs:keyref>
 		<xs:key name="keyseason">
 			<xs:selector xpath="ds:seasons/ds:season"/>
 			<xs:field xpath="@id"/>
 		</xs:key>
-		<xs:keyref name="season" refer="ds:keyseason">
-			<xs:selector xpath="ds:recipe/ds:seasonal/ds:season"/>
-			<xs:field xpath="@s"/>
-		</xs:keyref>
 		<xs:keyref name="seson" refer="ds:keyseason">
 			<xs:selector xpath="ds:recipe/ds:seasonal/ds:season"/>
-			<xs:field xpath="sref"/>
+			<xs:field xpath="@sref"/>
 		</xs:keyref>
 		<xs:key name="keymethod">
 			<xs:selector xpath="ds:methods/ds:method"/>
 			<xs:field xpath="@id"/>
 		</xs:key>
-		<xs:keyref name="method" refer="ds:keymethod">
-			<xs:selector xpath="ds:recipe/ds:methodUsed/ds:method"/>
-			<xs:field xpath="@m"/>
-		</xs:keyref>
 		<xs:keyref name="mthod" refer="ds:keymethod">
 			<xs:selector xpath="ds:recipe/ds:methodUsed/ds:method"/>
-			<xs:field xpath="mref"/>
+			<xs:field xpath="@mref"/>
+		</xs:keyref>
+		<xs:key name="keyallerg">
+			<xs:selector xpath="al:allergies/al:allergie"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:keyref name="allergen" refer="ds:keyallerg">
+			<xs:selector xpath="ds:recipe/al:allergens/al:allergen"/>
+			<xs:field xpath="@alref"/>
 		</xs:keyref>
 	</xs:element>
 	<xs:element name="recipe">
@@ -199,6 +186,17 @@
 							</xs:element>
 						</xs:sequence>
 						<xs:attribute name="servings" type="xs:int"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="allergens">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="allergen">
+								<xs:complexType>
+									<xs:attribute name="alref" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="instructions">
