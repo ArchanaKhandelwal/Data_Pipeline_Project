@@ -66,7 +66,7 @@
 			            unit="tbsp"/>
 		</ingredients>
 		<allergens>
-			<allergen alref="al1"/>
+			<allergen alref="al7"/>
 		</allergens>
 		<instructions>
 			<steps>Massage kale with a bit of the dressing to soften it.</steps>
@@ -348,7 +348,40 @@
 			<al:name>Cereals containing gluten</al:name>
 		</al:allergie>
 		<al:allergie id="al2">
+			<al:name>Soya</al:name>
+		</al:allergie>
+		<al:allergie id="al3">
 			<al:name>Celery</al:name>
+		</al:allergie>
+		<al:allergie id="al4">
+			<al:name>Peanut</al:name>
+		</al:allergie>
+		<al:allergie id="al5">
+			<al:name>Sulphites</al:name>
+		</al:allergie>
+		<al:allergie id="al6">
+			<al:name>Sesame</al:name>
+		</al:allergie>
+		<al:allergie id="al7">
+			<al:name>Milk</al:name>
+		</al:allergie>
+		<al:allergie id="al8">
+			<al:name>Nuts</al:name>
+		</al:allergie>
+		<al:allergie id="al9">
+			<al:name>Egg</al:name>
+		</al:allergie>
+		<al:allergie id="al10">
+			<al:name>Mustard</al:name>
+		</al:allergie>
+		<al:allergie id="al11">
+			<al:name>Crustacean</al:name>
+		</al:allergie>
+		<al:allergie id="al12">
+			<al:name>Mollusc</al:name>
+		</al:allergie>
+		<al:allergie id="al13">
+			<al:name>Fish</al:name>
 		</al:allergie>
 	</al:allergies>
 </Food>
