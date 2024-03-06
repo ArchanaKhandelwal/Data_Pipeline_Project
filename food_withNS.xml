@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Food xmlns="http://www.dsti-food.com/"
-	xmlns:al="http://allergens.dsti.com/"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
+      xmlns:al="http://allergens.dsti.com/"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
 	<!-- List of recipes -->
 	<recipe>
 		<title>7-Layer Beet Salad</title>
@@ -137,13 +137,619 @@
 				<Answer>To do what’s called “supreme an orange”, cut the bottom off so it rests flat on your cutting board. Then cut around the sides to remove the peel and white layer. Finally, cut the centers into rounds.</Answer>
 			</FAQ>
 		</FAQs>
-		
 		<featured_comment>
 			<content>Made this for lunch today and it was delish! I used plain ricotta (salted and peppered) with arugula for my greens dressed in a maple balsamic. I was able to get some Cara Cara oranges to use it in too, yum! I didn’t have pistachios, so I used sunflower seeds instead which worked great to add a little nuttiness and crunch. Will definitely be making this one again, and love how you can swap in what you have and it’s still tasty</content>
 		</featured_comment>
-
+	</recipe>
+	<recipe>
+		<title>Harissa Meatballs with Whipped Feta</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc7"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct9"/>
+		<seasonal>
+			<season sref="s1"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m4"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt2"/>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT30M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT45M</totaltime>
+		<calories>446</calories>
+		<description>These Harissa Meatballs with Whipped Feta are perfect for an easy SOS dinner! Store-bought meatballs, bell peppers, zucchini, harissa, and whipped feta all in one bowl. YUMMY!
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>37</numReviews>
+			<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="4">
+			<title_ingri>Meatballs and Such </title_ingri>
+			<ingredient name="Frozen Meatballs (store-bought or homemade)"
+			            quantity="1"
+			            unit="22-ounce bag"/>
+			<ingredient name="Bell Peppers (yellow and red)"
+			            quantity="2"
+			            unit="large"/>
+			<ingredient name="Zucchini"
+			            quantity="1-2"
+			            unit="large"/>
+			<ingredient name="Harissa Paste"
+			            quantity="2"
+			            unit="tablespoons"/>
+			<ingredient name="Olive Oil"
+			            quantity="as needed"/>
+			<ingredient name="Garlic Powder"
+			            quantity="to taste"/>
+			<ingredient name="Lemon Juice"
+			            quantity="as needed"/>
+			<ingredient name="Salt"
+			            quantity="to taste"/>
+			<title>Whipped Feta</title>
+			<ingredient name="Feta Cheese"
+			            quantity="1"
+			            unit="6-ounce container"/>
+			<ingredient name="Cream Cheese or Sour Cream or Plain Yogurt"
+			            quantity="1-2"
+			            unit="ounces"/>
+			<ingredient name="Garlic"
+			            quantity="1"
+			            unit="clove"/>
+			<title>Extras</title>
+			<ingredient name="Hummus"
+			            quantity="1"
+			            unit="cup"/>
+			<ingredient name="Pitas"
+			            quantity="6"/>
+			<ingredient name="Kalamata Olives"
+			            quantity="1/4"
+			            unit="cup"/>
+			<ingredient name="Lemon"
+			            quantity="1"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al14"/>
+			<allergen alref="al5"/>
+		</allergens>
+		<instructions>
+			<steps>Sheet Pan, Part One:</steps>
+			<steps>Preheat the oven to 425 degrees. Place the peppers on one side of a large sheet pan. Drizzle with oil and sprinkle with salt. Mix the harissa with a little bit of olive oil, lemon juice, and garlic powder until you have a nice spreadable red paste. Coat your meatballs with the sauce (you can do this by tossing the meatballs in a bowl with the sauce if they’re pre-cooked, or just brushing the meatballs directly on the sheet pan if your meatballs are raw). Add meatballs to the center of the sheet pan. Bake for 15-20 minutes.</steps>
+			<steps>Sheet Pan, Part Two:</steps>
+			<steps>Chop the Zucchini into half moon and add the zucchini to the pan with some olive oil and salt. Roast for another 10 minutes. For extra browning on everything, broil for about 5 minutes.</steps>
+			<steps>Whip That Feta: In a food processor, chopper, or blender, whip up the feta, cream cheese, and garlic until a thick and creamy sauce forms. </steps>
+			<steps>Serve: Serve meatballs and veggies with a dollop of hummus, your whipped feta, pita wedges, and anything else you like (olives, lemon, etc.). And now DEVOUR. And repeat. And repeat. And repeat.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>35.5</value>
+				<percentage>46%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>98.6</value>
+				<percentage>33%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>1028.6</value>
+				<percentage>45%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>13.3</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>3.3</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>7.3</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>19.8</value>
+				<percentage>40%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>135.8</value>
+				<percentage>15%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>51.7</value>
+				<percentage>57%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>2.2</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>432.3</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>363.5</value>
+				<percentage>29%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>What type of store-bought meatballs do you recommend?</Question>
+				<Answer>Any kind! I’ve tried pork, beef, chicken, and turkey meatballs – and I think veggie meatballs would also work really well as a vegetarian option! This recipe is very forgiving – it can work with meatballs that are pre-cooked, and I’ve also enjoyed this recipe with the pre-made, UNCOOKED meatballs that you can often buy in the meat department. For a specific brand, I really enjoyed these with the ALDI pre-made uncooked Italian style meatballs (I know, wrong flavor profile, but it worked just fine and the meatballs were amazing). I just brushed them with the harissa sauce before baking.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>I have some extra time. Can I make my own meatballs for this recipe?</Question>
+				<Answer>Sure can! These baked chicken meatballs are perfect in this recipe, and major bonus – they’re freezer-friendly if you wanted to prep these ahead of time. Doubling the recipe is not a bad idea!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Is harissa paste spicy?</Question>
+				<Answer>It’s not terribly spicy, but harissa paste does pack some heat. I would rate it as mild+ or medium- level heat. I left a few meatballs un-sauced for my toddler just to make sure it wasn’t too spicy for her.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>I can’t find harissa paste. What else can I use?</Question>
+				<Answer>Chili oil or even sriracha could work here instead! Just adjust the amounts as necessary so that you don’t make it too spicy.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>I saw this when I woke up this morning and immediately knew what we were having for dinner. I didn’t have meatballs so I made some with leftover chicken. It was the nicest meal I’ve had in months. Thank you.</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Spicy Peanut Soup with Sweet Potato + Kale</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc5"/>
+		</categoryofDiet>
+		<cuisine cref="c11"/>
+		<course ctref="ct2"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m5"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT20M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT35M</totaltime>
+		<calories>288</calories>
+		<description>Okay, YUMMMM. Spicy Peanut Soup with Sweet Potatoes + Kale! Comforting and SUPER nutritious. Naturally vegan, gluten free, refined sugar free, ALL THE GOOD THINGS. </description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>201</numReviews>
+			<averageRating>4.9</averageRating>
+		</reviews>
+		<ingredients servings="6">
+			<Ingredient name="Olive Oil"
+			            quantity="2"
+			            unit="tablespoons"/>
+			<Ingredient name="Onion"
+			            quantity="0.5"
+			            unit="large"/>
+			<Ingredient name="Jalapeño"
+			            quantity="1"
+			            unit="medium"/>
+			<Ingredient name="Garlic"
+			            quantity="2"
+			            unit="cloves"/>
+			<Ingredient name="Sweet Potatoes"
+			            quantity="3"
+			            unit="large"/>
+			<Ingredient name="Fire Roasted Tomatoes"
+			            quantity="1"
+			            unit="can"
+			            size="14 ounces"/>
+			<Ingredient name="Light Coconut Milk"
+			            quantity="1"
+			            unit="can"
+			            size="14 ounces"/>
+			<Ingredient name="Water"
+			            quantity="2"
+			            unit="cups"/>
+			<Ingredient name="Salt"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<Ingredient name="Curry and/or Turmeric"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<Ingredient name="Chopped Peanuts"
+			            quantity="0.5"
+			            unit="cup"/>
+			<Ingredient name="Peanut Butter"
+			            quantity="0.25"
+			            unit="cup"/>
+			<Ingredient name="Kale,stems removed, chopped"
+			            quantity="1-2"
+			            unit="cups"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al8"/>
+			<allergen alref="al5"/>
+			<allergen alref="al4"/>
+		</allergens>
+		<instructions>
+			<steps>Heat the olive oil in a large soup pot over medium heat and add the onion, garlic, and jalapeño. Saute until soft and fragrant.</steps>
+			<steps>Add sweet potatoes. I like to brown them a little bit with the aromatics to get them nice and flavorful.</steps>
+			<steps>Add tomatoes, coconut milk, water, spices, and peanuts. Simmer until sweet potatoes are fork-tender.</steps>
+			<steps>Add peanut butter and kale. Simmer until everything is thick, creamy, and delicious. Top with more peanuts and a little cilantro if you’re obsessed like me.</steps>
+			<note>Instant Pot: Cook everything except peanut butter and kale on high pressure for about 3 minutes with a quick release. (Sometimes I reduce the liquid when I make it in the Instant Pot by a cup or so, and then just add more as needed when it’s all done. But that is optional – it should work fine either way.) Stir in the peanut butter and kale after cooking. Voila!</note>
+			<note>Slow Cooker: Cook everything except peanut butter and kale on low for 6 hours. Stir in the peanut butter and kale. Donezo! Don’t cook the sweet potatoes too long or they’ll fall apart on ya! Just cook until they pierce easily with a fork. If you’re doing Sugar Free January with us, this is an excellent recipe that has natural sweetness and nutritious fats to keep you full. I like to dip into this with some seedy crackers – you can find our product recommendations on this post.</note>
+			<note>One last note. This recipe is inspired by an amazing West African recipe called maafe, or groundnut soup. I did what I always do and changed/added some ingredients based on what I love and what I had on hand (kale, jalapeño, coconut milk, cilantro, etc.) making it more of a cultural mash-up. That’s why I’m not calling it a proper West African peanut soup even though those are its roots. If you want a legit West African version of that soup, here are two sources – a blog post, and a video.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>20.4</value>
+				<percentage>26%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>558.5</value>
+				<percentage>24%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>23.3</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>5.1</value>
+				<percentage>18%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>7.8</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>6.5</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>502.5</value>
+				<percentage>56%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>20.4</value>
+				<percentage>23%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.6</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>533.4</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>136.9</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Can this soup be made in the Instant Pot or slow cooker?</Question>
+				<Answer>Yes! See recipes notes.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can I substitute anything for the peanut butter?</Question>
+				<Answer>Almond butter (and almonds on top) could work!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can I add protein to this?</Question>
+				<Answer>Sure can! Cubed chicken would be perfect. Just simmer for a bit longer until the chicken reaches an internal temperature of 165 degrees F.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>So, so yummy! I just made this soup and the final result exceeded my expectations – just pure peanuty, creamy, and entirely healthy goodness.</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>The Best Peach Cobbler</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct5"/>
+		<seasonal>
+			<season sref="s2"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+			<mealtime mtref="mt2"/>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT45M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT60M</totaltime>
+		<calories>292</calories>
+		<description>Best summer dessert ever! Made with fresh peaches, sugar, and a topping that bakes like slightly underbaked cookie dough, with crunchy sugar broiled on top. </description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>208</numReviews>
+			<averageRating>4.7</averageRating>
+		</reviews>
+		<ingredients servings="8">
+			<title_ingri>Peach Filling</title_ingri>
+			<ingredient name="Fresh Yellow Peaches"
+			            quantity="5-6"
+			            unit="large"/>
+			<ingredient name="Sugar"
+			            quantity="1/4"
+			            unit="cup"/>
+			<title_ingri>Cobbler Topping</title_ingri>
+			<ingredient name="Salted Butter"
+			            quantity="1/2"
+			            unit="cup"/>
+			<ingredient name="Sugar"
+			            quantity="3/4"
+			            unit="cup"/>
+			<ingredient name="Vanilla"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Flour"
+			            quantity="1"
+			            unit="cup"/>
+			<ingredient name="Baking Powder"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Salt"
+			            quantity="a pinch"
+			            unit=""/>
+			<ingredient name="Turbinado Sugar (optional, but really nice)"
+			            quantity="1/4"
+			            unit="cup"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+			<allergen alref="al7"/>
+		</allergens>
+		<instructions>
+			<steps>Preheat the oven to 350 degrees. Smear the bottom of 9×13 pan with a little bit of butter. Add peaches and sugar, and mix directly in the pan.</steps>
+			<steps>Mix the butter, sugar, vanilla, flour, baking powder, and salt until a cookie-dough-like batter forms.</steps>
+			<steps>Place scoops of the mixture over the top of the peaches. Spread with a spoon or with your fingers – no need for perfection here.</steps>
+			<steps>Bake for 30 minutes. At this point it should be juicy and bubbly around the sides </steps>
+			<steps>Sprinkle the top with turbinado sugar. Bake another 10-15 minutes and then finish with a few minutes under the broiler (475-ish) for a few minutes to get it golden brown and slightly crunchy on top. (Just keep a close eye on it because it can burn quickly.)</steps>
+			<steps>To get a thick saucy peach base, let it stand for 20-30 minutes before serving with some vanilla ice cream. But good luck with that.</steps>
+			<note>If your peaches aren’t getting saucy: If it’s not saucy and bubbling after 25 minutes of baking, it’s probably because your peaches are a tad on the firm / dry side. I found that pouring two tablespoons of melted butter over the peaches at this point was helpful in coaxing some “juiciness” out of the peaches during that last chunk of bake time.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>11.9</value>
+				<percentage>15%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>30.5</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>148.6</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>45.9</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.8</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>32.4</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>2.5</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>111</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>5.8</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.1</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>313.9</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>123.7</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Do you peel your peaches for this recipe?</Question>
+				<Answer>I did not peel the peaches because I cannot be bothered to peel a perfectly good peach. But if the texture or color of the peels bothers you, you can peel them.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can you use frozen peaches?</Question>
+				<Answer>I have made this with frozen peaches and it was great. It’s less jammy, since the frozen peaches tend to be firmer and hold their shape a little more, but it’s pretty ideal when you don’t have access to fresh, ripe peaches. Just dump the frozen peaches in the baking dish and pop them in the oven while you mix up your topping. Once you’re done mixing the topping, the peaches should be thawed out. Drain them off, return to pan, and mix with sugar, and you’re in business. I’d recommend about 32 ounces of frozen peaches for this.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can you use canned peaches?</Question>
+				<Answer>No. Would not recommend it – it’ll make the filling too gummy.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How do you slice your peaches?</Question>
+				<Answer>When slicing the peaches, I prefer to slice them pretty thinly so they lay on top of each other more evenly and get that nice thick, jammy consistency.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How do you know when your peaches are ripe enough for cobbler?</Question>
+				<Answer>When your peaches are gentle yet firm to the squeeze, this is perfect for cobble-making and should be ripe enough to use.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can you use white peaches?</Question>
+				<Answer>White peaches are a bit sweeter than yellow peaches, so we’d really recommend yellow in this case.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How should you store leftover cobbler?</Question>
+				<Answer>You can store it covered in the fridge for 4-5 days.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can I eat peach cobbler cold?</Question>
+				<Answer>Cold, room temperature, or HOT – any way is delicious! We prefer it between room temperature and hot, so somewhere in the category of warm to go with some delicious ice cream or whipped cream.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>This cobbler is life. Seriously the most amazing dessert, my family almost ate the entire pan in one sitting.</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Easy Instant Pot Applesauce</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc5"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct4"/>
+		<seasonal>
+			<season sref="s3"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m2"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT10M</totaltime>
+		<calories>128</calories>
+		<description>My go-to method for homemade applesauce! Just apples, water, and cinnamon. A perfect kid recipe for an afternoon snack! </description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>4</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="6">
+			<ingredient name="Apples"
+			            quantity="7-8"/>
+			<ingredient name="Cinnamon Sticks"
+			            quantity="2"/>
+			<ingredient name="Water"
+			            quantity="1/2"
+			            unit="cup"/>
+		</ingredients>
+		<allergens>
+			<!-- Not sure about allergy info -->
+			<allergen alref="al5"/>
+		</allergens>
+		<instructions>
+			<steps>Cut your apples into chunks, discarding the cores. Place apples in the Instant Pot.</steps>
+			<steps>Add cinnamon sticks and water; cook on high pressure for 5 minutes.</steps>
+			<steps>Let it rest for 10 minutes before releasing the steam. Stick an immersion blender into the Instant Pot and give it a few whizzes, alternating with some gentle mashing, to get the texture that you want. </steps>
+			<steps>You’re done! Enjoy your homemade applesauce!</steps>
+			<note>Too much blending creates more of a puree, which isn’t my favorite. I like some texture with this. So I just blend enough to break apart any larger pieces of the peel, and then mash it the rest of the way. You don’t *have* to blend it – you could just mash it up and leave those chunks of peel intact! (Or peel the apples ahead of time if that bothers you.) Lots of options!</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>0.4</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>3.3</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>34.2</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>6.3</value>
+				<percentage>22%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>25.2</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>0.7</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>7.4</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>11.2</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>0.4</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>263.4</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>27.2</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Can you make this on the stovetop?</Question>
+				<Answer>Yes – you can cook this over medium heat for 20-30 minutes until the apples are soft.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can you make this in a slow cooker?</Question>
+				<Answer>Yes – you can cook this on high for 4 hours in a slow cooker.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>What type of apples are best for applesauce?</Question>
+				<Answer>Any will do, but I prefer Honeycrisp!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How long does this keep in the fridge?</Question>
+				<Answer>This will keep for 4-5 days in the fridge.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can I use ground cinnamon instead of cinnamon sticks?</Question>
+				<Answer>Yes! Sub in 1/2 teaspoon of ground cinnamon instead.</Answer>
+			</FAQ>
+		</FAQs>
 	</recipe>
 	<!-- List of cuisines -->
+	<!-- I have added a description about the cuisine using ChatGPT -->
 	<cuisines>
 		<cuisine id="c1">
 			<name>Italian Cuisine</name>
@@ -184,6 +790,10 @@
 		<cuisine id="c10">
 			<name>American Cuisine</name>
 			<description>Varied and diverse, with regional specialties such as hamburgers, hot dogs, barbecue, clam chowder, and southern fried chicken.</description>
+		</cuisine>
+		<cuisine id="c11">
+			<name>West African Cuisine</name>
+			<description>Most notable food specialties from West Africa is Jollof Rice,Tamale,Waakye </description>
 		</cuisine>
 	</cuisines>
 	<!-- List of nutritional values -->
@@ -275,6 +885,9 @@
 		<dietCategory id="dc6">
 			<name>Vegetarian</name>
 		</dietCategory>
+		<dietCategory id="dc7">
+			<name>Non-Vegetarian</name>
+		</dietCategory>
 	</dietCategories>
 	<!-- List of Course type -->
 	<courseType>
@@ -282,16 +895,16 @@
 			<name>Appetizer</name>
 		</course>
 		<course id="ct2">
-			<name>Soups</name>
+			<name>Soup</name>
 		</course>
 		<course id="ct3">
-			<name>Salads</name>
+			<name>Salad</name>
 		</course>
 		<course id="ct4">
 			<name>Sauces</name>
 		</course>
 		<course id="ct5">
-			<name>Desserts</name>
+			<name>Dessert</name>
 		</course>
 		<course id="ct6">
 			<name>Snacks</name>
@@ -300,10 +913,10 @@
 			<name>Baking</name>
 		</course>
 		<course id="ct8">
-			<name>Sandwiches</name>
+			<name>Sandwich</name>
 		</course>
 		<course id="ct9">
-			<name>Main Dishes</name>
+			<name>Main Dish</name>
 		</course>
 	</courseType>
 	<!-- List of season -->
@@ -341,6 +954,9 @@
 		<method id="m6">
 			<name>Chop</name>
 		</method>
+		<method id="m7">
+			<name>Bake</name>
+		</method>
 	</methods>
 	<!-- List of allergens, taken from GreenChef.co.uk -->
 	<al:allergies>
@@ -362,8 +978,9 @@
 		<al:allergie id="al6">
 			<al:name>Sesame</al:name>
 		</al:allergie>
+		<!--Changed "milk allergy" to "dairy allergy" for broader allergy coverage.-->
 		<al:allergie id="al7">
-			<al:name>Milk</al:name>
+			<al:name>Dairy</al:name>
 		</al:allergie>
 		<al:allergie id="al8">
 			<al:name>Nuts</al:name>
@@ -382,6 +999,9 @@
 		</al:allergie>
 		<al:allergie id="al13">
 			<al:name>Fish</al:name>
+		</al:allergie>
+		<al:allergie id="al14">
+			<al:name>Meat</al:name>
 		</al:allergie>
 	</al:allergies>
 </Food>
