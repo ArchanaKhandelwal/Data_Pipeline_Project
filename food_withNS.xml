@@ -176,7 +176,7 @@
 			<averageRating>5</averageRating>
 		</reviews>
 		<ingredients servings="4">
-			<title_ingri>Meatballs and Such </title_ingri>
+			<title_ingri>Meatballs and Such 
 			<ingredient name="Frozen Meatballs (store-bought or homemade)"
 			            quantity="1"
 			            unit="22-ounce bag"/>
@@ -197,7 +197,8 @@
 			            quantity="as needed"/>
 			<ingredient name="Salt"
 			            quantity="to taste"/>
-			<title>Whipped Feta</title>
+			</title_ingri>
+			<title_ingri> Whipped Feta
 			<ingredient name="Feta Cheese"
 			            quantity="1"
 			            unit="6-ounce container"/>
@@ -207,7 +208,8 @@
 			<ingredient name="Garlic"
 			            quantity="1"
 			            unit="clove"/>
-			<title>Extras</title>
+			</title_ingri>
+			<title_ingri>Extras
 			<ingredient name="Hummus"
 			            quantity="1"
 			            unit="cup"/>
@@ -218,6 +220,7 @@
 			            unit="cup"/>
 			<ingredient name="Lemon"
 			            quantity="1"/>
+			</title_ingri>
 		</ingredients>
 		<allergens>
 			<allergen alref="al7"/>
@@ -337,45 +340,45 @@
 			<averageRating>4.9</averageRating>
 		</reviews>
 		<ingredients servings="6">
-			<Ingredient name="Olive Oil"
+			<ingredient name="Olive Oil"
 			            quantity="2"
 			            unit="tablespoons"/>
-			<Ingredient name="Onion"
+			<ingredient name="Onion"
 			            quantity="0.5"
 			            unit="large"/>
-			<Ingredient name="Jalapeño"
+			<ingredient name="Jalapeño"
 			            quantity="1"
 			            unit="medium"/>
-			<Ingredient name="Garlic"
+			<ingredient name="Garlic"
 			            quantity="2"
 			            unit="cloves"/>
-			<Ingredient name="Sweet Potatoes"
+			<ingredient name="Sweet Potatoes"
 			            quantity="3"
 			            unit="large"/>
-			<Ingredient name="Fire Roasted Tomatoes"
+			<ingredient name="Fire Roasted Tomatoes"
 			            quantity="1"
 			            unit="can"
-			            size="14 ounces"/>
-			<Ingredient name="Light Coconut Milk"
+			            weight="14 ounces"/>
+			<ingredient name="Light Coconut Milk"
 			            quantity="1"
 			            unit="can"
-			            size="14 ounces"/>
-			<Ingredient name="Water"
+			            weight="14 ounces"/>
+			<ingredient name="Water"
 			            quantity="2"
 			            unit="cups"/>
-			<Ingredient name="Salt"
+			<ingredient name="Salt"
 			            quantity="1"
 			            unit="teaspoon"/>
-			<Ingredient name="Curry and/or Turmeric"
+			<ingredient name="Curry and/or Turmeric"
 			            quantity="1"
 			            unit="teaspoon"/>
-			<Ingredient name="Chopped Peanuts"
+			<ingredient name="Chopped Peanuts"
 			            quantity="0.5"
 			            unit="cup"/>
-			<Ingredient name="Peanut Butter"
+			<ingredient name="Peanut Butter"
 			            quantity="0.25"
 			            unit="cup"/>
-			<Ingredient name="Kale,stems removed, chopped"
+			<ingredient name="Kale,stems removed, chopped"
 			            quantity="1-2"
 			            unit="cups"/>
 		</ingredients>
@@ -492,14 +495,15 @@
 			<averageRating>4.7</averageRating>
 		</reviews>
 		<ingredients servings="8">
-			<title_ingri>Peach Filling</title_ingri>
+			<title_ingri>Peach Filling
 			<ingredient name="Fresh Yellow Peaches"
 			            quantity="5-6"
 			            unit="large"/>
 			<ingredient name="Sugar"
 			            quantity="1/4"
 			            unit="cup"/>
-			<title_ingri>Cobbler Topping</title_ingri>
+			</title_ingri>
+			<title_ingri>Cobbler Topping
 			<ingredient name="Salted Butter"
 			            quantity="1/2"
 			            unit="cup"/>
@@ -521,6 +525,7 @@
 			<ingredient name="Turbinado Sugar (optional, but really nice)"
 			            quantity="1/4"
 			            unit="cup"/>
+			</title_ingri>
 		</ingredients>
 		<allergens>
 			<allergen alref="al1"/>
@@ -747,6 +752,159 @@
 				<Answer>Yes! Sub in 1/2 teaspoon of ground cinnamon instead.</Answer>
 			</FAQ>
 		</FAQs>
+	</recipe>
+	<recipe>
+		<title>Instant Pot Italian Beef Sandwiches</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc7"/>
+		</categoryofDiet>
+		<cuisine cref="c1"/>
+		<course ctref="ct8"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s2"/>
+			<season sref="s3"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m2"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT1H30M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT1H45M</totaltime>
+		<calories>614</calories>
+		<description>Instant Pot Italian Beef! Just a few minutes to prep and totally hands-off to make. Tender shredded beef, crusty buttered bread, melted provolone, salty tangy giardiniera, and some broth to dunk it all in. YES.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>29</numReviews>
+			<averageRating>4.9</averageRating>
+		</reviews>
+		<ingredients servings="6">
+			<title_ingri>For the Italian Beef:
+        <ingredient name="beef chuck roast, trimmed and cut into chunks"
+                    weight="3 pounds"/>
+        <ingredient name="garlic, minced"
+                    quantity="3"
+                    unit="cloves"/>
+        <ingredient name="onion, diced"
+                    quantity="1/2"/>
+        <ingredient name="dried oregano"
+                    quantity="2"
+                    unit="teaspoons"/>
+        <ingredient name="dried basil"
+                    quantity="1"
+                    unit="teaspoon"/>
+        <ingredient name="onion powder"
+                    quantity="1"
+                    unit="teaspoon"/>
+        <ingredient name="paprika"
+                    quantity="1"
+                    unit="teaspoon"/>
+        <ingredient name="garlic powder"
+                    quantity="1/2"
+                    unit="teaspoon"/>
+        <ingredient name="red pepper flakes"
+                    quantity="1/2"
+                    unit="teaspoon"/>
+        <ingredient name="salt"
+                    quantity="1"
+                    unit="teaspoon"/>
+        <ingredient name="black pepper"
+                    quantity="1/2"
+                    unit="teaspoon"/>
+        <ingredient name="beef broth"
+                    quantity="3"
+                    unit="cups"/>
+        <ingredient name="brine from the giardiniera (optional)"
+                    quantity="1/4"
+                    unit="cup"/>
+    </title_ingri>
+			 <title_ingri>For the Sandwiches:
+        <ingredient name="crusty hoagie or sandwich rolls"
+                    quantity="6"
+                    unit="6-inch"/>
+        <ingredient name="DeLallo Giardiniera, chopped – hot or mild, either works"
+                    quantity="1 and 1/2"
+                    unit="cups"/>
+        <ingredient name="provolone cheese"
+                    quantity="6"
+                    unit="slices"/>
+    </title_ingri>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al14"/>
+		</allergens>
+		<instructions>
+			<steps>Combine all ingredients in the Instant Pot. Cook on high pressure for about 60 minutes. Natural pressure release for 10-20 minutes.</steps>
+			<steps>Shred the beef (it should fall apart very easily when pulled with a fork). Save the broth / juices in the Instant Pot. </steps>
+			<steps>Layer each side of your bun with a slice of Provolone and place under the broiler until melty. Top with the beef and giardiniera.</steps>
+			<steps>Serve the hot sandwiches with a little dipping bowl of the broth so you can dunk your sandwich in and experience true soppy, cheesy, crusty, tangy Italian beef sandwich bliss.</steps>
+			<note>Cook time will be dependent on how big your chunks were – small cubes will be good to go in 45 minutes but bigger chunks will need 60 minutes.</note>
+			<note>I like to have smaller pieces of giardiniera on my sandwich so I usually run a big knife through all the pieces to get a more chopped texture.</note>
+			<note>Stovetop Instructions: Combine the oregano, basil, onion powder, paprika, garlic powder, red pepper flakes, salt, and black pepper in a small dish. Season the beef with the spice mixture. Heat 1-2 tablespoons of oil in a Dutch oven over medium heat. Sear the beef on all sides until browned, but not cooked through. Remove the beef from the pot. Add in the onion and garlic and sauté until softened. Pour in the beef broth and giardiniera brine. Add the beef back to the pot. Bring the mixture to a boil. Then, reduce to a simmer. Cover the pot and cook on low for 2 hours until the beef is fork tender and can be easily shredded.</note>
+			<note>Crockpot Instructions: Cook on high for 5-6 hours.</note> 
+		</instructions>
+		<nutrition_score>
+    <nutri_value nfref="nf1">
+        <value>25.1</value>
+        <percentage>32%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf2">
+        <value>153.1</value>
+        <percentage>51%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf3">
+        <value>1366.6</value>
+        <percentage>59%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf4">
+        <value>38.5</value>
+        <percentage>14%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf5">
+        <value>3.9</value>
+        <percentage>14%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf6">
+        <value>4.3</value>
+    </nutri_value>
+    <nutri_value nfref="nf7">
+        <value>53.4</value>
+        <percentage>107%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf8">
+        <value>79.3</value>
+        <percentage>9%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf9">
+        <value>1.3</value>
+        <percentage>1%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf10">
+        <value>8.5</value>
+        <percentage>47%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf11">
+        <value>914.6</value>
+        <percentage>19%</percentage>
+    </nutri_value>
+    <nutri_value nfref="nf12">
+        <value>593.8</value>
+        <percentage>48%</percentage>
+    </nutri_value>
+</nutrition_score>
+
+		<featured_comment>
+			<content>Just made this – SOOO good!!!! Definitely will be making again this fall/winter season!!! Thanks for another great recipe Lindsay!</content>
+		</featured_comment>
 	</recipe>
 	<!-- List of cuisines -->
 	<!-- I have added a description about the cuisine using ChatGPT -->
