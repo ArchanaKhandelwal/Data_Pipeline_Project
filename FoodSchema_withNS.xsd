@@ -25,7 +25,7 @@
 			<xs:field xpath="@id"/>
 		</xs:key>
 		<xs:keyref name="cuine" refer="ds:keycusine">
-			<xs:selector xpath="ds:recipe"/>
+			<xs:selector xpath="ds:recipe/ds:cuisine"/>
 			<xs:field xpath="@cref"/>
 		</xs:keyref>
 		<xs:key name="keynutrition">
@@ -33,7 +33,7 @@
 			<xs:field xpath="@id"/>
 		</xs:key>
 		<xs:keyref name="nutri" refer="ds:keynutrition">
-			<xs:selector xpath="ds:recipe"/>
+			<xs:selector xpath="ds:recipe/ds:nutrition_score/ds:nutri_value"/>
 			<xs:field xpath="@nfref"/>
 		</xs:keyref>
 		<xs:key name="keymealType">
@@ -57,7 +57,7 @@
 			<xs:field xpath="@id"/>
 		</xs:key>
 		<xs:keyref name="cours" refer="ds:keycourse">
-			<xs:selector xpath="ds:recipe"/>
+			<xs:selector xpath="ds:recipe/ds:course"/>
 			<xs:field xpath="@ctref"/>
 		</xs:keyref>
 		<xs:key name="keyseason">
@@ -81,7 +81,7 @@
 			<xs:field xpath="@id"/>
 		</xs:key>
 		<xs:keyref name="allergen" refer="ds:keyallerg">
-			<xs:selector xpath="ds:recipe/al:allergens/al:allergen"/>
+			<xs:selector xpath="ds:recipe/ds:allergens/ds:allergen"/>
 			<xs:field xpath="@alref"/>
 		</xs:keyref>
 	</xs:element>
