@@ -177,21 +177,25 @@
 				<xs:element name="ingredients">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="ingredient" maxOccurs="unbounded">
-								<xs:complexType>
-									<xs:attribute name="name" type="xs:string"/>
-									<xs:attribute name="quantity" type="xs:string"/>
-									<xs:attribute name="unit" type="xs:string"/>
-								</xs:complexType>
-							</xs:element>
+							<xs:choice minOccurs="0" maxOccurs="unbounded"> 
+								<xs:element name="title_ingri" type="xs:string"/>	
+								<xs:element name="ingredient">
+									<xs:complexType>
+										<xs:attribute name="name" type="xs:string"/>
+										<xs:attribute name="quantity" type="xs:string"/>
+										<xs:attribute name="unit" type="xs:string"/>
+										<xs:attribute name="size" type="xs:string"/>
+									</xs:complexType>
+								</xs:element>	
+							</xs:choice>					
 						</xs:sequence>
-						<xs:attribute name="servings" type="xs:int"/>
+							<xs:attribute name="servings" type="xs:int"/>
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="allergens">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="allergen">
+							<xs:element name="allergen" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:attribute name="alref" type="xs:string" use="required"/>
 								</xs:complexType>
@@ -203,6 +207,7 @@
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="steps" maxOccurs="unbounded" type="xs:string"/>
+							<xs:element name="note" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -235,7 +240,7 @@
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="featured_comment">
+				<xs:element name="featured_comment" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="content" type="xs:string"/>

@@ -197,7 +197,7 @@
 			            quantity="as needed"/>
 			<ingredient name="Salt"
 			            quantity="to taste"/>
-			<title>Whipped Feta</title>
+			<title_ingri>Whipped Feta</title_ingri>
 			<ingredient name="Feta Cheese"
 			            quantity="1"
 			            unit="6-ounce container"/>
@@ -207,7 +207,7 @@
 			<ingredient name="Garlic"
 			            quantity="1"
 			            unit="clove"/>
-			<title>Extras</title>
+			<title_ingri>Extras</title_ingri>
 			<ingredient name="Hummus"
 			            quantity="1"
 			            unit="cup"/>
@@ -337,45 +337,45 @@
 			<averageRating>4.9</averageRating>
 		</reviews>
 		<ingredients servings="6">
-			<Ingredient name="Olive Oil"
+			<ingredient name="Olive Oil"
 			            quantity="2"
 			            unit="tablespoons"/>
-			<Ingredient name="Onion"
+			<ingredient name="Onion"
 			            quantity="0.5"
 			            unit="large"/>
-			<Ingredient name="Jalapeño"
+			<ingredient name="Jalapeño"
 			            quantity="1"
 			            unit="medium"/>
-			<Ingredient name="Garlic"
+			<ingredient name="Garlic"
 			            quantity="2"
 			            unit="cloves"/>
-			<Ingredient name="Sweet Potatoes"
+			<ingredient name="Sweet Potatoes"
 			            quantity="3"
 			            unit="large"/>
-			<Ingredient name="Fire Roasted Tomatoes"
+			<ingredient name="Fire Roasted Tomatoes"
 			            quantity="1"
 			            unit="can"
 			            size="14 ounces"/>
-			<Ingredient name="Light Coconut Milk"
+			<ingredient name="Light Coconut Milk"
 			            quantity="1"
 			            unit="can"
 			            size="14 ounces"/>
-			<Ingredient name="Water"
+			<ingredient name="Water"
 			            quantity="2"
 			            unit="cups"/>
-			<Ingredient name="Salt"
+			<ingredient name="Salt"
 			            quantity="1"
 			            unit="teaspoon"/>
-			<Ingredient name="Curry and/or Turmeric"
+			<ingredient name="Curry and/or Turmeric"
 			            quantity="1"
 			            unit="teaspoon"/>
-			<Ingredient name="Chopped Peanuts"
+			<ingredient name="Chopped Peanuts"
 			            quantity="0.5"
 			            unit="cup"/>
-			<Ingredient name="Peanut Butter"
+			<ingredient name="Peanut Butter"
 			            quantity="0.25"
 			            unit="cup"/>
-			<Ingredient name="Kale,stems removed, chopped"
+			<ingredient name="Kale,stems removed, chopped"
 			            quantity="1-2"
 			            unit="cups"/>
 		</ingredients>
