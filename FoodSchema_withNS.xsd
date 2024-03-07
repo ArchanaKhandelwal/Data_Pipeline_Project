@@ -21,7 +21,7 @@
 			</xs:sequence>
 		</xs:complexType>
 		<xs:key name="keycusine">
-			<xs:selector xpath="ds:cusines/ds:cusine"/>
+			<xs:selector xpath="ds:cuisines/ds:cuisine"/>
 			<xs:field xpath="@id"/>
 		</xs:key>
 		<xs:keyref name="cuine" refer="ds:keycusine">
