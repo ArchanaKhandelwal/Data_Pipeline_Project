@@ -226,8 +226,8 @@
 									<xs:complexType mixed="true">
 										<xs:sequence>
 											<!-- Define the 'ingredient' element -->
-											<xs:element maxOccurs="unbounded"
-										    	        name="ingredient">
+											<xs:element name="ingredient"
+														maxOccurs="unbounded">
 													<!-- Define the attributes for 'ingredient' -->
 												<xs:complexType>
 													<xs:attribute name="name"
@@ -248,9 +248,7 @@
 									</xs:complexType>
 								</xs:element>
 								<!-- Define another 'ingredient' element -->
-								<xs:element name="ingredient"
-							    	        minOccurs="0"
-							        	    maxOccurs="unbounded">
+								<xs:element name="ingredient">
 									<xs:complexType>
 								  	<!-- Define the attributes for 'ingredient' -->
 										<xs:attribute name="name"
@@ -320,7 +318,8 @@
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="FAQs">
+				<xs:element name="FAQs"
+							minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="FAQ"
