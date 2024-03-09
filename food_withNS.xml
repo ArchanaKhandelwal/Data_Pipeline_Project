@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Food xmlns="http://www.dsti-food.com/" xmlns:al="http://allergens.dsti.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
+<Food xmlns="http://www.dsti-food.com/"
+      xmlns:al="http://allergens.dsti.com/"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
 	<!-- List of recipes -->
 	<recipe>
 		<title>7-Layer Beet Salad</title>
@@ -39,14 +42,25 @@
 			<averageRating>4.9</averageRating>
 		</reviews>
 		<ingredients servings="6">
-			<ingredient name="Chopped Kale" weight="48 grams"/>
-			<ingredient name="Balsemic dressing or Green salad dressing or olive oil and lemon" quantity="59" unit="ml"/>
-			<ingredient name="Oranges" quantity="2-3"/>
-			<ingredient name="Cooked beets" quantity="8" unit="small"/>
-			<ingredient name="Minced shallot" quantity="1"/>
-			<ingredient name="Truffle ricotta or ricotta cheese" weight="124 grams"/>
-			<ingredient name="Chopped pistachios" weight="62 grams"/>
-			<ingredient name="Fresh mint" quantity="2" unit="tablespoon"/>
+			<ingredient name="Chopped Kale"
+			            weight="48 grams"/>
+			<ingredient name="Balsemic dressing or Green salad dressing or olive oil and lemon"
+			            quantity="59"
+			            unit="ml"/>
+			<ingredient name="Oranges"
+			            quantity="2-3"/>
+			<ingredient name="Cooked beets"
+			            quantity="8"
+			            unit="small"/>
+			<ingredient name="Minced shallot"
+			            quantity="1"/>
+			<ingredient name="Truffle ricotta or ricotta cheese"
+			            weight="124 grams"/>
+			<ingredient name="Chopped pistachios"
+			            weight="62 grams"/>
+			<ingredient name="Fresh mint"
+			            quantity="2"
+			            unit="tablespoon"/>
 		</ingredients>
 		<allergens>
 			<allergen alref="al7"/>
@@ -160,25 +174,47 @@
 		</reviews>
 		<ingredients servings="4">
 			<title_ingri>Meatballs and Such 
-				<ingredient name="Frozen Meatballs (store-bought or homemade)" quantity="1" unit="22-ounce bag"/>
-				<ingredient name="Bell Peppers (yellow and red)" quantity="2" unit="large"/>
-				<ingredient name="Zucchini" quantity="1-2" unit="large"/>
-				<ingredient name="Harissa Paste" quantity="2" unit="tablespoons"/>
-				<ingredient name="Olive Oil" quantity="as needed"/>
-				<ingredient name="Garlic Powder" quantity="to taste"/>
-				<ingredient name="Lemon Juice" quantity="as needed"/>
-				<ingredient name="Salt" quantity="to taste"/>
+				<ingredient name="Frozen Meatballs (store-bought or homemade)"
+				            quantity="1"
+				            unit="22-ounce bag"/>
+				<ingredient name="Bell Peppers (yellow and red)"
+				            quantity="2"
+				            unit="large"/>
+				<ingredient name="Zucchini"
+				            quantity="1-2"
+				            unit="large"/>
+				<ingredient name="Harissa Paste"
+				            quantity="2"
+				            unit="tablespoons"/>
+				<ingredient name="Olive Oil"
+				            quantity="as needed"/>
+				<ingredient name="Garlic Powder"
+				            quantity="to taste"/>
+				<ingredient name="Lemon Juice"
+				            quantity="as needed"/>
+				<ingredient name="Salt"
+				            quantity="to taste"/>
 			</title_ingri>
 			<title_ingri>Whipped Feta
-				<ingredient name="Feta Cheese" weight="6 ounce"/>
-				<ingredient name="Cream Cheese or Sour Cream or Plain Yogurt" weight="2 ounces"/>
-				<ingredient name="Garlic" quantity="1" unit="clove"/>
+				<ingredient name="Feta Cheese"
+				            weight="6 ounce"/>
+				<ingredient name="Cream Cheese or Sour Cream or Plain Yogurt"
+				            weight="2 ounces"/>
+				<ingredient name="Garlic"
+				            quantity="1"
+				            unit="clove"/>
 			</title_ingri>
 			<title_ingri>Extras
-				<ingredient name="Hummus" quantity="1" unit="cup"/>
-				<ingredient name="Pitas" quantity="6"/>
-				<ingredient name="Kalamata Olives" quantity="1/4" unit="cup"/>
-				<ingredient name="Lemon" quantity="1"/>
+				<ingredient name="Hummus"
+				            quantity="1"
+				            unit="cup"/>
+				<ingredient name="Pitas"
+				            quantity="6"/>
+				<ingredient name="Kalamata Olives"
+				            quantity="1/4"
+				            unit="cup"/>
+				<ingredient name="Lemon"
+				            quantity="1"/>
 			</title_ingri>
 		</ingredients>
 		<allergens>
@@ -299,19 +335,45 @@
 			<averageRating>4.9</averageRating>
 		</reviews>
 		<ingredients servings="6">
-			<ingredient name="Olive Oil" quantity="2" unit="tablespoons"/>
-			<ingredient name="Onion" quantity="0.5" unit="large"/>
-			<ingredient name="Jalapeño" quantity="1" unit="medium"/>
-			<ingredient name="Garlic" quantity="2" unit="cloves"/>
-			<ingredient name="Sweet Potatoes" quantity="3" unit="large"/>
-			<ingredient name="Fire Roasted Tomatoes jar" quantity="1" weight="14 ounces"/>
-			<ingredient name="Light Coconut Milk can" quantity="1" weight="14 ounces"/>
-			<ingredient name="Water" quantity="2" unit="cup"/>
-			<ingredient name="Salt" quantity="1" unit="teaspoon"/>
-			<ingredient name="Curry and/or Turmeric" quantity="1" unit="teaspoon"/>
-			<ingredient name="Chopped Peanuts" quantity="0.5" unit="cup"/>
-			<ingredient name="Peanut Butter" quantity="0.25" unit="cup"/>
-			<ingredient name="Kale,stems removed, chopped" quantity="1-2" unit="cup"/>
+			<ingredient name="Olive Oil"
+			            quantity="2"
+			            unit="tablespoons"/>
+			<ingredient name="Onion"
+			            quantity="0.5"
+			            unit="large"/>
+			<ingredient name="Jalapeño"
+			            quantity="1"
+			            unit="medium"/>
+			<ingredient name="Garlic"
+			            quantity="2"
+			            unit="cloves"/>
+			<ingredient name="Sweet Potatoes"
+			            quantity="3"
+			            unit="large"/>
+			<ingredient name="Fire Roasted Tomatoes jar"
+			            quantity="1"
+			            weight="14 ounces"/>
+			<ingredient name="Light Coconut Milk can"
+			            quantity="1"
+			            weight="14 ounces"/>
+			<ingredient name="Water"
+			            quantity="2"
+			            unit="cup"/>
+			<ingredient name="Salt"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Curry and/or Turmeric"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Chopped Peanuts"
+			            quantity="0.5"
+			            unit="cup"/>
+			<ingredient name="Peanut Butter"
+			            quantity="0.25"
+			            unit="cup"/>
+			<ingredient name="Kale,stems removed, chopped"
+			            quantity="1-2"
+			            unit="cup"/>
 		</ingredients>
 		<allergens>
 			<allergen alref="al8"/>
@@ -427,17 +489,34 @@
 		</reviews>
 		<ingredients servings="8">
 			<title_ingri>Peach Filling
-				<ingredient name="Fresh Yellow Peaches" quantity="5-6" unit="large"/>
-				<ingredient name="Sugar" quantity="1/4" unit="cup"/>
+				<ingredient name="Fresh Yellow Peaches"
+				            quantity="5-6"
+				            unit="large"/>
+				<ingredient name="Sugar"
+				            quantity="1/4"
+				            unit="cup"/>
 			</title_ingri>
 			<title_ingri>Cobbler Topping
-				<ingredient name="Salted Butter" quantity="1/2" unit="cup"/>
-				<ingredient name="Sugar" quantity="3/4" unit="cup"/>
-				<ingredient name="Vanilla" quantity="1" unit="teaspoon"/>
-				<ingredient name="Flour" quantity="1" unit="cup"/>
-				<ingredient name="Baking Powder" quantity="1" unit="teaspoon"/>
-				<ingredient name="Salt" quantity="a pinch"/>
-				<ingredient name="Turbinado Sugar (optional, but really nice)" quantity="1/4" unit="cup"/>
+				<ingredient name="Salted Butter"
+				            quantity="1/2"
+				            unit="cup"/>
+				<ingredient name="Sugar"
+				            quantity="3/4"
+				            unit="cup"/>
+				<ingredient name="Vanilla"
+				            quantity="1"
+				            unit="teaspoon"/>
+				<ingredient name="Flour"
+				            quantity="1"
+				            unit="cup"/>
+				<ingredient name="Baking Powder"
+				            quantity="1"
+				            unit="teaspoon"/>
+				<ingredient name="Salt"
+				            quantity="a pinch"/>
+				<ingredient name="Turbinado Sugar (optional, but really nice)"
+				            quantity="1/4"
+				            unit="cup"/>
 			</title_ingri>
 		</ingredients>
 		<allergens>
@@ -575,12 +654,15 @@
 			<averageRating>4.8</averageRating>
 		</reviews>
 		<ingredients servings="6">
-			<ingredient name="Apples" quantity="7-8"/>
-			<ingredient name="Cinnamon Sticks" quantity="2"/>
-			<ingredient name="Water" quantity="1/2" unit="cup"/>
+			<ingredient name="Apples"
+			            quantity="7-8"/>
+			<ingredient name="Cinnamon Sticks"
+			            quantity="2"/>
+			<ingredient name="Water"
+			            quantity="1/2"
+			            unit="cup"/>
 		</ingredients>
 		<allergens>
-			<!-- Not sure about allergy info -->
 			<allergen alref="al5"/>
 		</allergens>
 		<instructions>
@@ -697,24 +779,54 @@
 		</reviews>
 		<ingredients servings="6">
 			<title_ingri>For the Italian Beef:
-				<ingredient name="Beef chuck roast, trimmed and cut into chunks" weight="3 pounds"/>
-				<ingredient name="garlic, minced" quantity="3" unit="cloves"/>
-				<ingredient name="onion, diced" quantity="1/2"/>
-				<ingredient name="Dried oregano" quantity="2" unit="teaspoons"/>
-				<ingredient name="dried basil" quantity="1" unit="teaspoon"/>
-				<ingredient name="Onion powder" quantity="1" unit="teaspoon"/>
-				<ingredient name="Paprika" quantity="1" unit="teaspoon"/>
-				<ingredient name="Garlic powder" quantity="1/2" unit="teaspoon"/>
-				<ingredient name="Red pepper flakes" quantity="1/2" unit="teaspoon"/>
-				<ingredient name="Salt" quantity="1" unit="teaspoon"/>
-				<ingredient name="Black pepper" quantity="1/2" unit="teaspoon"/>
-				<ingredient name="Beef broth" quantity="3" unit="cups"/>
-				<ingredient name="Brine from the giardiniera (optional)" quantity="1/4" unit="cup"/>
+				<ingredient name="Beef chuck roast, trimmed and cut into chunks"
+				            weight="3 pounds"/>
+				<ingredient name="garlic, minced"
+				            quantity="3"
+				            unit="cloves"/>
+				<ingredient name="onion, diced"
+				            quantity="1/2"/>
+				<ingredient name="Dried oregano"
+				            quantity="2"
+				            unit="teaspoons"/>
+				<ingredient name="dried basil"
+				            quantity="1"
+				            unit="teaspoon"/>
+				<ingredient name="Onion powder"
+				            quantity="1"
+				            unit="teaspoon"/>
+				<ingredient name="Paprika"
+				            quantity="1"
+				            unit="teaspoon"/>
+				<ingredient name="Garlic powder"
+				            quantity="1/2"
+				            unit="teaspoon"/>
+				<ingredient name="Red pepper flakes"
+				            quantity="1/2"
+				            unit="teaspoon"/>
+				<ingredient name="Salt"
+				            quantity="1"
+				            unit="teaspoon"/>
+				<ingredient name="Black pepper"
+				            quantity="1/2"
+				            unit="teaspoon"/>
+				<ingredient name="Beef broth"
+				            quantity="3"
+				            unit="cups"/>
+				<ingredient name="Brine from the giardiniera (optional)"
+				            quantity="1/4"
+				            unit="cup"/>
 			</title_ingri>
 			<title_ingri>For the Sandwiches:
-				<ingredient name="Crusty hoagie or sandwich rolls" quantity="6" unit="6-inch"/>
-				<ingredient name="DeLallo Giardiniera, chopped – hot or mild, either works" quantity="1 and 1/2" unit="cups"/>
-				<ingredient name="Provolone cheese" quantity="6" unit="slices"/>
+				<ingredient name="Crusty hoagie or sandwich rolls"
+				            quantity="6"
+				            unit="6-inch"/>
+				<ingredient name="DeLallo Giardiniera, chopped – hot or mild, either works"
+				            quantity="1 and 1/2"
+				            unit="cups"/>
+				<ingredient name="Provolone cheese"
+				            quantity="6"
+				            unit="slices"/>
 			</title_ingri>
 		</ingredients>
 		<allergens>
@@ -815,16 +927,33 @@
 			<averageRating>5</averageRating>
 		</reviews>
 		<ingredients servings="7">
-			<ingredient name="Almond meal" quantity="1/2" unit="cup"/>
-			<ingredient name="Old fashioned oats" quantity="1/2" unit="cup"/>
-			<ingredient name="All-purpose flour" quantity="3" unit="tablespoons"/>
-			<ingredient name="Milk" quantity="1" unit="cup"/>
-			<ingredient name="Egg" quantity="1"/>
-			<ingredient name="Vanilla extract" quantity="1/2" unit="teaspoon"/>
-			<ingredient name="Brown sugar" quantity="1" unit="tablespoon"/>
-			<ingredient name="Salt" quantity="a pinch of salt"/>
-			<ingredient name="Sliced bananas" quantity="4"/>
-			<ingredient name="Melted Nutella (or chocolate of any kind)" quantity="2" unit="tablespoons"/>
+			<ingredient name="Almond meal"
+			            quantity="1/2"
+			            unit="cup"/>
+			<ingredient name="Old fashioned oats"
+			            quantity="1/2"
+			            unit="cup"/>
+			<ingredient name="All-purpose flour"
+			            quantity="3"
+			            unit="tablespoons"/>
+			<ingredient name="Milk"
+			            quantity="1"
+			            unit="cup"/>
+			<ingredient name="Egg"
+			            quantity="1"/>
+			<ingredient name="Vanilla extract"
+			            quantity="1/2"
+			            unit="teaspoon"/>
+			<ingredient name="Brown sugar"
+			            quantity="1"
+			            unit="tablespoon"/>
+			<ingredient name="Salt"
+			            quantity="a pinch of salt"/>
+			<ingredient name="Sliced bananas"
+			            quantity="4"/>
+			<ingredient name="Melted Nutella (or chocolate of any kind)"
+			            quantity="2"
+			            unit="tablespoons"/>
 		</ingredients>
 		<allergens>
 			<allergen alref="al1"/>
@@ -930,13 +1059,26 @@
 			<averageRating>5</averageRating>
 		</reviews>
 		<ingredients servings="5">
-			<ingredient name="Cashews (roasted or raw, unsoaked)" quantity="1" unit="cup"/>
-			<ingredient name="Water" quantity="6" unit="cup"/>
-			<ingredient name="Ground turmeric" quantity="2" unit="tablespoons"/>
-			<ingredient name="cinnamon" quantity="2" unit="tablespoons"/>
-			<ingredient name="Ginger paste" quantity="2" unit="tablespoons"/>
-			<ingredient name="Honey" quantity="1/4" unit="cup"/>
-			<ingredient name="Salt" quantity="a pinch of salt"/>
+			<ingredient name="Cashews (roasted or raw, unsoaked)"
+			            quantity="1"
+			            unit="cup"/>
+			<ingredient name="Water"
+			            quantity="6"
+			            unit="cup"/>
+			<ingredient name="Ground turmeric"
+			            quantity="2"
+			            unit="tablespoons"/>
+			<ingredient name="cinnamon"
+			            quantity="2"
+			            unit="tablespoons"/>
+			<ingredient name="Ginger paste"
+			            quantity="2"
+			            unit="tablespoons"/>
+			<ingredient name="Honey"
+			            quantity="1/4"
+			            unit="cup"/>
+			<ingredient name="Salt"
+			            quantity="a pinch of salt"/>
 		</ingredients>
 		<allergens>
 			<allergen alref="al7"/>
@@ -1039,10 +1181,18 @@
 		</reviews>
 		<ingredients servings="3">
 			<title_ingri>Pistachio Walnut Mixture
-				<ingredient name="Walnut" quantity="1/3" unit="cup"/>
-				<ingredient name="Pistachios" quantity="1/3" unit="cup"/>
-				<ingredient name="Butter, softened or melted" quantity="1/4" unit="cup"/>
-				<ingredient name="Brown sugar" quantity="2" unit="teaspoon"/>
+				<ingredient name="Walnut"
+				            quantity="1/3"
+				            unit="cup"/>
+				<ingredient name="Pistachios"
+				            quantity="1/3"
+				            unit="cup"/>
+				<ingredient name="Butter, softened or melted"
+				            quantity="1/4"
+				            unit="cup"/>
+				<ingredient name="Brown sugar"
+				            quantity="2"
+				            unit="teaspoon"/>
 			</title_ingri>
 			<title_ingri>Other
 				<ingredient name="English muffins"/>
@@ -1110,9 +1260,6 @@
 				<percentage>9%</percentage>
 			</nutri_value>
 		</nutrition_score>
-		<featured_comment>
-			<content>Wow! Yum yum yum! I made these for a girls night and everyone raves about them! Pretty easy to make and just so delicious . So fun to bring to parties and they don’t need to be served hot! Will definitely be making again! Thanks!!!</content>
-		</featured_comment>
 		<FAQs>
 			<FAQ>
 				<Question>What can I use instead of English muffins?</Question>
@@ -1135,6 +1282,9 @@
 				<Answer>The use of pistachios and walnuts, butter, and honey gives it a texture and a flavor that is reminiscent of baklava! Not the same thing by any means – baklava is a very involved, multi-layered, multi-textured dessert made with phyllo (it’s epic). But this is like the budget version for those of us who just want the taste of it in a quick breakfast or snack.</Answer>
 			</FAQ>
 		</FAQs>
+		<featured_comment>
+			<content>Wow! Yum yum yum! I made these for a girls night and everyone raves about them! Pretty easy to make and just so delicious . So fun to bring to parties and they don’t need to be served hot! Will definitely be making again! Thanks!!!</content>
+		</featured_comment>
 	</recipe>
 	<recipe>
 		<title>The Best Easy Peanut Butter Pie</title>
@@ -1169,12 +1319,21 @@
 			<averageRating>4.8</averageRating>
 		</reviews>
 		<ingredients servings="10">
-			<ingredient name="Peanut butter" quantity="1" unit="cup"/>
-			<ingredient name="sugar" quantity="1" unit="cup"/>
-			<ingredient name="whipped topping like Cool Whip" weight="8 ounces"/>
-			<ingredient name="cream cheese" weight="8 ounces"/>
-			<ingredient name="Oreos" weight="114 ounces"/>
-			<ingredient name="Butter, melted" quantity="5" unit="tablespoon"/>
+			<ingredient name="Peanut butter"
+			            quantity="1"
+			            unit="cup"/>
+			<ingredient name="sugar"
+			            quantity="1"
+			            unit="cup"/>
+			<ingredient name="whipped topping like Cool Whip"
+			            weight="8 ounces"/>
+			<ingredient name="cream cheese"
+			            weight="8 ounces"/>
+			<ingredient name="Oreos"
+			            weight="114 ounces"/>
+			<ingredient name="Butter, melted"
+			            quantity="5"
+			            unit="tablespoon"/>
 		</ingredients>
 		<allergens>
 			<allergen alref="al7"/>
@@ -1290,22 +1449,46 @@
 		<!--No. of cookies are 24-->
 		<ingredients servings="24">
 			<title_ingri>Gingerbread Cookies
-				<ingredient name="Unsalted butter, softened" quantity="3/4" unit="cup"/>
-				<ingredient name="Granulated sugar" quantity="1" unit="cup"/>
-				<ingredient name="Egg" quantity="1" unit="large"/>
-				<ingredient name="Molasses" quantity="1/3" unit="cup"/>
-				<ingredient name="all-purpose flour" quantity="2 1/4" unit="cup"/>
-				<ingredient name="Baking Soda" quantity="2" unit="teaspoon"/>
-				<ingredient name="Salt" quantity="3/4" unit="teaspoon"/>
-				<ingredient name="Ground Ginger" quantity="1-2" unit="teaspoon"/>
+				<ingredient name="Unsalted butter, softened"
+				            quantity="3/4"
+				            unit="cup"/>
+				<ingredient name="Granulated sugar"
+				            quantity="1"
+				            unit="cup"/>
+				<ingredient name="Egg"
+				            quantity="1"
+				            unit="large"/>
+				<ingredient name="Molasses"
+				            quantity="1/3"
+				            unit="cup"/>
+				<ingredient name="all-purpose flour"
+				            quantity="2 1/4"
+				            unit="cup"/>
+				<ingredient name="Baking Soda"
+				            quantity="2"
+				            unit="teaspoon"/>
+				<ingredient name="Salt"
+				            quantity="3/4"
+				            unit="teaspoon"/>
+				<ingredient name="Ground Ginger"
+				            quantity="1-2"
+				            unit="teaspoon"/>
 				<ingredient name="Granulated sugar for rolling"/>
 			</title_ingri>
 			<title_ingri>Maple Glaze
-				<ingredient name="Melted butter" quantity="1" unit="tablespoon"/>
-				<ingredient name="Pure maple syrup" quantity="1" unit="tablespoon"/>
-				<ingredient name="powdered sugar" weight="180 gm"/>
-				<ingredient name="Milk" quantity="2" unit="tablespoon"/>
-				<ingredient name="Salt" quantity="a pinch of salt"/>
+				<ingredient name="Melted butter"
+				            quantity="1"
+				            unit="tablespoon"/>
+				<ingredient name="Pure maple syrup"
+				            quantity="1"
+				            unit="tablespoon"/>
+				<ingredient name="powdered sugar"
+				            weight="180 gm"/>
+				<ingredient name="Milk"
+				            quantity="2"
+				            unit="tablespoon"/>
+				<ingredient name="Salt"
+				            quantity="a pinch of salt"/>
 			</title_ingri>
 		</ingredients>
 		<allergens>
@@ -1425,22 +1608,48 @@
 		</reviews>
 		<ingredients servings="8">
 			<title_ingri>For the Firecracker Sauce
-				<ingredient name=" Peanut butter" quantity="1/2" unit="cup"/>
-				<ingredient name=" Low sodium soy sauce" quantity="1/3" unit="cup"/>
-				<ingredient name="Sesame oil" quantity="1/3" unit="cup"/>
-				<ingredient name="Rice vinegar" quantity="1/4" unit="cup"/>
-				<ingredient name="Chilli paste" quantity="2" unit="teaspoon"/>
-				<ingredient name="Sugar" quantity="2" unit="teaspoon"/>
-				<ingredient name="Peeled ginger" quantity="1" unit="small"/>
-				<ingredient name="Peeled garlic" quantity="1" unit="clove"/>
+				<ingredient name=" Peanut butter"
+				            quantity="1/2"
+				            unit="cup"/>
+				<ingredient name=" Low sodium soy sauce"
+				            quantity="1/3"
+				            unit="cup"/>
+				<ingredient name="Sesame oil"
+				            quantity="1/3"
+				            unit="cup"/>
+				<ingredient name="Rice vinegar"
+				            quantity="1/4"
+				            unit="cup"/>
+				<ingredient name="Chilli paste"
+				            quantity="2"
+				            unit="teaspoon"/>
+				<ingredient name="Sugar"
+				            quantity="2"
+				            unit="teaspoon"/>
+				<ingredient name="Peeled ginger"
+				            quantity="1"
+				            unit="small"/>
+				<ingredient name="Peeled garlic"
+				            quantity="1"
+				            unit="clove"/>
 			</title_ingri>
 			<title_ingri>For the Lettuce Wraps
-				<ingredient name="Tofu" quantity="1" unit="block"/>
-				<ingredient name=" Brown rice noodle" weight="4 ounce"/>
-				<ingredient name="Butter lettuce for wrapping" quantity="1" unit="head"/>
-				<ingredient name="Peanuts for serving" quantity="1/2" unit="cup"/>
-				<ingredient name="Cilantro for serving" quantity="1/2" unit="cup"/>
-				<ingredient name="Lime for serving" quantity="1"/>
+				<ingredient name="Tofu"
+				            quantity="1"
+				            unit="block"/>
+				<ingredient name=" Brown rice noodle"
+				            weight="4 ounce"/>
+				<ingredient name="Butter lettuce for wrapping"
+				            quantity="1"
+				            unit="head"/>
+				<ingredient name="Peanuts for serving"
+				            quantity="1/2"
+				            unit="cup"/>
+				<ingredient name="Cilantro for serving"
+				            quantity="1/2"
+				            unit="cup"/>
+				<ingredient name="Lime for serving"
+				            quantity="1"/>
 			</title_ingri>
 		</ingredients>
 		<allergens>
@@ -1513,9 +1722,7 @@
 		</featured_comment>
 	</recipe>
 	<recipe>
-		<title>The Ultimate Breakfast Sandwich
-
-		</title>
+		<title>The Ultimate Breakfast Sandwich</title>
 		<categoryofDiet>
 			<dietCategory dcref="dc4"/>
 			<dietCategory dcref="dc7"/>
@@ -1545,12 +1752,22 @@
 			<averageRating>5</averageRating>
 		</reviews>
 		<ingredients servings="4">
-			<ingredient name="Eggs" quantity="8"/>
-			<ingredient name="Cooked Bacon" quantity="4" unit="slices"/>
-			<ingredient name="croissants" quantity="4"/>
-			<ingredient name="Guacamole" quantity="1/2" unit="cup"/>
-			<ingredient name="Pepperjack cheese" quantity="4" unit="slices"/>
-			<ingredient name="Garlic butter tomato sauce" quantity="1/2" unit="cup"/>
+			<ingredient name="Eggs"
+			            quantity="8"/>
+			<ingredient name="Cooked Bacon"
+			            quantity="4"
+			            unit="slices"/>
+			<ingredient name="croissants"
+			            quantity="4"/>
+			<ingredient name="Guacamole"
+			            quantity="1/2"
+			            unit="cup"/>
+			<ingredient name="Pepperjack cheese"
+			            quantity="4"
+			            unit="slices"/>
+			<ingredient name="Garlic butter tomato sauce"
+			            quantity="1/2"
+			            unit="cup"/>
 		</ingredients>
 		<allergens>
 			<allergen alref="al1"/>
@@ -1639,10 +1856,7 @@
 		</featured_comment>
 	</recipe>
 	<recipe>
-		<title>Spicy Falafel And Roasted Veggie Naan-Wich
-
-
-		</title>
+		<title>Spicy Falafel And Roasted Veggie Naan-Wich</title>
 		<categoryofDiet>
 			<dietCategory dcref="dc1"/>
 			<dietCategory dcref="dc3"/>
@@ -1675,17 +1889,32 @@
 		</reviews>
 		<ingredients servings="6">
 			<title_ingri>For the Roasted Veggies
-				<ingredient name=" Carrots" quantity="5-7"/>
-				<ingredient name=" Cauliflower" quantity="1" unit="head"/>
-				<ingredient name="Olive oil" quantity="2" unit="tablespoon"/>
-				<ingredient name="Cummin" quantity="4" unit="teaspoon"/>
+				<ingredient name=" Carrots"
+				            quantity="5-7"/>
+				<ingredient name=" Cauliflower"
+				            quantity="1"
+				            unit="head"/>
+				<ingredient name="Olive oil"
+				            quantity="2"
+				            unit="tablespoon"/>
+				<ingredient name="Cummin"
+				            quantity="4"
+				            unit="teaspoon"/>
 			</title_ingri>
 			<title_ingri>For the Naan-wiches
-				<ingredient name="Jar of sun-dried tomatoes, packed in oil" weight="12 ounces"/>
-				<ingredient name=" Garlic naan, torn in half " quantity="3" unit="pieces"/>
-				<ingredient name="Baked falafel" quantity="10-12" unit="pieces"/>
-				<ingredient name="Magic green sauce" quantity="1" unit="cup"/>
-				<ingredient name="Cilantro leaves" quantity="Handful"/>
+				<ingredient name="Jar of sun-dried tomatoes, packed in oil"
+				            weight="12 ounces"/>
+				<ingredient name=" Garlic naan, torn in half "
+				            quantity="3"
+				            unit="pieces"/>
+				<ingredient name="Baked falafel"
+				            quantity="10-12"
+				            unit="pieces"/>
+				<ingredient name="Magic green sauce"
+				            quantity="1"
+				            unit="cup"/>
+				<ingredient name="Cilantro leaves"
+				            quantity="Handful"/>
 			</title_ingri>
 		</ingredients>
 		<allergens>
@@ -1753,10 +1982,7 @@
 		</featured_comment>
 	</recipe>
 	<recipe>
-		<title>Spicy Falafel And Roasted Veggie Naan-Wich
-
-
-		</title>
+		<title>Spicy Falafel And Roasted Veggie Naan-Wich</title>
 		<categoryofDiet>
 			<dietCategory dcref="dc1"/>
 			<dietCategory dcref="dc3"/>
@@ -1790,14 +2016,28 @@
 			<averageRating>5</averageRating>
 		</reviews>
 		<ingredients servings="4">
-			<ingredient name="Extra virgin olive oil" quantity="3" unit="tablespoon"/>
-			<ingredient name="Gralic smashed or thinly sliced" quantity="3" unit="cloves"/>
-			<ingredient name="Whole peeled San Marzano tomatoes" weight="28 ounces"/>
-			<ingredient name="Kosher salt" quantity="1" unit="tablespoon"/>
-			<ingredient name="Black pepper" quantity="a pinch"/>
-			<ingredient name="Vegetable or chicken broth" quantity="4" unit="cup"/>
-			<ingredient name="Fresh basil" quantity="1/2" unit="cup"/>
-			<ingredient name="Dry bread, torn or cut into cubes (see notes)" quantity="2-3" unit="cup"/>
+			<ingredient name="Extra virgin olive oil"
+			            quantity="3"
+			            unit="tablespoon"/>
+			<ingredient name="Gralic smashed or thinly sliced"
+			            quantity="3"
+			            unit="cloves"/>
+			<ingredient name="Whole peeled San Marzano tomatoes"
+			            weight="28 ounces"/>
+			<ingredient name="Kosher salt"
+			            quantity="1"
+			            unit="tablespoon"/>
+			<ingredient name="Black pepper"
+			            quantity="a pinch"/>
+			<ingredient name="Vegetable or chicken broth"
+			            quantity="4"
+			            unit="cup"/>
+			<ingredient name="Fresh basil"
+			            quantity="1/2"
+			            unit="cup"/>
+			<ingredient name="Dry bread, torn or cut into cubes (see notes)"
+			            quantity="2-3"
+			            unit="cup"/>
 		</ingredients>
 		<allergens>
 			<allergen alref="al1"/>
@@ -1880,10 +2120,7 @@
 		</featured_comment>
 	</recipe>
 	<recipe>
-		<title>Thai Coconut Soup With Tofu And Rice
-
-
-		</title>
+		<title>Thai Coconut Soup With Tofu And Rice	</title>
 		<categoryofDiet>
 			<dietCategory dcref="dc1"/>
 			<dietCategory dcref="dc2"/>
@@ -1915,20 +2152,44 @@
 			<averageRating>4.8</averageRating>
 		</reviews>
 		<ingredients servings="6">
-			<ingredient name="Oil" quantity="1" unit="tablespoon"/>
-			<ingredient name="Gralic " quantity="5" unit="cloves"/>
-			<ingredient name="Ginger, peeled and cut into thin slices" quantity="1" unit="3 inch"/>
-			<ingredient name=" lemongrass, ends trimmed, outer layer peeled, and cut into bigger chunks" quantity="3" unit="stalks"/>
-			<ingredient name="Black pepper" quantity="a pinch"/>
-			<ingredient name="Roasted red chili paste" quantity="2" unit="tablespoon"/>
-			<ingredient name="Mashroom sliced" weight="8 ounces"/>
-			<ingredient name="Red bell pepper, thinly sliced" quantity="1"/>
-			<ingredient name="Tofu, pressed and cut into small cubes" quantity="1" unit="block"/>
-			<ingredient name="vegetable broth or chicken broth" quantity="5-6" unit="cup"/>
-			<ingredient name="Fish sauce " quantity="3" unit="tablespoon"/>
-			<ingredient name="Brown sugar " quantity="3" unit="tablespoon"/>
-			<ingredient name="Lime juice or zest " quantity="1-2"/>
-			<ingredient name="Salt " quantity="1" unit="teaspoon"/>
+			<ingredient name="Oil"
+			            quantity="1"
+			            unit="tablespoon"/>
+			<ingredient name="Gralic "
+			            quantity="5"
+			            unit="cloves"/>
+			<ingredient name="Ginger, peeled and cut into thin slices"
+			            quantity="1"
+			            unit="3 inch"/>
+			<ingredient name=" lemongrass, ends trimmed, outer layer peeled, and cut into bigger chunks"
+			            quantity="3"
+			            unit="stalks"/>
+			<ingredient name="Black pepper"
+			            quantity="a pinch"/>
+			<ingredient name="Roasted red chili paste"
+			            quantity="2"
+			            unit="tablespoon"/>
+			<ingredient name="Mashroom sliced"
+			            weight="8 ounces"/>
+			<ingredient name="Red bell pepper, thinly sliced"
+			            quantity="1"/>
+			<ingredient name="Tofu, pressed and cut into small cubes"
+			            quantity="1"
+			            unit="block"/>
+			<ingredient name="vegetable broth or chicken broth"
+			            quantity="5-6"
+			            unit="cup"/>
+			<ingredient name="Fish sauce "
+			            quantity="3"
+			            unit="tablespoon"/>
+			<ingredient name="Brown sugar "
+			            quantity="3"
+			            unit="tablespoon"/>
+			<ingredient name="Lime juice or zest "
+			            quantity="1-2"/>
+			<ingredient name="Salt "
+			            quantity="1"
+			            unit="teaspoon"/>
 			<ingredient name="Lots of cilantro "/>
 			<ingredient name="Chili oil for serving "/>
 			<ingredient name="Rice for serving "/>
@@ -2051,24 +2312,52 @@
 		</reviews>
 		<ingredients servings="6">
 			<title_ingri>Sopa Tarasca
-				<ingredient name="Olive oil" quantity="2" unit="tablespoons"/>
-				<ingredient name=" Onion, chopped" quantity="1"/>
-				<ingredient name="Smashed garlic" quantity="4" unit="cloves"/>
-				<ingredient name="Chili powder" quantity="1/2" unit="tablespoons"/>
-				<ingredient name="Cumin" quantity="2" unit="tablespoons"/>
-				<ingredient name="Whole tomatoes" weight="28 ounce"/>
-				<ingredient name="Cans pinto beans, drained" quantity="2" weight="14 ounce"/>
-				<ingredient name="Water or vegetable broth" quantity="2-3" unit="cup"/>
-				<ingredient name="Salt" quantity="2" unit="teaspoons"/>
+				<ingredient name="Olive oil"
+				            quantity="2"
+				            unit="tablespoons"/>
+				<ingredient name=" Onion, chopped"
+				            quantity="1"/>
+				<ingredient name="Smashed garlic"
+				            quantity="4"
+				            unit="cloves"/>
+				<ingredient name="Chili powder"
+				            quantity="1/2"
+				            unit="tablespoons"/>
+				<ingredient name="Cumin"
+				            quantity="2"
+				            unit="tablespoons"/>
+				<ingredient name="Whole tomatoes"
+				            weight="28 ounce"/>
+				<ingredient name="Cans pinto beans, drained"
+				            quantity="2"
+				            weight="14 ounce"/>
+				<ingredient name="Water or vegetable broth"
+				            quantity="2-3"
+				            unit="cup"/>
+				<ingredient name="Salt"
+				            quantity="2"
+				            unit="teaspoons"/>
 			</title_ingri>
 			<title_ingri>Jalapeño Corn Fritters
-				<ingredient name=" Frozen corn" quantity="1 and 3/4" unit="cup"/>
-				<ingredient name="Flour" quantity="1/4" unit="cup"/>
-				<ingredient name="cornstarch" quantity="1" unit="tablespoons"/>
-				<ingredient name="Cotija cheese" quantity="1/4" unit="cup"/>
+				<ingredient name=" Frozen corn"
+				            quantity="1 and 3/4"
+				            unit="cup"/>
+				<ingredient name="Flour"
+				            quantity="1/4"
+				            unit="cup"/>
+				<ingredient name="cornstarch"
+				            quantity="1"
+				            unit="tablespoons"/>
+				<ingredient name="Cotija cheese"
+				            quantity="1/4"
+				            unit="cup"/>
 				<ingredient name="Minced jalapeño (to taste – one is usually more than enough)"/>
-				<ingredient name="Salt" quantity="1/2" unit="teaspoons"/>
-				<ingredient name="Vegetable oil for frying " quantity="1" unit="cup"/>
+				<ingredient name="Salt"
+				            quantity="1/2"
+				            unit="teaspoons"/>
+				<ingredient name="Vegetable oil for frying "
+				            quantity="1"
+				            unit="cup"/>
 			</title_ingri>
 		</ingredients>
 		<allergens>
@@ -2191,19 +2480,42 @@
 			<averageRating>4.9</averageRating>
 		</reviews>
 		<ingredients servings="8">
-			<ingredient name="Chicken breasts" quantity="1" weight="pound"/>
-			<ingredient name="Can crushed tomatoes " weight="128 ounces"/>
-			<ingredient name="Carrots, peeled and chopped" quantity="4"/>
-			<ingredient name="celery, chopped" quantity="2" unit="stalks"/>
-			<ingredient name="Minced garlic" quantity="3" unit="clove"/>
-			<ingredient name="Farro (you can also use brown rice or small pasta)" quantity="1/2" unit="cup"/>
-			<ingredient name="Chicken broth" quantity="6" unit="cup"/>
-			<ingredient name="Olive oil" quantity="2" unit="tablespoon"/>
-			<ingredient name=" Basil and oregano each" quantity="1" unit="tablespoon"/>
-			<ingredient name="Garlic and onion powder each" quantity="1/2" unit="tablespoon"/>
-			<ingredient name="Salt " quantity="2" unit="teaspoon"/>
-			<ingredient name="Zucchini, cut into small pieces " quantity="2"/>
-			<ingredient name="Fresh sweet corn kernels, cut off the cobt " quantity="2-3" unit="cup"/>
+			<ingredient name="Chicken breasts"
+			            quantity="1"
+			            weight="pound"/>
+			<ingredient name="Can crushed tomatoes "
+			            weight="128 ounces"/>
+			<ingredient name="Carrots, peeled and chopped"
+			            quantity="4"/>
+			<ingredient name="celery, chopped"
+			            quantity="2"
+			            unit="stalks"/>
+			<ingredient name="Minced garlic"
+			            quantity="3"
+			            unit="clove"/>
+			<ingredient name="Farro (you can also use brown rice or small pasta)"
+			            quantity="1/2"
+			            unit="cup"/>
+			<ingredient name="Chicken broth"
+			            quantity="6"
+			            unit="cup"/>
+			<ingredient name="Olive oil"
+			            quantity="2"
+			            unit="tablespoon"/>
+			<ingredient name=" Basil and oregano each"
+			            quantity="1"
+			            unit="tablespoon"/>
+			<ingredient name="Garlic and onion powder each"
+			            quantity="1/2"
+			            unit="tablespoon"/>
+			<ingredient name="Salt "
+			            quantity="2"
+			            unit="teaspoon"/>
+			<ingredient name="Zucchini, cut into small pieces "
+			            quantity="2"/>
+			<ingredient name="Fresh sweet corn kernels, cut off the cobt "
+			            quantity="2-3"
+			            unit="cup"/>
 			<ingredient name="Toppings: Parmesan, lemon juice, plain yogurt, fresh herbs, freshly ground pepper, etc. "/>
 		</ingredients>
 		<allergens>
@@ -2276,6 +2588,224 @@
 			<content>Made this last night for dinner, really fresh, simple, and delicious. Adding the yogurt was a nice addition. Really going to enjoy the leftovers for lunch.</content>
 		</featured_comment>
 	</recipe>
+	<!-- Ken: Adding Recipe -->
+		<recipe>
+		<title>The Best Easy Pasta Salad</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc7"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct3"/>
+		<seasonal>
+			<season sref="s2"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m1"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt2"/>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT30M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT35M</totaltime>
+		<calories>398</calories>
+		<description>Super easy Pasta Salad – with pasta, tomatoes, fresh mozzarella, spicy salami, pepperoncini, olives, and easy Italian dressing. DANGEROUSLY GOOD.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>106</numReviews>
+			<averageRating>4.5</averageRating>
+		</reviews>
+		<ingredients servings="15">
+			<ingredient name="Pasta" quantity="1" unit="pound"/>
+			<ingredient name="Cherry tomatoes cut in half" quantity="3"/>
+			<ingredient name="Mozzarella cheese balls cut in half" quantity="8" unit="ounces"/>
+			<ingredient name="Salami or summer sausage" quantity="1" unit="pound"/>
+			<ingredient name="Kalamata olives" quantity="0.75" unit="cup"/>
+			<ingredient name="Pepperoncini" quantity="0.75" unit="cup"/>
+			<ingredient name="Sliced red onion" quantity="0.5" unit="cup"/>
+			<ingredient name="Fresh chopped parsley" quantity="0.5" unit="cup"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+			<allergen alref="al7"/>
+		</allergens>
+		<instructions>
+			<steps>Cook pasta according to package directions, in salted water for more flavor. Allow to cool slightly and toss with a little oil to prevent sticking.</steps>
+			<steps>Blend up the dressing, or shake together in a jar.</steps>
+			<steps>Toss all ingredients together! I like to use about three-fourths of the dressing, and then I save the rest of the dressing to add to my leftovers.</steps>
+			<steps>Keep in the fridge for 2-3 days. I think it actually tastes best the day AFTER you make it.</steps>		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>30.4</value>
+				<percentage>39%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>19.4</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>642.1</value>
+				<percentage>28%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>25.8</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>3.6</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>2.8</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>9.6</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>52.3</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>7.2</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.8</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>264.6</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>194.2</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>How long will this prepared pasta salad stay good in the fridge?</Question>
+				<Answer>Keep any leftovers in the fridge for 2-3 days in a sealed container.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can this pasta salad be prepped ahead of time?</Question>
+				<Answer>Yes! And in fact, I recommend it! This tastes especially delicious when the flavors get to linger all together for a bit. I’d make it 12-24 hours ahead of time.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can I use other veggies and extras in this pasta salad?</Question>
+				<Answer>By all means, customize this salad – that’s what it does best! Try adding blanched green beans, fresh spinach, artichokes, red bell peppers, chickpeas, broccoli, etc. for a more veg-forward version. Or different types of cheese (feta cheese? parmesan cheese?), or different shapes of pasta (penne? fusili? maybe even some tortellini?)… the possibilities are endless. I love this salad as-is but I also love its flexibility!</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>We made this for Memorial Day and it was a huge hit! The dressing is absolutely delicious and goes perfectly with this salad. Thank you for sharing!!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Holiday Pretzel Bites</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct6"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s2"/>
+			<season sref="s3"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt4"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT35M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT40M</totaltime>
+		<calories>618</calories>
+		<description>These holiday pretzel bites are so easy to make – just pretzels, hershey hugs, and red and green M&amp;Ms. Fun for kids and perfect for gifting.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>4</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="16">
+			<ingredient name="Waffle Pretzels" quantity="2" unit="bags"/>
+			<ingredient name="Hershey hugs" quantity="2" unit="bags"/>
+			<ingredient name="Holiday M&amp;M's" quantity="1" unit="bag"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+			<allergen alref="al8"/>
+		</allergens>
+		<instructions>
+			<steps>Line a baking sheet with parchment paper. Fill baking sheet with as many pretzels as you can!</steps>
+			<steps>Unwrap the hugs and place 1 hug on each pretzel.</steps>
+			<steps>Bake at 170 degrees for 4-6 minutes, or until hugs have melted to cover most of the pretzel.</steps>
+			<steps>Remove from oven and gently place an M&amp;M on each pretzel. Refrigerate for 15-20 minutes to set.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>22.2</value>
+				<percentage>28%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>8.2</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>734.7</value>
+				<percentage>32%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>96</value>
+				<percentage>35%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>5.9</value>
+				<percentage>21%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>43.4</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>9.3</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>20</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>1.4</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>6.4</value>
+				<percentage>36%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>453.8</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>210.2</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>Fabulous! My girls and I just made a batch. So simple, so easy, so perfect. Thank you for sharing!</content>
+		</featured_comment>
+	</recipe>	
+	<!-- End Ken's recipe -->
 	<!-- List of cuisines -->
 	<!-- I have added a description about the cuisine using ChatGPT -->
 	<cuisines>
