@@ -221,52 +221,51 @@
 						<!-- Define the sequence of elements within 'ingredients' -->
 						<xs:sequence>
 							<xs:choice minOccurs="0" maxOccurs="unbounded">
-							<!-- Define the 'title_ingri' element -->
-							<xs:element name="title_ingri">
-								<xs:complexType mixed="true">
-									<xs:sequence>								
-										<!-- Define the 'ingredient' element -->
-										<xs:element name="ingredient"
-													maxOccurs="unbounded">
-											<!-- Define the attributes for 'ingredient' -->
-											<xs:complexType>
-												<xs:attribute name="name"
-												              type="xs:string"
-												              use="required"/>
-												<xs:attribute name="quantity"
-												              type="xs:string"
-												              use="optional"/>
-												<xs:attribute name="unit"
-												              type="xs:string"
-												              use="optional"/>
-												<xs:attribute name="weight"
-												              type="xs:string"
-												              use="optional"/>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-							<!-- Define another 'ingredient' element -->
-							<xs:element name="ingredient">
-							          
-								<xs:complexType>
-								  <!-- Define the attributes for 'ingredient' -->
-									<xs:attribute name="name"
-									              type="xs:string"
-									              use="required"/>
-									<xs:attribute name="quantity"
-									              type="xs:string"
-									              use="optional"/>
-									<xs:attribute name="unit"
-									              type="xs:string"
-									              use="optional"/>
-									<xs:attribute name="weight"
-									              type="xs:string"
-									              use="optional"/>
-								</xs:complexType>
-							</xs:element>
-						</xs:choice>
+								<!-- Define the 'title_ingri' element -->
+								<xs:element name="title_ingri">
+									<xs:complexType mixed="true">
+										<xs:sequence>
+											<!-- Define the 'ingredient' element -->
+											<xs:element name="ingredient"
+														maxOccurs="unbounded">
+													<!-- Define the attributes for 'ingredient' -->
+												<xs:complexType>
+													<xs:attribute name="name"
+												    	          type="xs:string"
+												        	      use="required"/>
+													<xs:attribute name="quantity"
+												    	          type="xs:string"
+												        	      use="optional"/>												              
+													<xs:attribute name="unit"
+												    	          type="xs:string"
+												        	      use="optional"/>
+													<xs:attribute name="weight"
+												    	          type="xs:string"
+												        	      use="optional"/>
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<!-- Define another 'ingredient' element -->
+								<xs:element name="ingredient">
+									<xs:complexType>
+								  	<!-- Define the attributes for 'ingredient' -->
+										<xs:attribute name="name"
+									    	          type="xs:string"
+									        	      use="required"/>
+										<xs:attribute name="quantity"
+									    	          type="xs:string"
+									        	      use="required"/>
+										<xs:attribute name="unit"
+									    	          type="xs:string"
+									        	      use="optional"/>
+										<xs:attribute name="weight"
+									    	          type="xs:string"
+									        	      use="optional"/>
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
 						</xs:sequence>
 						<xs:attribute name="servings"
 						              type="xs:int"/>
@@ -275,7 +274,7 @@
 				<xs:element name="allergens">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="allergen">
+							<xs:element name="allergen" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:attribute name="alref"
 									              type="xs:string"
@@ -319,7 +318,8 @@
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="FAQs">
+				<xs:element name="FAQs"
+							minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="FAQ"
