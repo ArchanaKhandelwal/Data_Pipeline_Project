@@ -1122,6 +1122,124 @@
 			<content>Fabulous! My girls and I just made a batch. So simple, so easy, so perfect. Thank you for sharing!</content>
 		</featured_comment>
 	</recipe>	
+	<recipe>
+		<title>Homemade Spicy Ramen with Tofu</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c5"/>
+		<course ctref="ct9"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m1"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT20M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT25M</totaltime>
+		<calories>618</calories>
+		<description>Homemade Spicy Ramen recipe with an easy spicy miso paste for the broth and dry ramen noodles that taste JUST like fresh! Vegetarian / vegan.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>61</numReviews>
+			<averageRating>4.6</averageRating>
+		</reviews>
+		<ingredients servings="4">
+			<title_ingri> Spicy Miso Paste
+				<ingredient name="Yellow onion" quantity="1"/>
+				<ingredient name="Red miso" quantity="0.5" unit="cup"/>
+				<ingredient name="White miso" quantity="0.5" unit="cup"/>
+				<ingredient name="Sambal oelek" quantity="3" unit="spoons"/>
+				<ingredient name="Garlic" quantity="6" unit="cloves"/>
+				<ingredient name="Ginger" quantity="2" unit="inch"/>
+				<ingredient name="Mirin" quantity="3" unit="spoons"/>
+				<ingredient name="Vegetable oil" quantity="2" unit="spoons"/>
+				<ingredient name="Sesame oil" quantity="1" unit="spoon"/>
+			</title_ingri>
+			<title_ingri> Ramen
+				<ingredient name="Tofu" quantity="15" unit="ounces"/>
+				<ingredient name="Oil" quantity="1" unit="spoon"/>
+				<ingredient name="Eggs" quantity="4"/>
+				<ingredient name="Shiitake mushrooms" quantity="4" unit="ounces"/>
+				<ingredient name="Vegetable stock" quantity="4" unit="cups"/>
+				<ingredient name="Soy milk" quantity="2" unit="cups"/>
+				<ingredient name="Ramen noodles" quantity="6" unit="ounces"/>
+				<ingredient name="Scallions"/>
+			</title_ingri>
+		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+			<allergen alref="al9"/>
+		</allergens>
+		<instructions>
+			<steps>SPICY MISO PASTE: Pulse all miso paste ingredients together in a food processor until a smooth, thick paste forms. You will use about half of it for this recipe and the other half can be frozen or refrigerated for a few days.</steps>
+			<steps>TOFU: Press as much moisture as you can out of the tofu using paper towels or a tofu press. Cut into cubes. In a large pot, heat the oil on medium high heat and start frying the tofu. Once the tofu has browned, add 1/4 cup of the spicy miso paste and cook for another minute or two to get a nice golden color. Remove from pan and set aside.</steps>
+			<steps>BROTH: (SEE NOTES) To the same pan, add the chopped shiitake and a tablespoon or so of miso paste and stir fry until golden brown. Add the stock and soy milk and bring to a simmer. Place 1/2 cup spicy miso paste on top of a very fine sieve. Lower the sieve half-way into the simmering soup and use a spoon to slowly dissolve the paste into the soup. Discard the “solids” remaining in the sieve and let the soup simmer for another 5 minutes. Taste and adjust seasoning – add salt or a little soy sauce until it tastes like a spicy ramen broth.</steps>
+			<steps>EGGS and RAMEN: Cook the ramen noodles according to package instructions and drain well. While the ramen is cooking, bring a small pot of water to boil. When it reaches boiling, add 4 eggs and reduce heat to the lowest possible setting. Cook for exactly 7 minutes, remove eggs from water, run under cold water, and let them set for a few minutes. Peel shells off carefully. Yolks will be soft.</steps>
+			<steps>SERVING: Divide the noodles into four large bowl and ladle the soup on top (you may have a bit more than needed). For each serving, top with the tofu, 1 soft-boiled egg (cut in half), scallions, and sesame oil.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>29.6</value>
+				<percentage>38%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>194.9</value>
+				<percentage>65%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>1279.4</value>
+				<percentage>56%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>74.8</value>
+				<percentage>27%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>8.4</value>
+				<percentage>30%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>14.2</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>38.7</value>
+				<percentage>77%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>155.8</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>3.5</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>7.4</value>
+				<percentage>41%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>641.3</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>250.5</value>
+				<percentage>20%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>First ramen my wife has ever liked. Tofu is incredible, easy to cook, will definitely make this again!</content>
+		</featured_comment>
+	</recipe>		
 	<!-- End Ken's recipe -->
 	<!-- List of cuisines -->
 	<!-- I have added a description about the cuisine using ChatGPT -->
