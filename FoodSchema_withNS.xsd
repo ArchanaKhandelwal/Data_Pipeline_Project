@@ -256,7 +256,7 @@
 									        	      use="required"/>
 										<xs:attribute name="quantity"
 									    	          type="xs:string"
-									        	      use="required"/>
+									        	      use="optional"/>
 										<xs:attribute name="unit"
 									    	          type="xs:string"
 									        	      use="optional"/>

@@ -905,6 +905,1491 @@
 			<content>Just made this – SOOO good!!!! Definitely will be making again this fall/winter season!!! Thanks for another great recipe Lindsay!</content>
 		</featured_comment>
 	</recipe>
+	<recipe>
+		<title>Almond Oat Banana Crepes</title>
+		<categoryofDiet>
+		<dietCategory dcref="dc7"/>
+		</categoryofDiet>
+		<cuisine cref="c2"/>
+		<course ctref="ct5"/>
+		<seasonal>
+		<season sref="s1"/>
+		</seasonal>
+		<methodUsed>
+		<method mref="m5"/>
+		</methodUsed>
+		<mealtimes>
+		<mealtime mtref="mt1"/>
+		</mealtimes>
+		<!--  Preparation time  -->
+		<preptime>PT15M</preptime>
+		<!--  cooking time  -->
+		<cooktime>PT10M</cooktime>
+		<!--  Total cooking time  -->
+		<totaltime>PT25M</totaltime>
+		<calories>175</calories>
+		<description>These Almond Oat Banana Crepes are such a delicious way to enjoy a healthy treat for breakfast! My favorite simple, yet sweet, morning go-to! </description>
+		<!--  Number of reviews and rating given by users  -->
+		<reviews>
+		<numReviews>8</numReviews>
+		<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="7">
+		<ingredient name="Almond meal" quantity="1/2" unit="cup"/>
+		<ingredient name="Old fashioned oats" quantity="1/2" unit="cup"/>
+		<ingredient name="All-purpose flour" quantity="3" unit="tablespoons"/>
+		<ingredient name="Milk" quantity="1" unit="cup"/>
+		<ingredient name="Egg" quantity="1"/>
+		<ingredient name="Vanilla extract" quantity="1/2" unit="teaspoon"/>
+		<ingredient name="Brown sugar" quantity="1" unit="tablespoon"/>
+		<ingredient name="Salt" quantity="a pinch of salt"/>
+		<ingredient name="Sliced bananas" quantity="4"/>
+		<ingredient name="Melted Nutella (or chocolate of any kind)" quantity="2" unit="tablespoons"/>
+		</ingredients>
+		<allergens>
+		<allergen alref="al1"/>
+		<allergen alref="al7"/>
+		<allergen alref="al8"/>
+		<allergen alref="al9"/>
+		</allergens>
+		<instructions>
+		<steps>Place the oats and almond meal in a food processor. Grind for 30 seconds or until a flour-like substance forms. There should be about 1 cup of this mixture.</steps>
+		<steps>Transfer to a large mixing bowl and stir in the flour. Add the milk, egg, vanilla, brown sugar, and salt. Whisk for 20 seconds or until smooth and incorporated.</steps>
+		<steps>Heat a large nonstick skillet over low heat. Pour about 1/4 cup batter onto the pan. Carefully swirl the batter around the pan once to spread the batter out for a larger, more thin crepe. Cook until the edges of the crepe come up easily with a spatula. Carefully loosen the crepe around the edges and then inward to the center until the crepe releases from the pan; remove and set aside. Repeat with the remaining batter.</steps>
+		<steps>Stuff the crepes with sliced bananas and whatever else you like. I’d recommend almond butter, peanut butter, blueberries, strawberries, vanilla yogurt, cottage cheese, and ricotta cheese. Drizzle with the melted chocolate and serve warm or cold!</steps>
+		<note>Keep the heat LOW. They burn easily.</note>
+		<note>If you see clear bubbles right away when you pour the batter, it’s too runny. Add more flour.</note>
+		<note>Don’t use oil or butter in the pan – just use a good quality nonstick pan that the crepes can slide right off of.</note>
+		<note>You can cook the crepes on both sides, but you don’t need to. I didn’t, because the back side doesn’t really get any more brown once you flip it.</note>
+		<note>It’s tricky them out of the pan, but when they are ready, they’ll come. Be patient, make small adjustments to your batter and your heat levels, and work carefully. These are delicate little guys!</note>
+		</instructions>
+		<nutrition_score>
+		<nutri_value nfref="nf1">
+		<value>5.4</value>
+		<percentage>7%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf2">
+		<value>25.4</value>
+		<percentage>8%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf3">
+		<value>170.5</value>
+		<percentage>7%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf4">
+		<value>26.8</value>
+		<percentage>10%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf5">
+		<value>3.1</value>
+		<percentage>11%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf6">
+		<value>12.8</value>
+		</nutri_value>
+		<nutri_value nfref="nf7">
+		<value>5.2</value>
+		<percentage>10%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf8">
+		<value>16</value>
+		<percentage>2%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf9">
+		<value>5.1</value>
+		<percentage>6%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf10">
+		<value>1</value>
+		<percentage>6%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf11">
+		<value>289.5</value>
+		<percentage>6%</percentage>
+		</nutri_value>
+		<nutri_value nfref="nf12">
+		<value>147.6</value>
+		<percentage>12%</percentage>
+		</nutri_value>
+		</nutrition_score>
+		</recipe>
+	<recipe>
+		<title>Cashew Golden Milk Latte</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c4"/>
+		<course ctref="ct10"/>
+		<seasonal>
+			<season sref="s3"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt5"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT10M</totaltime>
+		<calories>153</calories>
+		<description>Cashew Golden Milk Latte! Packed with turmeric, ginger, cinnamon, honey, and a TON of good-for-the-body benefits. Just blend and pour!</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>7</numReviews>
+			<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="5">
+			<ingredient name="Cashews (roasted or raw, unsoaked)" quantity="1" unit="cup"/>
+			<ingredient name="Water" quantity="6" unit="cup"/>
+			<ingredient name="Ground turmeric" quantity="2" unit="tablespoons"/>
+			<ingredient name="cinnamon" quantity="2" unit="tablespoons"/>
+			<ingredient name="Ginger paste" quantity="2" unit="tablespoons"/>
+			<ingredient name="Honey" quantity="1/4" unit="cup"/>
+			<ingredient name="Salt" quantity="a pinch of salt"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al8"/>
+		</allergens>
+		<instructions>
+			<steps>Blend the cashews and the water in a high-powered blender until very smooth (at least 1-2 minutes).</steps>
+			<steps>Blend in the turmeric, cinnamon, ginger, honey, and salt. Taste and adjust.</steps>
+			<steps>Serve warm or cold! Voila! So luscious, creamy, and delicious.</steps>
+			<note>The golden milk lattes will separate – that is to be expected – so just keep em in jars with lids so you can give it a good shake up before drinking. These keep in the fridge for about 5 days.</note>
+			<note>Single Serving Version: Blend up the following – 1.5 cups of water, 1/2 teaspoon turmeric, 1/2 teaspoon cinnamon, small slice of fresh ginger, 1 tablespoon honey, tiny pinch of salt, 1/4 cup cashews.</note>
+			<note>Personally I prefer these cold, straight out of the fridge! When you heat this mixture, it will thicken. So if you want it hot, my recommendation would be to just make it single-serving and use with hot water (kind of like the cashew coffee) so you don’t have to do any reheating.</note>
+			<note>Many blenders don’t have the capacity for 6 cups of liquid, so usually I blend everything up with half of the water and then just do a quick blitz with the remaining water once everything is well-combined. If you don’t have a high-powered blender, I recommend running the liquid through a nut milk bag or similar to filter out any chunks that get left behind.</note>
+			<note>Naturally there will be some “grit” in the bottom of the mug or glass. No big deal. It’s just cinnamon and ginger remnants.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>8.4</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>206.6</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>18.9</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.4</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>12.8</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>3.6</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>0.1</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0.2</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>2</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>159.9</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>116.6</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>Love this drink!! Wanted to have something warm besides tea, but without caffeine and this hit the spot! Hubby loves it too!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>English Muffin Baklava</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c9"/>
+		<course ctref="ct5"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s2"/>
+			<season sref="s3"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m9"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT10M</totaltime>
+		<calories>556</calories>
+		<description>Perfectly toasted English muffins get topped with an extra thick, extra chunky crispy-chewy nutty sugary topping. Absolutely heavenly and works for breakfast, snack, or as an after-dinner treat.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>10</numReviews>
+			<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="3">
+			<title_ingri>Pistachio Walnut Mixture
+				<ingredient name="Walnut" quantity="1/3" unit="cup"/>
+				<ingredient name="Pistachios" quantity="1/3" unit="cup"/>
+				<ingredient name="Butter, softened or melted" quantity="1/4" unit="cup"/>
+				<ingredient name="Brown sugar" quantity="2" unit="teaspoon"/>
+			</title_ingri>
+			<title_ingri>Other
+				<ingredient name="English muffins"/>
+				<ingredient name="Honey"/>
+				<ingredient name="Mascarpone cheese"/>
+			</title_ingri>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al8"/>
+		</allergens>
+		<instructions>
+			<steps>Preheat the broiler – I use the “Low Broil” setting but every oven will be different for which setting works best.</steps>
+			<steps>Pulse the nuts in a food processor until finely chopped. Set aside a few spoonfuls of the nuts for topping. Mix the remaining nuts, butter, and brown sugar together in a small bowl.</steps>
+			<steps>Toast the English muffins on a baking sheet lined with foil until toasty – about 3 minutes.</steps>
+			<steps>Spread English muffins with the nutty butter mixture. Return to the oven, a few inches away from the broiler, for 1 minute or until bubbly and slightly caramelized.</steps>
+			<steps>Top with a little baby dollop of mascarpone cheese and give it a gentle swoop to melt it in. Finish with extra nuts and honey. Pour yourself a cup of coffee to go with it. OMG, it’s so good!</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>39.7</value>
+				<percentage>51%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>64.7</value>
+				<percentage>22%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>211.8</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>43.7</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>2.3</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>13</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>10.8</value>
+				<percentage>22%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>203.2</value>
+				<percentage>23%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>1</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.8</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>214.4</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>116.9</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		
+		<FAQs>
+			<FAQ>
+				<Question>What can I use instead of English muffins?</Question>
+				<Answer>You could easily make this on any kind of toasted bread – or maybe even crackers?! Yum!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How long does the nut topping last?</Question>
+				<Answer>I usually make it all at once, but the nut mixture should last a day or two in the fridge – the texture might just change a little as the nuts soften.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How do you make this gluten-free and/or dairy-free?</Question>
+				<Answer>Use a gluten-free English muffin for a gluten-free version! Use dairy-free butter and skip the mascarpone cheese for a dairy-free version.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can you make this without a broiler?</Question>
+				<Answer>A kitchen torch might be a bit intense for a little snack like this, but it would definitely work to toast and caramelize the topping! A toaster oven would also work great.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>What makes this like baklava?</Question>
+				<Answer>The use of pistachios and walnuts, butter, and honey gives it a texture and a flavor that is reminiscent of baklava! Not the same thing by any means – baklava is a very involved, multi-layered, multi-textured dessert made with phyllo (it’s epic). But this is like the budget version for those of us who just want the taste of it in a quick breakfast or snack.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>Wow! Yum yum yum! I made these for a girls night and everyone raves about them! Pretty easy to make and just so delicious . So fun to bring to parties and they don’t need to be served hot! Will definitely be making again! Thanks!!!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>The Best Easy Peanut Butter Pie</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct5"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s2"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m10"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+			<mealtime mtref="mt2"/>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT20M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT0M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT20M</totaltime>
+		<calories>652</calories>
+		<description>The BEST Easy Peanut Butter Pie! A simple cookie crust under a layer of fluffy peanut buttery filling that is pillowy, light, and incredibly rich all at the same time.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>32</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="10">
+			<ingredient name="Peanut butter" quantity="1" unit="cup"/>
+			<ingredient name="sugar" quantity="1" unit="cup"/>
+			<ingredient name="whipped topping like Cool Whip" weight="8 ounces"/>
+			<ingredient name="cream cheese" weight="8 ounces"/>
+			<ingredient name="Oreos" weight="114 ounces"/>
+			<ingredient name="Butter, melted" quantity="5" unit="tablespoon"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al4"/>
+		</allergens>
+		<instructions>
+			<steps>Pulse Oreos in a food processor until crushed into fine crumbs. Add melted butter and stir to combine. Press into a 10-inch pie plate. Freeze while you mix the filling.</steps>
+			<steps>Mix all filling ingredients together. Pour into the crust and smooth over the top. Freeze for 3-4 hours until solid.</steps>
+			<steps>Slice and serve. Be changed forever.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>39.2</value>
+				<percentage>50%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>41.8</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>198.4</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>72.7</value>
+				<percentage>26%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>3</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>49.6</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>9.5</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>129.5</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>2.8</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>312.5</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>127.8</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Can I use graham cracker crust instead of Oreo crust?</Question>
+				<Answer>Sure! That would be delicious!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can I make this dairy-free?</Question>
+				<Answer>Yes! Just use a dairy-free whipped topping and vegan butter.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Is there a substitute I can use instead of Cool Whip?</Question>
+				<Answer>You can whip cream in place of the Cool Whip topping.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How should I store leftovers?</Question>
+				<Answer>Just pop them in the freezer!</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>DE-LISH-OUS! Made it last night and we’ve been cutting out little slivers about every couple hours… Too good!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Soft Gingerbread Cookies With Maple Glaze</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct5"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+			<mealtime mtref="mt2"/>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT20M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT10M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT30M</totaltime>
+		<calories>176</calories>
+		<description>Let’s make Soft Gingerbread Cookies this holiday season! Soft, pillowy gingerbread with sunken centers and slightly crisped edges, plus little nooks and crannies packed with ginger spice and molasses. These are SO GOOD!</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>1118</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<!--No. of cookies are 24-->
+		<ingredients servings="24">
+			<title_ingri>Gingerbread Cookies
+				<ingredient name="Unsalted butter, softened" quantity="3/4" unit="cup"/>
+				<ingredient name="Granulated sugar" quantity="1" unit="cup"/>
+				<ingredient name="Egg" quantity="1" unit="large"/>
+				<ingredient name="Molasses" quantity="1/3" unit="cup"/>
+				<ingredient name="all-purpose flour" quantity="2 1/4" unit="cup"/>
+				<ingredient name="Baking Soda" quantity="2" unit="teaspoon"/>
+				<ingredient name="Salt" quantity="3/4" unit="teaspoon"/>
+				<ingredient name="Ground Ginger" quantity="1-2" unit="teaspoon"/>
+				<ingredient name="Granulated sugar for rolling"/>
+			</title_ingri>
+			<title_ingri>Maple Glaze
+				<ingredient name="Melted butter" quantity="1" unit="tablespoon"/>
+				<ingredient name="Pure maple syrup" quantity="1" unit="tablespoon"/>
+				<ingredient name="powdered sugar" weight="180 gm"/>
+				<ingredient name="Milk" quantity="2" unit="tablespoon"/>
+				<ingredient name="Salt" quantity="a pinch of salt"/>
+			</title_ingri>
+		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+			<allergen alref="al7"/>
+			<allergen alref="al9"/>
+		</allergens>
+		<instructions>
+			<steps>Preheat oven to 350 degrees.</steps>
+			<steps>Cream butter and sugar in the bowl of a stand mixer until light and fluffy. Add egg and molasses; mix until incorporated.</steps>
+			<steps>Add flour, baking soda, salt, and ginger. Mix until a soft dough forms.</steps>
+			<steps>Scoop into small balls (a little smaller than the size of a golf ball) and roll in sugar. Bake for 9-11 minutes; remove from pan so the cookies can sink / flatten slightly as they cool.</steps>
+			<steps>Whisk maple glaze ingredients together until smooth (it will be very thick – if it’s too thick, just add a teaspoon more milk at a time until it becomes dippable, but we want this to be very thick so it sets nicely). Dip one side of the cooled cookies into the maple glaze, run the edge of the cookie along the side of the bowl to remove excess drips, set on a piece of wax paper, and add a few festive sprinkles before the glaze sets!</steps>
+			<note>300 grams of flour is the perfect amount to achieve the texture and crinkly flat look of these cookies. If you find that your first batch is a bit flatter than you’d hoped, mix in a tablespoon or two of flour to the rest of the dough to get a thicker center.</note>
+			<note>For this recipe I use unsulphured molasses. For most of my testing I used the Grandma’s brand which can be found in the baking section of many grocery stores. Blackstrap molasses is less sweet and would not be recommended here.</note>
+			<note>The glaze should set to become fully dry to the touch with just an hour or two of sitting on the counter. For the best / most beautiful and travel-proof glaze results, you might want to wait to glaze until within a day of serving. The cookies can be baked ahead and stored (without glaze) in the freezer until you’re ready for glaze!</note>
+			<note>I prefer the flavor of the maple glaze which is why that’s how the recipe is written, but if you need a glaze that is more sturdy, melting 1/2 cup white chocolate chips with 1 tablespoon coconut oil will also work and it will hold its shape better for travel.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>7</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>25.5</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>216.7</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>27.3</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>0.3</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>18</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>1.6</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>60</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>0.8</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>94.6</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>20.5</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>How should I store these cookies?</Question>
+				<Answer>Store these cookies in a sealed container at room temp for 3-5 days (if they even last that long in your house).</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Are there any substitutes for molasses?</Question>
+				<Answer>It won’t taste exactly the same, but maple syrup can work in a pinch.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can you freeze these cookies?</Question>
+				<Answer>Yes! Just bake ’em up and freeze any leftovers in an air-tight container.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>I’m not usually a gingerbread cookie person but oh my god these are so good!!!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Firecracker Vegan Lettuce Wraps
+		</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc5"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c4"/>
+		<course ctref="ct8"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m5"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT20M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT35M</totaltime>
+		<calories>355</calories>
+		<description>HELLO YUM. Firecracker Lettuce Wraps that are happily vegan – with crispy tofu bits, saucy brown rice noodles, and a creamy sesame sauce.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>109</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="8">
+			<title_ingri>For the Firecracker Sauce
+				<ingredient name=" Peanut butter" quantity="1/2" unit="cup"/>
+				<ingredient name=" Low sodium soy sauce" quantity="1/3" unit="cup"/>
+				<ingredient name="Sesame oil" quantity="1/3" unit="cup"/>
+				<ingredient name="Rice vinegar" quantity="1/4" unit="cup"/>
+				<ingredient name="Chilli paste" quantity="2" unit="teaspoon"/>
+				<ingredient name="Sugar" quantity="2" unit="teaspoon"/>
+				<ingredient name="Peeled ginger" quantity="1" unit="small"/>
+				<ingredient name="Peeled garlic" quantity="1" unit="clove"/>
+			</title_ingri>
+			<title_ingri>For the Lettuce Wraps
+				<ingredient name="Tofu" quantity="1" unit="block"/>
+				<ingredient name=" Brown rice noodle" weight="4 ounce"/>
+				<ingredient name="Butter lettuce for wrapping" quantity="1" unit="head"/>
+				<ingredient name="Peanuts for serving" quantity="1/2" unit="cup"/>
+				<ingredient name="Cilantro for serving" quantity="1/2" unit="cup"/>
+				<ingredient name="Lime for serving" quantity="1"/>
+			</title_ingri>
+		</ingredients>
+		<allergens>
+			<allergen alref="al2"/>
+			<allergen alref="al4"/>
+			<allergen alref="al5"/>
+			<allergen alref="al6"/>
+		</allergens>
+		<instructions>
+			<steps>Noodle Prep: Soak your noodles in a bowl of lukewarm water for at least 30 minutes while prepping the rest of the recipe. You want the noodles to be soft and flexible.</steps>
+			<steps>Sauce: Blend all the sauce ingredients together in a small blender or food processor until smooth and creamy.</steps>
+			<steps>Tofu: Press the tofu with a few paper towels to get some of the moisture out. Cut the tofu into small pieces. Heat a little oil in a nonstick skillet. Add your tofu. Stir-fry until golden brown. I usually let it sauté for at least 15 minutes. Add about half of the sauce to the pan. Stir-fry for another 3-5 minutes. As the sauce browns, it will form small crispy pieces around the tofu. Yum! Transfer tofu to a bowl</steps>
+			<steps>Noodles: Drain and rinse your noodles. Add another swish of oil to the pan and plop the noodles in. Add about half of the remaining sauce. Stir fry for just a minute or two until coated. Add a splash of water if it’s too sticky. Remove from heat immediately and toss with the tofu.</steps>
+			<steps>Lettuce Wrap It Up: Fill your butter lettuce leaves with the noodle/tofu mixture (it’s okay if it’s sticky – you’re just wrapping it up in lettuce). Top with peanuts, cilantro, lime, and more sauce. YUM YUM YUM!</steps>
+			<note>Air Fryer Option: To get really crispy tofu, you could also consider air frying your tofu!</note>
+			<note>Protein Options: It’s super easy to swap out your protein here. My two favorites are tofu (as written) and ground chicken!</note>
+			<note>Soaking the Noodles: This is important. If you don’t soak the noodles long enough they will require more liquid in the pan to cook, which kind of makes them boil into a big glob. Edible? Yes. Awesome? Not really. Be sure to soak them until they are very, very soft – almost ready to eat soft.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>24.7</value>
+				<percentage>32%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>549.4</value>
+				<percentage>24%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>23.3</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>3.2</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>6.9</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>12.5</value>
+				<percentage>25%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>171</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>6.2</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>2</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>292.1</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>121.6</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>I made these last night and ate 6 of them; and then had them for breakfast today. I hadn’t cooked with tofu in YEARS, and it was so fun! I love this recipe!!!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>The Ultimate Breakfast Sandwich
+
+		</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc7"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct8"/>
+		<seasonal>
+			<season sref="s1"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m5"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT10M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT15M</totaltime>
+		<calories>587</calories>
+		<description>The Ultimate Breakfast Sandwich with eggs, bacon, guacamole, chunky tomato sauce, pepper jack cheese, all on a toasted croissant. Kinda spicy. Kinda buttery. Kinda crunchy. Totally over the top.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>14</numReviews>
+			<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="4">
+			<ingredient name="Eggs" quantity="8"/>
+			<ingredient name="Cooked Bacon" quantity="4" unit="slices"/>
+			<ingredient name="croissants" quantity="4"/>
+			<ingredient name="Guacamole" quantity="1/2" unit="cup"/>
+			<ingredient name="Pepperjack cheese" quantity="4" unit="slices"/>
+			<ingredient name="Garlic butter tomato sauce" quantity="1/2" unit="cup"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+			<allergen alref="al7"/>
+			<allergen alref="al9"/>
+			<allergen alref="al14"/>
+		</allergens>
+		<instructions>
+			<steps>Toast your croissants for a few minutes in a 350 degree oven, cut side down on a cooking sheet. You can also do this in the toaster if your croissants fit in there.</steps>
+			<steps>When croissants are toasted and all other ingredients are out and ready, cook up your eggs. SOFT SCRAMBLED</steps>
+			<steps>Assemble sandwiches immediately, while eggs are at their best – a layer of tomato sauce, eggs, cheese, bacon, and guac on top. Holy wow.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>35.3</value>
+				<percentage>45%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>442.1</value>
+				<percentage>147</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>657.3</value>
+				<percentage>29%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>20.1</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>2.6</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>7.1</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>26.5</value>
+				<percentage>53%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>294.6</value>
+				<percentage>33%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>1.3</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>2.5</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>299.8</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>275.9</value>
+				<percentage>22%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Can I use a different kind of bread for this sandwich?</Question>
+				<Answer>I mean, you could… but also a buttery toasted croissant here is just TOO GOOD. An English muffin would work great here in a pinch as well.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>What other sauces could I use?</Question>
+				<Answer>Magic Green Sauce would also be a REAL WIN here. Salsa. Your favorite hot sauce. Whatever you like to top on your eggs.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>What could I serve this with for brunch?</Question>
+				<Answer>A delicious simple arugula or mixed greens salad with vinaigrette would be great here. Also: fruit, juice and/or mimosas, pastries of some kind, and (obviously) lots of coffee.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How could I make this vegetarian?</Question>
+				<Answer>Just omit the bacon! Maybe even replace with roasted mushrooms!? Yum.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Could I freeze this breakfast sandwich?</Question>
+				<Answer>This is more of a fresh, slow weekend morning kind of breakfast sandwich. If you’re looking for something to prep ahead and freeze, take a look at our Meal Prep Breakfast Sandwiches with some easy sheet pan eggs.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>This is a wonderful sandwich! And the tomato garlic sauce is really a find. I’ll use it in so many ways. All the flavors in this sandwich shine through and go perfectly together. This recipe is definitely a keeper.</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Spicy Falafel And Roasted Veggie Naan-Wich
+
+
+		</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc5"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c8"/>
+		<course ctref="ct8"/>
+		<seasonal>
+			<season sref="s3"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT30M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT45M</totaltime>
+		<calories>374</calories>
+		<description>Naan-wich: 5 ingredient falafel, roasted veggies, and avocado sauce stuffed between pillowy garlic naan. Best sandwich recipe I’ve ever made.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>31</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="6">
+			<title_ingri>For the Roasted Veggies
+				<ingredient name=" Carrots" quantity="5-7"/>
+				<ingredient name=" Cauliflower" quantity="1" unit="head"/>
+				<ingredient name="Olive oil" quantity="2" unit="tablespoon"/>
+				<ingredient name="Cummin" quantity="4" unit="teaspoon"/>
+			</title_ingri>
+			<title_ingri>For the Naan-wiches
+				<ingredient name="Jar of sun-dried tomatoes, packed in oil" weight="12 ounces"/>
+				<ingredient name=" Garlic naan, torn in half " quantity="3" unit="pieces"/>
+				<ingredient name="Baked falafel" quantity="10-12" unit="pieces"/>
+				<ingredient name="Magic green sauce" quantity="1" unit="cup"/>
+				<ingredient name="Cilantro leaves" quantity="Handful"/>
+			</title_ingri>
+		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+			<allergen alref="al5"/>
+		</allergens>
+		<instructions>
+			<steps>Make Ahead: Prepare the falafel and the Magic Green Sauce. It shouldn’t take more than 30 minutes for both. They can be made a day in advance and kept in the fridge, too.</steps>
+			<steps>Roasted Veggies: Preheat the oven to 400 degrees. Peel the carrots and cut into thin strips and place on a roasting pan. Chop the cauliflower into small florets and place on a separate roasting pan. Drizzle each pan with oil and sprinkle each pan with cumin and salt + pepper to taste. Toss around on the pan to combine. Bake for 30 minutes, stirring occasionally. To get more browning, bake for an additional 10-15 minutes. When the veggies are done, remove from oven and set aside to cool.</steps>
+			<steps>Sun Dried Tomato Spread: Drain off most of the excess oil from the sun dried tomatoes and pulse through a food processor for a chunky, spread-able texture.</steps>
+			<steps>Assembly: Warm up the naan so it’s nice and soft. Spread with Magic Green Sauce and layer with roasted carrots, cauliflower, sun dried tomato spread, falafel, and cilantro leaves.</steps>
+			<note>My falafels were a little bit round and chubby, so I just gently pressed them into more of a veggie burger shape and that helped with sandwich assembly.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>15.2</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0.5</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>689</value>
+				<percentage>30%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>50.2</value>
+				<percentage>18%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>11</value>
+				<percentage>39%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>6.3</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>13.5</value>
+				<percentage>27%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>441.1</value>
+				<percentage>49%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>47.7</value>
+				<percentage>53%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>2.8</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>776.5</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>175.7</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>Loved this! Lots of parts to make separately- sauces, filafal, and vegetables – but none of them were hard. I actually liked it just fine with just the magic green sauce!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Italian Tomato And Bread Soup</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c1"/>
+		<course ctref="ct2"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s2"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m5"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt2"/>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT10M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT30M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT40M</totaltime>
+		<calories>202</calories>
+		<description>Make way for this Italian Tomato and Bread Soup! Rich flavors of San Marzano tomatoes, fresh basil, thinly sliced garlic, silky olive oil swirls, and bread cubes throughout.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>11</numReviews>
+			<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="4">
+			<ingredient name="Extra virgin olive oil" quantity="3" unit="tablespoon"/>
+			<ingredient name="Gralic smashed or thinly sliced" quantity="3" unit="cloves"/>
+			<ingredient name="Whole peeled San Marzano tomatoes" weight="28 ounces"/>
+			<ingredient name="Kosher salt" quantity="1" unit="tablespoon"/>
+			<ingredient name="Black pepper" quantity="a pinch"/>
+			<ingredient name="Vegetable or chicken broth" quantity="4" unit="cup"/>
+			<ingredient name="Fresh basil" quantity="1/2" unit="cup"/>
+			<ingredient name="Dry bread, torn or cut into cubes (see notes)" quantity="2-3" unit="cup"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al1"/>
+			<allergen alref="al14"/>
+			<allergen alref="al7"/>
+		</allergens>
+		<instructions>
+			<steps>Heat the olive oil in a large pot over medium heat. Add the garlic; sauté for 1 minute.</steps>
+			<steps>In a separate bowl, crush tomatoes by hand. Add them into the pot. Add salt and pepper. Partially cover and simmer over medium heat for about ten minutes.</steps>
+			<steps>Add the broth and basil; bring back to a simmer for another ten minutes.</steps>
+			<steps>Add the bread cubes; simmer for another ten minutes until the bread is soft. You can use a potato masher to further break down the bread to your desired texture.</steps>
+			<steps>Serve with Parmesan cheese, extra olive oil, and more fresh basil! Simplicity and top notch ingredients… it’s just stunning.</steps>
+			<note>For the bread, I’ve been using ciabatta take-and-bake rolls because I so rarely have a loaf of dry bread sitting around! I toast them in the oven until they’re pretty crunchy and dry, and then I pull them apart into small chunks to add to the soup. My rule of thumb is about 1 cup of broth per 1 roll. So 4 rolls=4 cups broth, 5 rolls=5 cups broth, etc. Obviously increasing the ratio of bread to broth will make the soup thicker, and vice versa! Make it what you want!</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>11.7</value>
+				<percentage>15%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>1106.6</value>
+				<percentage>48%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>22.8</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>3.1</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>8.5</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>4</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>87.4</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>28.2</value>
+				<percentage>31%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.5</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>516.2</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>74.4</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>How should I store or serve leftovers of this soup?</Question>
+				<Answer>This soup will do okay as leftovers in the fridge for 1 day. It can still be eaten, enjoyed, and not too soggy. If you’re sensitive to texture, make the tomato base and add the bread about 10 minutes before serving the soup.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Do you recommend fresh or dried herbs for this soup?</Question>
+				<Answer>Fresh is the way to go here, if you can find them in the store.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How can I make this soup vegan?</Question>
+				<Answer>Just use a vegan Parm cheese, if you plan to add that in, and use veggie broth.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>This was amazing, will be adding this to the rotation for sure, and so easy!!!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Thai Coconut Soup With Tofu And Rice
+
+
+		</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc7"/>
+		</categoryofDiet>
+		<cuisine cref="c7"/>
+		<course ctref="ct2"/>
+		<seasonal>
+			<season sref="s3"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m5"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT30M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT30M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT60M</totaltime>
+		<calories>374</calories>
+		<description>It’s Thai Coconut Soup with Tofu and Rice! A savory coconut creamy broth, swirls of chili oil floating on top, beautiful veg and cubes of flavor-soaked tofu, and a pile of steamy rice at your service.</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>43</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="6">
+			<ingredient name="Oil" quantity="1" unit="tablespoon"/>
+			<ingredient name="Gralic " quantity="5" unit="cloves"/>
+			<ingredient name="Ginger, peeled and cut into thin slices" quantity="1" unit="3 inch"/>
+			<ingredient name=" lemongrass, ends trimmed, outer layer peeled, and cut into bigger chunks" quantity="3" unit="stalks"/>
+			<ingredient name="Black pepper" quantity="a pinch"/>
+			<ingredient name="Roasted red chili paste" quantity="2" unit="tablespoon"/>
+			<ingredient name="Mashroom sliced" weight="8 ounces"/>
+			<ingredient name="Red bell pepper, thinly sliced" quantity="1"/>
+			<ingredient name="Tofu, pressed and cut into small cubes" quantity="1" unit="block"/>
+			<ingredient name="vegetable broth or chicken broth" quantity="5-6" unit="cup"/>
+			<ingredient name="Fish sauce " quantity="3" unit="tablespoon"/>
+			<ingredient name="Brown sugar " quantity="3" unit="tablespoon"/>
+			<ingredient name="Lime juice or zest " quantity="1-2"/>
+			<ingredient name="Salt " quantity="1" unit="teaspoon"/>
+			<ingredient name="Lots of cilantro "/>
+			<ingredient name="Chili oil for serving "/>
+			<ingredient name="Rice for serving "/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al13"/>
+		</allergens>
+		<instructions>
+			<steps>Heat the oil in a soup pot over medium heat. Add the garlic, ginger, and lemongrass; sauté for 3-5 minutes (but don’t let the garlic brown – if it starts browning, remove from heat / turn the heat down).</steps>
+			<steps>When everything is soft-ish and smells really nice, add the roasted red chili paste and sauté for 1-2 minutes. Add the mushrooms and red pepper (and any other veggies you like). Sauté for 3-5 minutes to get them sweating a bit, and then add the tofu and broth and bring to a simmer. Simmer for 10-15 minutes.</steps>
+			<steps>Add coconut milk, fish sauce, brown sugar, lime juice and zest, and salt.  Stir in the cilantro. Taste and adjust till you get it just how you like it. Pull out the lemongrass chunks.</steps>
+			<steps>I like to ladle the soup over a shallow bowl filled halfway with rice – so the soup kind of goes on one side and the rice on the other, with the coconuty broth spilling over into the rice a bit. Top it off with extra cilantro and chili oil. SO, SO GOOD.</steps>
+			<note>Some recipes instruct you to keep the ginger in bigger chunks so you can pull it out before serving – but personally I kind of enjoy an occasional bite of thinly-sliced broth-soaked ginger, so I just leave the ginger in!</note>
+			<note>The lemongrass stalks, especially when in bigger pieces, can be really tough, which is why I’d advise taking those out before serving. You could also use lemongrass paste for a little more convenience so you can just get the flavor without needing to pull out the stalks of lemongrass.</note>
+			<note>Instant Pot Instructions: Press the Sauté button on the Instant Pot and heat the oil. Then, sauté the garlic, ginger, and lemongrass for 2-3 minutes until soft-ish. Add the roasted red chili paste and sauté for another minute. Then, add in the tofu and 4 cups of broth. Place the lid on the pot and cook on Manual mode (high pressure) for 3 minutes. Quick release the steam using the valve. Stir in the coconut milk, fish sauce, brown sugar, lime juice and zest, and salt. Add in the mushrooms and red pepper. If you feel like it could use more liquid, you can add an additional cup of broth if needed. Press the Sauté button again to simmer the veggies for 5-6 minutes until softened. Pull out the lemongrass chunks and stir in the cilantro.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>27.3</value>
+				<percentage>35%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>1438.7</value>
+				<percentage>63%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>15.6</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.8</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>7.5</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>14.6</value>
+				<percentage>29%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>33</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>30.1</value>
+				<percentage>33%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>5</value>
+				<percentage>28%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>596.7</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>194.4</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Can I use a different protein?</Question>
+				<Answer>Absolutely! Chicken or shrimp in this soup would be really good.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How can I make this vegan?</Question>
+				<Answer>Fish sauce and chili paste are the only non-vegan ingredients in this soup. You could either purchase a vegan fish sauce (typically found at health-food stores) or use soy sauce (to taste) in place of the fish sauce. You could omit the chili paste or use a fresh Thai chili instead.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Any subs for lemongrass?</Question>
+				<Answer>If lemongrass is a hard-to-find ingredient for you, a bit of lemon zest can work in a pinch.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How can I made this in the Instant Pot?</Question>
+				<Answer>We’ve got what you need right in the notes section of the recipe card for full Instant Pot instructions!</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>This is bonkers good! Thank you for being so darn talented.</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Sopa Tarasca (Pinto Bean Soup) With Jalapeno Corn Fritters
+		</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc5"/>
+			<dietCategory dcref="dc6"/>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c6"/>
+		<course ctref="ct2"/>
+		<seasonal>
+			<season sref="s3"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m5"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT10M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT30M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT40M</totaltime>
+		<calories>422</calories>
+		<description>Let’s make Sopa Tarasca! It’s a creamy, silky Mexican-inspired soup made with pinto beans, warm chili spices, and whole tomatoes. And you NEED a big pile of the jalapeño corn fritters on top. Drooling over this one! 
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>49</numReviews>
+			<averageRating>4.9</averageRating>
+		</reviews>
+		<ingredients servings="6">
+			<title_ingri>Sopa Tarasca
+				<ingredient name="Olive oil" quantity="2" unit="tablespoons"/>
+				<ingredient name=" Onion, chopped" quantity="1"/>
+				<ingredient name="Smashed garlic" quantity="4" unit="cloves"/>
+				<ingredient name="Chili powder" quantity="1/2" unit="tablespoons"/>
+				<ingredient name="Cumin" quantity="2" unit="tablespoons"/>
+				<ingredient name="Whole tomatoes" weight="28 ounce"/>
+				<ingredient name="Cans pinto beans, drained" quantity="2" weight="14 ounce"/>
+				<ingredient name="Water or vegetable broth" quantity="2-3" unit="cup"/>
+				<ingredient name="Salt" quantity="2" unit="teaspoons"/>
+			</title_ingri>
+			<title_ingri>Jalapeño Corn Fritters
+				<ingredient name=" Frozen corn" quantity="1 and 3/4" unit="cup"/>
+				<ingredient name="Flour" quantity="1/4" unit="cup"/>
+				<ingredient name="cornstarch" quantity="1" unit="tablespoons"/>
+				<ingredient name="Cotija cheese" quantity="1/4" unit="cup"/>
+				<ingredient name="Minced jalapeño (to taste – one is usually more than enough)"/>
+				<ingredient name="Salt" quantity="1/2" unit="teaspoons"/>
+				<ingredient name="Vegetable oil for frying " quantity="1" unit="cup"/>
+			</title_ingri>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+		</allergens>
+		<instructions>
+			<steps>Heat olive oil over medium high heat. Add onion and garlic; sauté until soft and fragrant. Add ancho chili powder and cumin; sauté for 1-2 minutes. Add tomatoes; simmer for 15 minutes. Transfer mixture to a blender and blend until smooth. Return to pot.</steps>
+			<steps>Add pinto beans to blender; puree with water or broth. Return to pot and stir it into the tomato mixture. Simmer over low heat until ready to serve.</steps>
+			<steps>For the corn fritters, pulse 1 cup of the corn in a food processor until smooth-ish. Mix your pureed corn with the flour, cornstarch, Cotija, jalapeño, and salt. Add in remaining 3/4 cup corn. Pour several cups of oil into a skillet for frying. Heat over medium heat. When the oil is hot, add the corn batter in small rolled balls – about 1-2 tablespoons per fritter (a cookie dough scoop works well for this). Fry until golden on both sides. Remove from the oil and drain on paper towels.
+			</steps>
+			<steps>Serve soup topped with corn fritters, crema, Cotija cheese, cilantro, and anything else your heart is asking for. YUM.
+			</steps>
+			<note>Instant Pot Instructions: Sauté the onion and garlic in the Instant Pot with a bit of olive oil. Add in the ancho chili powder and cumin, and sauté an additional minute or two. Add in the tomatoes, pinto beans, and 2 cups or water or broth. Cook on high pressure for 5 minutes with a quick release when the soup finishes. Transfer the mixture to a blender and puree until smooth or puree everything right in the Instant Pot until smooth.</note>
+			<note>I actually made potato eggplant tacos and chicken tacos with the leftover soup – just use it like a simmer sauce to cook with your taco filling. Super yummy.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>17.1</value>
+				<percentage>22%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>5</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>1073</value>
+				<percentage>47%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>54.6</value>
+				<percentage>20%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>14.8</value>
+				<percentage>53%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>4.8</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>16.5</value>
+				<percentage>33%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>37.4</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>12.2</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>4.2</value>
+				<percentage>23%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>869</value>
+				<percentage>18%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>308.6</value>
+				<percentage>25%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Is this soup spicy?</Question>
+				<Answer>There’s lots and lots of flavor in this soup plus some heat, but it’s not super spicy.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can I use regular chili powder instead of ancho chili powder?</Question>
+				<Answer>Yes! Just add a teeny bit of red pepper flakes in addition to the regular chili powder.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>What else, besides the fritters, can I serve with this soup?</Question>
+				<Answer>Tortilla chips, homemade tortilla strips, or our jalapeño corn muffins would be really, really good.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Can this be made in the Instant Pot?</Question>
+				<Answer>It can! See notes in recipe card.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>I just made this exactly as written but air-fried the corn fritters (8 min @ 400, sprayed liberally with oil) and it was delicious!! Thank you!!!</content>
+		</featured_comment>
+	</recipe>
+	<recipe>
+		<title>Instant Pot Summer Soup
+		</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc7"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct2"/>
+		<seasonal>
+			<season sref="s2"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m2"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT20M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT30M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT50M</totaltime>
+		<calories>234</calories>
+		<description>Clean Eating Instant Pot Summer Soup! The perfect blend of comforting and fresh for the season. Packed with all the fresh summer produce and super customizable to whatever you have on hand!
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>88</numReviews>
+			<averageRating>4.9</averageRating>
+		</reviews>
+		<ingredients servings="8">
+			<ingredient name="Chicken breasts" quantity="1" weight="pound"/>
+			<ingredient name="Can crushed tomatoes " weight="128 ounces"/>
+			<ingredient name="Carrots, peeled and chopped" quantity="4"/>
+			<ingredient name="celery, chopped" quantity="2" unit="stalks"/>
+			<ingredient name="Minced garlic" quantity="3" unit="clove"/>
+			<ingredient name="Farro (you can also use brown rice or small pasta)" quantity="1/2" unit="cup"/>
+			<ingredient name="Chicken broth" quantity="6" unit="cup"/>
+			<ingredient name="Olive oil" quantity="2" unit="tablespoon"/>
+			<ingredient name=" Basil and oregano each" quantity="1" unit="tablespoon"/>
+			<ingredient name="Garlic and onion powder each" quantity="1/2" unit="tablespoon"/>
+			<ingredient name="Salt " quantity="2" unit="teaspoon"/>
+			<ingredient name="Zucchini, cut into small pieces " quantity="2"/>
+			<ingredient name="Fresh sweet corn kernels, cut off the cobt " quantity="2-3" unit="cup"/>
+			<ingredient name="Toppings: Parmesan, lemon juice, plain yogurt, fresh herbs, freshly ground pepper, etc. "/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al14"/>
+			<allergen alref="al7"/>
+		</allergens>
+		<instructions>
+			<steps>Place everything except the zucchini and sweet corn in the Instant Pot or pressure cooker. Set to high pressure for 20 minutes. Release the steam.</steps>
+			<steps>Shred the chicken.Stir in the zucchini and sweet corn. Set to high pressure for another 5 minutes. Release the steam.</steps>
+			<steps>Let the soup rest for a few minutes – it thickens up a bit as it cools. Season with more salt and pepper and whatever toppings you like. Aaand devour!</steps>
+			<note>Grains: If you use small pasta, rice, quinoa, or another quick-cooking grain, I would recommend that you add it to the Instant Pot at the same time you add the zucchini and sweet corn, otherwise it will become too mushy. Sturdier grains like brown rice and farro will hold up just fine for 30 minutes in the Instant Pot, so you can add those right away as directed.
+			</note>
+			<note>Garlic / onion: I like to use garlic powder and onion powder because the taste is so distinct – different from fresh garlic and onions, which I also love. Using both fresh and dried together seems to boost the flavor of the soup. I didn’t use an onion here, but if you love onions, a small diced yellow onion would be a great addition.</note>
+			<note>Vegetarian / vegan: omit the chicken, and use vegetable broth. I would also consider increasing the amount of grains or maybe adding a can of beans to bulk up the soup a bit.</note>
+			<note>Gluten free: use a gluten free alternative to farro such as brown rice, sorghum, quinoa, or gluten free pasta. Follow Note #1 for cooking instructions.</note>
+			<note>Yogurt? It sounds kinda weird, but I love to add a dollop of plain Greek yogurt to this soup! Makes it creamy, tangy, and adds some nice protein and probiotics. Yum!</note>
+			<note>Stovetop: Saute your veggies and spices in the oil until softened. Add liquids, grains, and chicken. Simmer until the chicken and farro is done – probably 20 minutes. Shred chicken and return to pot. Add zucchini and corn, and simmer until cooked.</note>
+			<note>Slow Cooker: (This is an educated guess – please leave a comment if you try it and find the times need adjusting!) Add all ingredients except zucchini and sweet corn. Cook on high for 3-4 hours, or low for 5-6 hours. Shred chicken, return to pot, and add zucchini and sweet corn for another 20-30 minutes.</note>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>7.9</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>41.4</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>702.7</value>
+				<percentage>31%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>25.6</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>4.7</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>7.2</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>20.7</value>
+				<percentage>41%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>288</value>
+				<percentage>32%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>19.4</value>
+				<percentage>22%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.8</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>798.2</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>250.7</value>
+				<percentage>20%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>Made this last night for dinner, really fresh, simple, and delicious. Adding the yogurt was a nice addition. Really going to enjoy the leftovers for lunch.</content>
+		</featured_comment>
+	</recipe>
+	<!--Total 18 recipes added: Archana -->	
 	<!-- Ken: Adding Recipe -->
 		<recipe>
 		<title>The Best Easy Pasta Salad</title>
@@ -1022,7 +2507,7 @@
 			<content>We made this for Memorial Day and it was a huge hit! The dressing is absolutely delicious and goes perfectly with this salad. Thank you for sharing!!</content>
 		</featured_comment>
 	</recipe>
-	<recipe>
+		<recipe>
 		<title>Holiday Pretzel Bites</title>
 		<categoryofDiet>
 			<dietCategory dcref="dc4"/>
@@ -1293,6 +2778,10 @@
 		<course id="ct9">
 			<name>Main Dish</name>
 		</course>
+		<course id="ct10">
+			<name>Beverage</name>
+		</course>
+		
 	</courseType>
 	<!-- List of season -->
 	<seasons>
@@ -1331,6 +2820,15 @@
 		</method>
 		<method id="m7">
 			<name>Bake</name>
+		</method>
+		<method id="m8">
+			<name>Blend</name>
+		</method>
+		<method id="m9">
+			<name>Broil</name>
+		</method>
+		<method id="m10">
+			<name>Freeze</name>
 		</method>
 	</methods>
 	<!-- List of allergens, taken from https://www.foodallergy.org/living-food-allergies/ -->
