@@ -2720,273 +2720,1834 @@
 		</featured_comment>
 	</recipe>		
 	<!-- End Ken's recipe -->
-	<!-- List of cuisines -->
-	<!-- I have added a description about the cuisine using ChatGPT -->
-	<cuisines>
-		<cuisine id="c1">
-			<name>Italian Cuisine</name>
-			<description>Known for pasta, pizza, risotto, and various sauces like marinara and pesto.</description>
-		</cuisine>
-		<cuisine id="c2">
-			<name>French Cuisine</name>
-			<description>Characterized by dishes such as coq au vin, boeuf bourguignon, croissants, and escargot.</description>
-		</cuisine>
-		<cuisine id="c3">
-			<name>Chinese Cuisine</name>
-			<description>Includes dishes like stir-fries, dumplings, Peking duck, and various noodle dishes.</description>
-		</cuisine>
-		<cuisine id="c4">
-			<name>Indian Cuisine</name>
-			<description>Offers a wide variety of flavors and spices, including dishes like curry, biryani, tandoori chicken, and naan bread.</description>
-		</cuisine>
-		<cuisine id="c5">
-			<name>Japanese Cuisine</name>
-			<description>Known for sushi, sashimi, tempura, ramen, and dishes like teriyaki and miso soup.</description>
-		</cuisine>
-		<cuisine id="c6">
-			<name>Mexican Cuisine</name>
-			<description>Features dishes such as tacos, enchiladas, burritos, guacamole, and salsa.</description>
-		</cuisine>
-		<cuisine id="c7">
-			<name>Thai Cuisine</name>
-			<description>Known for its balance of sweet, sour, spicy, and salty flavors, with dishes like pad Thai, green curry, and tom yum soup.</description>
-		</cuisine>
-		<cuisine id="c8">
-			<name>Mediterranean Cuisine</name>
-			<description>Includes dishes from countries like Greece, Spain, and Turkey, featuring ingredients like olive oil, olives, feta cheese, and grilled meats and seafood.</description>
-		</cuisine>
-		<cuisine id="c9">
-			<name>Middle Eastern Cuisine</name>
-			<description>Includes dishes like falafel, hummus, kebabs, tabbouleh, and shawarma.</description>
-		</cuisine>
-		<cuisine id="c10">
-			<name>American Cuisine</name>
-			<description>Varied and diverse, with regional specialties such as hamburgers, hot dogs, barbecue, clam chowder, and southern fried chicken.</description>
-		</cuisine>
-		<cuisine id="c11">
-			<name>West African Cuisine</name>
-			<description>Most notable food specialties from West Africa is Jollof Rice,Tamale,Waakye </description>
-		</cuisine>
-	</cuisines>
-	<!-- List of nutritional values -->
-	<nutritional>
-		<nutrition id="nf1">
-			<name>Total Fat</name>
-			<quantity_type>g</quantity_type>
-		</nutrition>
-		<nutrition id="nf2">
-			<name>Cholesterol</name>
-			<quantity_type>mg</quantity_type>
-		</nutrition>
-		<nutrition id="nf3">
-			<name>Sodium</name>
-			<quantity_type>mg</quantity_type>
-		</nutrition>
-		<nutrition id="nf4">
-			<name>Total Carbohydrate</name>
-			<quantity_type>g</quantity_type>
-		</nutrition>
-		<nutrition id="nf5">
-			<name>Dietary Fiber</name>
-			<quantity_type>g</quantity_type>
-		</nutrition>
-		<nutrition id="nf6">
-			<name>Sugars</name>
-			<quantity_type>g</quantity_type>
-		</nutrition>
-		<nutrition id="nf7">
-			<name>Protein</name>
-			<quantity_type>g</quantity_type>
-		</nutrition>
-		<nutrition id="nf8">
-			<name>Vitamin A</name>
-			<quantity_type>µg</quantity_type>
-		</nutrition>
-		<nutrition id="nf9">
-			<name>Vitamin C</name>
-			<quantity_type>mg</quantity_type>
-		</nutrition>
-		<nutrition id="nf10">
-			<name>Iron</name>
-			<quantity_type>mg</quantity_type>
-		</nutrition>
-		<nutrition id="nf11">
-			<name>Potassium</name>
-			<quantity_type>mg</quantity_type>
-		</nutrition>
-		<nutrition id="nf12">
-			<name>Phosphorus</name>
-			<quantity_type>mg</quantity_type>
-		</nutrition>
-	</nutritional>
-	<!-- List of Meal types -->
-	<mealTypes>
-		<mealType id="mt1">
-			<name>Breakfast</name>
-		</mealType>
-		<mealType id="mt2">
-			<name>Lunch</name>
-		</mealType>
-		<mealType id="mt3">
-			<name>Dinner</name>
-		</mealType>
-		<mealType id="mt4">
-			<name>Snacks</name>
-		</mealType>
-		<mealType id="mt5">
-			<name>Drinks</name>
-		</mealType>
-	</mealTypes>
-	<!-- List of Diet categories -->
-	<dietCategories>
-		<dietCategory id="dc1">
-			<name>Dairy-Free</name>
-		</dietCategory>
-		<dietCategory id="dc2">
-			<name>Gluten-Free</name>
-		</dietCategory>
-		<dietCategory id="dc3">
-			<name>Healthy</name>
-		</dietCategory>
-		<dietCategory id="dc4">
-			<name>Sugar-Free</name>
-		</dietCategory>
-		<dietCategory id="dc5">
-			<name>Vegan</name>
-		</dietCategory>
-		<dietCategory id="dc6">
-			<name>Vegetarian</name>
-		</dietCategory>
-		<dietCategory id="dc7">
-			<name>Non-Vegetarian</name>
-		</dietCategory>
-	</dietCategories>
-	<!-- List of Course type -->
-	<courseType>
-		<course id="ct1">
-			<name>Appetizer</name>
-		</course>
-		<course id="ct2">
-			<name>Soup</name>
-		</course>
-		<course id="ct3">
-			<name>Salad</name>
-		</course>
-		<course id="ct4">
-			<name>Sauces</name>
-		</course>
-		<course id="ct5">
-			<name>Dessert</name>
-		</course>
-		<course id="ct6">
-			<name>Snacks</name>
-		</course>
-		<course id="ct7">
-			<name>Baking</name>
-		</course>
-		<course id="ct8">
-			<name>Sandwich</name>
-		</course>
-		<course id="ct9">
-			<name>Main Dish</name>
-		</course>
-		<course id="ct10">
-			<name>Beverage</name>
-		</course>
-		
-	</courseType>
-	<!-- List of season -->
-	<seasons>
-		<season id="s1">
-			<name>Spring</name>
-		</season>
-		<season id="s2">
-			<name>Summer</name>
-		</season>
-		<season id="s3">
-			<name>Fall</name>
-		</season>
-		<season id="s4">
-			<name>Winter</name>
-		</season>
-	</seasons>
-	<!-- List of method use in recipe -->
-	<methods>
-		<method id="m1">
-			<name>Casserole</name>
-		</method>
-		<method id="m2">
-			<name>Instant Pot</name>
-		</method>
-		<method id="m3">
-			<name>Slow Cooker</name>
-		</method>
-		<method id="m4">
-			<name>Sheet Pan</name>
-		</method>
-		<method id="m5">
-			<name>Stovetop</name>
-		</method>
-		<method id="m6">
-			<name>Chop</name>
-		</method>
-		<method id="m7">
-			<name>Bake</name>
-		</method>
-		<method id="m8">
-			<name>Blend</name>
-		</method>
-		<method id="m9">
-			<name>Broil</name>
-		</method>
-		<method id="m10">
-			<name>Freeze</name>
-		</method>
-	</methods>
-	<!-- List of allergens, taken from https://www.foodallergy.org/living-food-allergies/ -->
-	<al:allergies>
-		<al:allergie id="al1">
-			<al:name>Wheat</al:name>
-		</al:allergie>
-		<al:allergie id="al2">
-			<al:name>Soya</al:name>
-		</al:allergie>
-		<al:allergie id="al3">
-			<al:name>Celery</al:name>
-		</al:allergie>
-		<al:allergie id="al4">
-			<al:name>Peanut</al:name>
-		</al:allergie>
-		<al:allergie id="al5">
-			<al:name>Sulphites</al:name>
-		</al:allergie>
-		<al:allergie id="al6">
-			<al:name>Sesame</al:name>
-		</al:allergie>
-		<!--Changed "milk allergy" to "dairy allergy" for broader allergy coverage.-->
-		<al:allergie id="al7">
-			<al:name>Dairy</al:name>
-		</al:allergie>
-		<al:allergie id="al8">
-			<al:name>Nuts</al:name>
-		</al:allergie>
-		<al:allergie id="al9">
-			<al:name>Egg</al:name>
-		</al:allergie>
-		<al:allergie id="al10">
-			<al:name>Mustard</al:name>
-		</al:allergie>
-		<al:allergie id="al11">
-			<al:name>Crustacean</al:name>
-		</al:allergie>
-		<al:allergie id="al12">
-			<al:name>Mollusc</al:name>
-		</al:allergie>
-		<al:allergie id="al13">
-			<al:name>Fish</al:name>
-		</al:allergie>
-		<al:allergie id="al14">
-			<al:name>Meat</al:name>
-		</al:allergie>
-	</al:allergies>
+
+	<!-- ############################################################################################# -->
+    <recipe>
+        <title>Spicy Instant Pot Carrot Soup</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc5"/>
+            <!-- Vegan -->
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct2"/>
+        <seasonal>
+            <season sref="s3"/>
+            <season sref="s4"/> <!-- Perfect for fall and winter -->
+        </seasonal>
+        <methodUsed>
+            <method mref="m2"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt2"/>
+            <mealtime mtref="mt3"/>
+        </mealtimes>
+        <preptime>PT10M</preptime>
+        <cooktime>PT20M</cooktime>
+        <totaltime>PT30M</totaltime>
+        <calories>324</calories>
+        <description>Curry-like spicy carrot soup made effortlessly in the Instant Pot. This vegan recipe is velvety smooth, flavorful, and remarkably healthy.</description>
+        <reviews>
+            <numReviews>47</numReviews>
+            <averageRating>4.8</averageRating>
+        </reviews>
+        <ingredients servings="5">
+            <ingredient name="large carrots" quantity="8-10"/>
+            <ingredient name="onion" quantity="1"/>
+            <ingredient name="garlic" quantity="3" />
+            <ingredient name="coconut milk" quantity="14" unit="ounces"/>
+            <ingredient name="chicken or veggie broth" quantity="1.5" unit="cups"/>
+            <ingredient name="peanut butter" quantity="0.25" unit="cups"/>
+            <ingredient name="red curry paste" quantity="1" unit="tablespoon"/>
+            <ingredient name="salt"/>
+            <ingredient name="cilantro"/>
+            <ingredient name="peanuts"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/> <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>For stovetop, sauté onions and garlic, add remaining ingredients and simmer until soft. For Instant Pot, combine all ingredients and cook on high pressure for 15 minutes. Blend until smooth, season with salt, and garnish with peanuts and cilantro.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>24.8</value>
+                <percentage>32%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>1.9</value>
+                <percentage>1%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>617.6</value>
+                <percentage>27%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>22.8</value>
+                <percentage>8%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>5.3</value>
+                <percentage>19%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>10</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>8</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>1503.8</value>
+                <percentage>167%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>11.9</value>
+                <percentage>13%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>5.8</value>
+                <percentage>32%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>778.4</value>
+                <percentage>17%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>194.8</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>Made this today! It really is ‘da bomb’ 😛 Super easy to make, rich, and tons of flavour! Definitely a winner</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Elote Queso</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc1"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct6"/>
+        <seasonal>
+            <season sref="s2"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt4"/>
+        </mealtimes>
+        <preptime>PT10M</preptime>
+        <cooktime>PT15M</cooktime>
+        <totaltime>PT25M</totaltime>
+        <calories>165</calories>
+        <description>Creamy melty queso meets charred roasted corn, fresh jalapeño and garlic, garnished with cilantro and chili powder for a perfect blend of flavors.</description>
+        <reviews>
+            <numReviews>20</numReviews>
+            <averageRating>4.8</averageRating>
+        </reviews>
+        <ingredients servings="7">
+            <ingredient name="butter" quantity="2" unit="tablespoons"/>
+            <ingredient name="olive oil" quantity="1" unit="tablespoon"/>
+            <ingredient name="jalapeño, minced" quantity="1"/>
+            <ingredient name="garlic, minced" quantity="2" unit="cloves"/>
+            <ingredient name="flour" quantity="2" unit="tablespoons"/>
+            <ingredient name="milk" quantity="1.5" unit="cups"/>
+            <ingredient name="shredded V&amp;V Supremo Chihuahua Brand Quesadilla Cheese" quantity="1" unit="cup"/>
+            <ingredient name="salt" quantity="1" unit="teaspoon"/>
+            <ingredient name="ears of corn, roasted" quantity="2-3"/>
+            <ingredient name="fresh cilantro, chopped" quantity="1/4" unit="cup"/>
+            <ingredient name="V&amp;V Supremo® Queso Fresco" quantity="1/4" unit="cup"/>
+            <ingredient name="chili powder"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al7"/>
+        </allergens>
+        <instructions>
+            <steps>Heat the butter and olive oil in a large skillet. Add the jalapeños and garlic and sauté until very soft.</steps>
+            <steps>Add flour to coat, then slowly add milk and whisk until smooth. Remove from heat and add Chihuahua cheese until melted.</steps>
+            <steps>Stir in most of the corn, season with salt. Top with remaining corn, cilantro, queso fresco, and chili powder. Serve with lime-drenched chips.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>10.8</value>
+                <percentage>14%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>23.8</value>
+                <percentage>8%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>416</value>
+                <percentage>18%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>11.6</value>
+                <percentage>4%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>1</value>
+                <percentage>4%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>3.7</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>6.6</value>
+                <percentage>13%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>96.1</value>
+                <percentage>11%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>4.8</value>
+                <percentage>5</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>0.3</value>
+                <percentage>2%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>169.4</value>
+                <percentage>4%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>74.4</value>
+                <percentage>6%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>I have now shared this recipe with everyone I know. Absolutely delicious!</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Basic Soft Pretzels</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc6"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct6"/>
+        <seasonal>
+            <season sref="s5"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m7"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt6"/>
+        </mealtimes>
+        <preptime>PT1H</preptime>
+        <cooktime>PT15M</cooktime>
+        <totaltime>PT1H15M</totaltime>
+        <calories>191</calories>
+        <description>Soft, fluffy, and easy-to-make soft pretzels. Perfect for dipping in beer cheese soup or your favorite mustard.</description>
+        <reviews>
+            <numReviews>21</numReviews>
+            <averageRating>5.0</averageRating>
+        </reviews>
+        <ingredients servings="7">
+            <ingredient name="warm milk" quantity="1" unit="cup"/>
+            <ingredient name="instant yeast" quantity="1" unit="package" />
+            <ingredient name="brown sugar" quantity="3" unit="tablespoons"/>
+            <ingredient name="melted butter" quantity="2" unit="tablespoons"/>
+            <ingredient name="salt" quantity="1" unit="teaspoon"/>
+            <ingredient name="all-purpose flour" quantity="2.25" unit="cups"/>
+            <ingredient name="baking soda" quantity="1/4" unit="cup"/>
+            <ingredient name="warm water" quantity="3-4" unit="cups"/>
+            <ingredient name="egg" quantity="1" />
+            <ingredient name="coarse salt" />
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/> <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Whisk warm milk, yeast, brown sugar, butter, and salt. Stir in flour to form a dough. Knead on a floured surface 10-15 times.</steps>
+            <steps>Let dough rise in a bowl covered for an hour. Punch down, divide, and roll into ropes. Shape into pretzels.</steps>
+            <steps>Dip each pretzel in a baking soda solution, then bake after brushing with beaten egg and sprinkling with coarse salt.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>4.2</value>
+                <percentage>5%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>32.4</value>
+                <percentage>11%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>2348.7</value>
+                <percentage>102%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>32.1</value>
+                <percentage>12%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>1.2</value>
+                <percentage>4%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>5</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>5.8</value>
+                <percentage>12%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>52</value>
+                <percentage>6%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>0</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>1.8</value>
+                <percentage>10%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>106</value>
+                <percentage>2</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>86</value>
+                <percentage>7%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>These were absolutely amazing! So simple and easy. Never knew I was capable of making my own soft pretzels before!</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Caramelized Onion Dip</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc8"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <!-- American -->
+        <course ctref="ct6"/>
+        <seasonal>
+            <season sref="s5"/>
+            <!-- All year -->
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt6"/> <!-- Anytime-Consumption -->
+        </mealtimes>
+        <preptime>PT10M</preptime>
+        <cooktime>PT45M</cooktime>
+        <totaltime>PT55M</totaltime>
+        <calories>153</calories>
+        <description>This caramelized onion dip, enriched with wine, Worcestershire, and soy sauce, is a crowd-pleaser with chips, pita, or bagel crisps, and makes a great addition to sandwiches and burgers.</description>
+        <reviews>
+            <numReviews>499</numReviews>
+            <averageRating>4.7</averageRating>
+        </reviews>
+        <ingredients servings="12">
+            <ingredient name="medium size yellow onions" quantity="3"/>
+            <ingredient name="salted butter" quantity="2" unit="tablespoons"/>
+            <ingredient name="salt" quantity="2" unit="teaspoons"/>
+            <ingredient name="sugar" quantity="2" unit="teaspoons"/>
+            <ingredient name="dry white wine" quantity="1/4" unit="cup"/>
+            <ingredient name="sour cream" quantity="12" unit="ounces"/>
+            <ingredient name="cream cheese, softened" quantity="8" unit="ounces"/>
+            <ingredient name="fresh garlic, grated (optional)" quantity="1" unit="clove"/>
+            <ingredient name="fresh flat-leaf parsley, minced" />
+            <ingredient name="Worcestershire sauce or soy sauce" />
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+            <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Sauté onions with butter, salt, and sugar. Add wine to caramelize. Mix onions with cream cheese, sour cream, parsley, and optional sauces. Serve with chips or as a spread.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>12.5</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>34.3</value>
+                <percentage>11%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>483.5</value>
+                <percentage>21%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>6.5</value>
+                <percentage>2%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>0.5</value>
+                <percentage>2%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>2.7</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>3.5</value>
+                <percentage>7%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>108.7</value>
+                <percentage>12%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>2.3</value>
+                <percentage>3%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>0.1</value>
+                <percentage>1%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>126.5</value>
+                <percentage>3%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>53.2</value>
+                <percentage>4%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>This recipe is delicious!! Love the additions of wine, Worcestershire, and soy sauce. Be patient with the onions, it’s worth the time.</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>5 Minute Honey Mustard Sauce</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc8"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct4"/>
+        <seasonal>
+            <season sref="s5"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt6"/>
+        </mealtimes>
+        <preptime>PT5M</preptime>
+        <cooktime>PT0M</cooktime>
+        <totaltime>PT5M</totaltime>
+        <calories>139</calories>
+        <description>A quick and delicious honey mustard sauce, perfect as a dip, dressing, or marinade.</description>
+        <reviews>
+            <numReviews>77</numReviews>
+            <averageRating>4.7</averageRating>
+        </reviews>
+        <ingredients servings="5">
+            <ingredient name="honey" quantity="1/4" unit="cup"/>
+            <ingredient name="mayonnaise" quantity="1/4" unit="cup"/>
+            <ingredient name="Dijon mustard" quantity="1/4" unit="cup"/>
+            <ingredient name="white distilled vinegar" quantity="1" unit="tablespoon"/>
+            <ingredient name="cayenne pepper" quantity="1/4" unit="teaspoon"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+            <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Whisk all ingredients in a small dish until smooth.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>8.2</value>
+                <percentage>11%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>4.6</value>
+                <percentage>2%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>382.6</value>
+                <percentage>17%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>14.1</value>
+                <percentage>5%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>0.1</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>14</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>0.2</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>3.6</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>0.2</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>0.1</value>
+                <percentage>1%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>12.9</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>3.4</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>This was the BEST honey mustard recipe I have tried!!! The only way I make it now! Thanks!💯</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>General Tso’s Cauliflower</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc8"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <!-- Asian-Inspired -->
+        <course ctref="ct9"/>
+        <!-- Appetizer/Main Dish -->
+        <seasonal>
+            <season sref="s5"/>
+            <!-- All year -->
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+            <!-- Stovetop for sauce -->
+            <method mref="m10"/>
+            <!-- Frying for cauliflower -->
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt6"/>
+            <!-- Anytime-Consumption -->
+        </mealtimes>
+        <preptime>PT15M</preptime>
+        <cooktime>PT45M</cooktime>
+        <totaltime>PT1H</totaltime>
+        <calories>385</calories>
+        <description>Golden brown crispy fried cauliflower tossed in a savory-sweet General Tso’s sauce for a delicious vegetarian take on the classic dish.</description>
+        <reviews>
+            <numReviews>69</numReviews>
+            <averageRating>4.3</averageRating>
+        </reviews>
+        <ingredients servings="8">
+            <ingredient name="sesame oil" quantity="1" unit="tablespoon"/>
+            <ingredient name="garlic, minced" quantity="3" unit="cloves"/>
+            <ingredient name="knob of ginger, grated"/>
+            <ingredient name="chicken or vegetable broth" quantity="1/2" unit="cup"/>
+            <ingredient name="soy sauce" quantity="1/2" unit="cup"/>
+            <ingredient name="rice vinegar" quantity="1/3" unit="cup"/>
+            <ingredient name="sugar" quantity="1/4" unit="cup"/>
+            <ingredient name="tomato paste" quantity="2" unit="tablespoons"/>
+            <ingredient name="cornstarch, dissolved in cold water" quantity="2" unit="tablespoons"/>
+            <ingredient name="flour" quantity="1" unit="cup"/>
+            <ingredient name="cornstarch" quantity="2/3" unit="cup"/>
+            <ingredient name="baking powder" quantity="1.5" unit="teaspoons"/>
+            <ingredient name="salt" quantity="2" unit="teaspoons"/>
+            <ingredient name="eggs" quantity="4"/>
+            <ingredient name="water as needed" quantity="1/2" unit="cup"/>
+            <ingredient name="head cauliflower, cut into small florets" quantity="1"/>
+            <ingredient name="oil for frying"/>
+            <ingredient name="scallions and sesame seeds for topping"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+            <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Sauté ginger and garlic in sesame oil. Add broth, soy sauce, vinegar, sugar, and tomato paste to make the sauce. Prepare a batter, coat cauliflower florets, and fry until golden brown. Toss in the sauce and serve topped with scallions and sesame seeds.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>24.9</value>
+                <percentage>32%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>93</value>
+                <percentage>31%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>1211.9</value>
+                <percentage>53%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>34.7</value>
+                <percentage>13%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>1.5</value>
+                <percentage>6%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>7.6</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>7.4</value>
+                <percentage>15%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>43</value>
+                <percentage>5%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>17.3</value>
+                <percentage>19%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>2</value>
+                <percentage>11%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>459.3</value>
+                <percentage>10%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>248.3</value>
+                <percentage>20%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>Yum!!! These were absolutely delicious! I tricked my son into thinking they were chicken. May try baking as a healthier version next time.</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Loaded Caprese Grilled Cheese</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc6"/>
+            <!-- Vegetarian -->
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <!-- American -->
+        <course ctref="ct8"/>
+        <!-- Sandwich -->
+        <seasonal>
+            <season sref="s5"/>
+            <!-- All year -->
+        </seasonal>
+        <methodUsed>
+            <method mref="m7"/>
+            <!-- Baking/Frying -->
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt2"/>
+            <mealtime mtref="mt3"/>
+        </mealtimes>
+        <preptime>PT20M</preptime>
+        <cooktime>PT10M</cooktime>
+        <totaltime>PT30M</totaltime>
+        <calories>372</calories>
+        <description>A delicious twist on the classic grilled cheese, featuring fresh mozzarella, pesto, and a homemade garlic butter tomato sauce, all sandwiched between slices of sourdough bread.</description>
+        <reviews>
+            <numReviews>30</numReviews>
+            <averageRating>5.0</averageRating>
+        </reviews>
+        <ingredients servings="4">
+            <ingredient name="thick slices of sourdough bread" quantity="4"/>
+            <ingredient name="thick slices of fresh mozzarella cheese" quantity="4"/>
+            <ingredient name="pesto" quantity="1/4" unit="cup"/>
+            <ingredient name="Land O Lakes® Salted Butter in Half Sticks" quantity="2" unit="tablespoons"/>
+            <ingredient name="fresh cherry tomatoes" quantity="10" unit="ounces"/>
+            <ingredient name="garlic, minced" quantity="1" unit="clove"/>
+            <ingredient name="balsamic vinegar" quantity="1" unit="tablespoon"/>
+            <ingredient name="salt and pepper"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+            <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Make the garlic butter tomato sauce by charring tomatoes in a skillet, adding butter, garlic, and balsamic vinegar. Assemble sandwiches with pesto, cheese, and tomato sauce. Cook in a skillet with butter until golden brown.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>23.7</value>
+                <percentage>30%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>48.7</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>590.6</value>
+                <percentage>26%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>27.5</value>
+                <percentage>10%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>2.1</value>
+                <percentage>7%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>5.1</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>13</value>
+                <percentage>26%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>176.7</value>
+                <percentage>20%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>10</value>
+                <percentage>11%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>2.1</value>
+                <percentage>12%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>283.8</value>
+                <percentage>6%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>218.7</value>
+                <percentage>17%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>I just burnt my tongue on the garlic butter tomato sauce and I don’t even care. SO GOOD. I made this with a baguette and it was perfect.</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Socca with Whipped Feta and Tomato Salad</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc5"/>
+            <dietCategory dcref="dc6"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct8"/>
+        <!-- Lunch -->
+        <seasonal>
+            <season sref="s2"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m7"/>
+            <method mref="m5"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt2"/>
+            <!-- Ideal for lunch -->
+        </mealtimes>
+        <preptime>PT15M</preptime>
+        <cooktime>PT15M</cooktime>
+        <totaltime>PT30M</totaltime>
+        <calories>411</calories>
+        <description>A delightful combination of crispy socca, creamy whipped feta, and a fresh tomato salad for a tangy, summery meal.</description>
+        <reviews>
+            <numReviews>21</numReviews>
+            <averageRating>5.0</averageRating>
+        </reviews>
+        <ingredients servings="4">
+            <ingredient name="chickpea flour" quantity="1" unit="cup"/>
+            <ingredient name="olive oil" quantity="2" unit="tablespoons"/>
+            <ingredient name="salt" quantity="3/4" unit="teaspoon"/>
+            <ingredient name="water" quantity="1 1/4" unit="cups"/>
+            <ingredient name="cherry or grape tomatoes, halved" quantity="2-3" unit="cups"/>
+            <ingredient name="cucumber slices" quantity="1" unit="cup"/>
+            <ingredient name="white vinegar or lemon juice" quantity="1-2" unit="tablespoons"/>
+            <ingredient name="garlic, grated or finely minced" quantity="1" unit="small clove"/>
+            <ingredient name="feta" quantity="4" unit="ounces"/>
+            <ingredient name="cream cheese, whole milk yogurt, mascarpone" quantity="2" unit="ounces"/>
+            <ingredient name="fresh herbs" />
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+            <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Preheat oven for socca. Make tomato salad. Whisk socca ingredients, bake in preheated cast iron skillet. Blend feta with creamy ingredient and herbs for whipped feta. Serve socca topped with whipped feta and tomato salad.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>33.6</value>
+                <percentage>43%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>39.5</value>
+                <percentage>13%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>907.5</value>
+                <percentage>39%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>19.2</value>
+                <percentage>7%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>3.5</value>
+                <percentage>13%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>6.3</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>10.8</value>
+                <percentage>22%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>112.3</value>
+                <percentage>12%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>14.4</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>1.7</value>
+                <percentage>9%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>424</value>
+                <percentage>9%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>204.3</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>O.M.G.! THIS. WAS. AHHHHHHHHMAZING! So fresh, so vibrant. My new favorite healthyish snack! Thank you for sharing this.</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Roasted Mushroom Sandwich with Horseradish Aioli</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc6"/>
+            <!-- Vegetarian -->
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <!-- American -->
+        <course ctref="ct8"/>
+        <!-- Sandwich -->
+        <seasonal>
+            <season sref="s3"/>
+            <season sref="s4"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+            <method mref="m7"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt2"/>
+            <!-- Ideal for lunch or a hearty snack -->
+            <mealtime mtref="mt4"/>
+        </mealtimes>
+        <preptime>PT10M</preptime>
+        <cooktime>PT30M</cooktime>
+        <totaltime>PT40M</totaltime>
+        <calories>439</calories>
+        <description>A savory and hearty sandwich featuring roasted mushrooms, melty havarti cheese, tangy horseradish aioli, and lemony arugula, all on a flavorful focaccia bread.</description>
+        <reviews>
+            <numReviews>18</numReviews>
+            <averageRating>4.8</averageRating>
+        </reviews>
+        <ingredients servings="4">
+            <ingredient name="sliced mushrooms" quantity="16" unit="ounces"/>
+            <ingredient name="avocado oil" quantity="2" unit="tablespoons"/>
+            <ingredient name="Cajun seasoning" quantity="2" unit="tablespoons"/>
+            <ingredient name="mayo" quantity="1/2" unit="cup"/>
+            <ingredient name="garlic, grated" quantity="1" unit="small clove"/>
+            <ingredient name="horseradish sauce" quantity="1-2" unit="teaspoons"/>
+            <ingredient name="lemon juice" quantity="1-2" unit="teaspoons"/>
+            <ingredient name="bread of choice" quantity="1" unit="big chunk"/>
+            <ingredient name="pesto rosso"/>
+            <ingredient name="Havarti cheese slices"/>
+            <ingredient name="arugula" quantity="1" unit="handful"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+        </allergens>
+        <instructions>
+            <steps>Roast seasoned mushrooms with avocado oil. Prepare horseradish aioli by mixing mayo, garlic, horseradish, and lemon juice. Assemble the sandwich on toasted bread with optional pesto rosso, roasted mushrooms, Havarti cheese, arugula, and aioli.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>41.3</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>24.7</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>809.9</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>10.6</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>1.8</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>3.2</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>9</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>69.3</value>
+                <percentage>µg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>3.9</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>1.3</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>437.1</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>145.8</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>This is so incredibly good! I made it twice in three days. My husband asked where I got the recipe (which he never does).</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Trader Joe’s Sun-Dried Tomato Focaccia Turkey Sandwich</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc8"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <!-- American -->
+        <course ctref="ct8"/>
+        <!-- Sandwich -->
+        <seasonal>
+            <season sref="s5"/>
+            <!-- Suitable for all seasons -->
+        </seasonal>
+        <methodUsed>
+            <method mref="m7"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt2"/>
+            <!-- Ideal for lunch -->
+        </mealtimes>
+        <preptime>PT10M</preptime>
+        <cooktime>PT10M</cooktime>
+        <totaltime>PT20M</totaltime>
+        <calories>338</calories>
+        <description>A sumptuous sandwich featuring pillowy sun-dried tomato focaccia, layered with pesto mayo, turkey, tomato slices, and greens. A perfect blend of flavors and textures.</description>
+        <reviews>
+            <numReviews>14</numReviews>
+            <averageRating>5.0</averageRating>
+        </reviews>
+        <ingredients servings="6">
+            <ingredient name="Trader Joe’s sun-dried tomato focaccia" quantity="1" unit="loaf"/>
+            <ingredient name="deli turkey" quantity="7" unit="ounces"/>
+            <ingredient name="large tomato, thinly sliced" quantity="1"/>
+            <ingredient name="greens – sprouts, microgreens, spinach, etc." quantity="1" unit="handful"/>
+            <ingredient name="thinly sliced red onion" quantity="a few pieces"/>
+            <ingredient name="mayo" quantity="1/4" unit="cup"/>
+            <ingredient name="pesto" quantity="1/4" unit="cup"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+        </allergens>
+        <instructions>
+            <steps>Toast the focaccia in the oven. Mix pesto and mayo for the sauce. Slice the focaccia bread horizontally. Layer with pesto mayo, turkey, tomato, greens, and red onion. Assemble and serve this flavorful sandwich.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>12.8</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>18.2</value>
+                <percentage>6%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>840</value>
+                <percentage>37%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>40.1</value>
+                <percentage>15%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>2.7</value>
+                <percentage>10%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>4.6</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>15.8</value>
+                <percentage>32%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>50.1</value>
+                <percentage>6%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>8</value>
+                <percentage>9%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>2.8</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>283.3</value>
+                <percentage>6%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>153.8</value>
+                <percentage>12%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>I made this last week as a quick weekend meal. I used homemade pesto. It was sooooo good. I’m planning to bring it to a girls weekend next! Thanks for an easy, throw together, awesome sandwich!</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Detox Rainbow Roll-Ups with Peanut Sauce</title>
+        <categoryofDiet>
+            <!-- Assuming this is suitable for vegan diets -->
+            <dietCategory dcref="dc5"/>
+            <!-- Vegan -->
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <!-- American -->
+        <course ctref="ct9"/>
+        <!-- Dinner -->
+        <seasonal>
+            <season sref="s5"/>
+            <!-- All year -->
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+            <method mref="m7"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt2"/>
+            <mealtime mtref="mt3"/>
+        </mealtimes>
+        <preptime>PT45M</preptime>
+        <cooktime>PT0M</cooktime>
+        <totaltime>PT45M</totaltime>
+        <calories>371</calories>
+        <description>Colorful and detoxifying roll-ups filled with an assortment of veggies and curry hummus, wrapped in a collard leaf, and served with a homemade peanut sauce. A healthy, vibrant meal option.</description>
+        <reviews>
+            <numReviews>35</numReviews>
+            <averageRating>5.0</averageRating>
+        </reviews>
+        <ingredients servings="6">
+            <ingredient name="carrots, cut into matchsticks"/>
+            <ingredient name="cucumbers, cut into matchsticks"/>
+            <ingredient name="red cabbage"/>
+            <ingredient name="curry hummus"/>
+            <ingredient name="cooked rice or quinoa" />
+            <ingredient name="peanuts and cilantro"/>
+            <ingredient name="collard greens (leaf)"/>
+            <ingredient name="peanut butter" quantity="3/4" unit="cup"/>
+            <ingredient name="soy sauce" quantity="1/4" unit="cup"/>
+            <ingredient name="rice vinegar" quantity="1/4" unit="cup"/>
+            <ingredient name="water" quantity="1/4" unit="cup"/>
+            <ingredient name="honey" quantity="2" unit="tablespoons"/>
+            <ingredient name="garlic" quantity="1" unit="clove"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+        </allergens>
+        <instructions>
+            <steps>Trim the stem of the collard leaf. Arrange fillings on the leaf, roll tightly. Blend peanut sauce ingredients until smooth. Serve roll-ups with peanut sauce for dipping.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>22.4</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>0</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>841.3</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>33.1</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>6.5</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>14.1</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>15.1</value>
+                <percentage>g</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>387.4</value>
+                <percentage>µg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>16.2</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>2.6</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>682.5</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>184</value>
+                <percentage>mg</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>This is my favorite lunch to make for work! It is sooo good and surprisingly filling. Still trying to figure out how to be less messy eating it!</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Ginger Chicken Meatball Sandos</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc9"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct8"/>
+        <seasonal>
+            <season sref="s5"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt2"/>
+            <mealtime mtref="mt3"/>
+        </mealtimes>
+        <preptime>PT20M</preptime>
+        <cooktime>PT20M</cooktime>
+        <totaltime>PT40M</totaltime>
+        <calories>714</calories>
+        <description>A delightful sandwich featuring golden brown chicken meatballs with ginger, served on soft bread with a variety of fresh fixings.</description>
+        <reviews>
+            <numReviews>31</numReviews>
+            <averageRating>4.8</averageRating>
+        </reviews>
+        <ingredients servings="4">
+            <ingredient name="garlic" quantity="2" unit="cloves"/>
+            <ingredient name="serrano pepper" quantity="1"/>
+            <ingredient name="ginger" quantity="1" unit="inch piece" />
+            <ingredient name="fresh cilantro" quantity="1" unit="bunch"/>
+            <ingredient name="fish sauce" quantity="3" unit="teaspoons"/>
+            <ingredient name="brown sugar" quantity="1.5" unit="tablespoons"/>
+            <ingredient name="cornstarch" quantity="1" unit="tablespoon"/>
+            <ingredient name="ground chicken" quantity="1" unit="pound"/>
+            <ingredient name="olive oil" quantity="2" unit="tablespoons"/>
+            <ingredient name="soft bread" quantity="4" unit="pieces"/>
+            <ingredient name="mayo or kewpie" quantity="0.5" unit="cup"/>
+            <ingredient name="cucumber" quantity="1"/>
+            <ingredient name="shallot or red onion" quantity="1"/>
+            <ingredient name="cilantro" quantity="2" unit="tablespoons"/>
+            <ingredient name="mint leaves" quantity="0.25" unit="cup"/>
+            <ingredient name="chili crisp or sriracha" quantity="2" unit="tablespoons"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+        </allergens>
+        <instructions>
+            <steps>Minimize the garlic, serrano, ginger, and cilantro. Mix with chicken, fish sauce, sugar, cornstarch, and salt. Form meatballs and cook in skillet with oil. Serve on bread with mayo, cucumber, onion, cilantro, mint, and chili crisp.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>41.9</value>
+                <percentage>54%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>107.9</value>
+                <percentage>36%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>1931.7</value>
+                <percentage>84%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>55.4</value>
+                <percentage>20%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>2.7</value>
+                <percentage>9%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>9.4</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>29.8</value>
+                <percentage>60%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>33</value>
+                <percentage>4%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>5.9</value>
+                <percentage>7%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>4.4</value>
+                <percentage>25%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>861.7</value>
+                <percentage>18%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>314</value>
+                <percentage>25%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>Delicious sandwiches. The meatballs are flavorful and are super easy to throw together. Will be making again! We used Atoria’s Lavash flatbread for the sandwiches and they were great. A thinner option than a naan or pita and the shape of the lavash made it easy to build a sandwich. Yum!</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Peanut Chicken Lettuce Wraps with Ginger Garlic Sauce</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc8"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct9"/>
+        <seasonal>
+            <season sref="s1"/>
+            <season sref="s2"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt4"/>
+            <mealtime mtref="mt3"/>
+        </mealtimes>
+        <preptime>PT10M</preptime>
+        <cooktime>PT15M</cooktime>
+        <totaltime>PT25M</totaltime>
+        <calories>626</calories>
+        <description>Satisfying lettuce wraps filled with peanut-flavored chicken and served with a tangy ginger garlic sauce, combining textures and flavors in a refreshing meal.</description>
+        <reviews>
+            <numReviews>30</numReviews>
+            <averageRating>4.7</averageRating>
+        </reviews>
+        <ingredients servings="4">
+            <ingredient name="soy sauce" quantity="4" unit="tablespoons"/>
+            <ingredient name="oyster sauce" quantity="3" unit="tablespoons"/>
+            <ingredient name="water" quantity="3" unit="tablespoons"/>
+            <ingredient name="sambal oelek" quantity="1" unit="tablespoon"/>
+            <ingredient name="honey" quantity="1" unit="tablespoon"/>
+            <ingredient name="fresh ginger" quantity="1" unit="tablespoon"/>
+            <ingredient name="limes" quantity="2"/>
+            <ingredient name="garlic" quantity="2" unit="cloves"/>
+            <ingredient name="green onions" quantity="4"/>
+            <ingredient name="rice vinegar" quantity="1" unit="tablespoon" />
+            <ingredient name="cornstarch" quantity="1" unit="teaspoon" />
+            <ingredient name="sesame oil" quantity="2" unit="tablespoons"/>
+            <ingredient name="ground chicken or turkey" quantity="1" unit="lb"/>
+            <ingredient name="lightly salted peanuts" quantity="0.5" unit="cup"/>
+            <ingredient name="rice noodles" quantity="6" unit="ounces"/>
+            <ingredient name="lettuce" quantity="12" unit="leaves"/>
+            <ingredient name="cilantro" quantity="2" unit="tablespoons"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+            <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Marinate chicken with sauce ingredients. Cook chicken and peanuts in sesame oil. Add softened rice noodles to skillet and cook until tender. Serve the mixture in lettuce leaves, topped with additional garnishes and drizzle with sauce.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>31.7</value>
+                <percentage>41%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>78.2</value>
+                <percentage>26%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>1295.6</value>
+                <percentage>56%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>53.1</value>
+                <percentage>19%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>5.0</value>
+                <percentage>18%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>7.4</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>35.9</value>
+                <percentage>72%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>313.5</value>
+                <percentage>35%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>15.3</value>
+                <percentage>17%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>3.0</value>
+                <percentage>17%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>742.4</value>
+                <percentage>16%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>511.4</value>
+                <percentage>41%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>These are easily one of the best things I have (ever) eaten. Welcome to my dinner rotation, lettuce wraps! Absolutely DE-LISH.</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Meal Prep Breakfast Sandwiches</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc8"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct1"/>
+        <seasonal>
+            <season sref="s5"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m7"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt1"/>
+        </mealtimes>
+        <preptime>PT15M</preptime>
+        <cooktime>PT15M</cooktime>
+        <totaltime>PT30M</totaltime>
+        <calories>267</calories>
+        <description>A convenient and delicious breakfast option, featuring eggs baked with bacon and spinach, served on English muffins with cheese, ideal for meal prep and freezing.</description>
+        <reviews>
+            <numReviews>51</numReviews>
+            <averageRating>4.9</averageRating>
+        </reviews>
+        <ingredients servings="12">
+            <ingredient name="eggs" quantity="12"/>
+            <ingredient name="whole milk" quantity="1/4" unit="cup"/>
+            <ingredient name="salt" quantity="1 1/2" unit="teaspoons"/>
+            <ingredient name="bacon" quantity="6" unit="slices"/>
+            <ingredient name="spinach" quantity="a few handfuls"/>
+            <ingredient name="English muffins" quantity="12"/>
+            <ingredient name="Cheese" quantity=""/>
+            <ingredient name="Butter" quantity="" />
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+            <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Preheat oven and prepare a sheet pan. Whisk eggs with milk and salt. Cook bacon and wilt spinach, then add to egg mixture. Bake, then cut into rounds. Assemble sandwiches with English muffins, cheese, and optional butter.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>11.5</value>
+                <percentage>15%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>195.7</value>
+                <percentage>65%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>659.1</value>
+                <percentage>29%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>27.3</value>
+                <percentage>10%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>0.2</value>
+                <percentage>1%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>0.6</value>
+                <percentage></percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>13</value>
+                <percentage>26%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>119.1</value>
+                <percentage>13%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>2.1</value>
+                <percentage>2%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>1.9</value>
+                <percentage>11%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>145.3</value>
+                <percentage>3%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>127.1</value>
+                <percentage>10%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>These are sooo good! I have eaten them for two weeks in a row. I heat them in the oven and my boyfriend and I take them to work with us. Thanks!</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <recipe>
+        <title>Rosemary Pom Spritzer AKA The Merry Mocktail</title>
+        <categoryofDiet>
+            <dietCategory dcref="dc8"/>
+        </categoryofDiet>
+        <cuisine cref="c10"/>
+        <course ctref="ct10"/>
+        <seasonal>
+            <season sref="s2"/>
+        </seasonal>
+        <methodUsed>
+            <method mref="m5"/>
+        </methodUsed>
+        <mealtimes>
+            <mealtime mtref="mt6"/>
+        </mealtimes>
+        <preptime>PT5M</preptime>
+        <cooktime>PT5M</cooktime>
+        <totaltime>PT10M</totaltime>
+        <calories>90</calories>
+        <description>An herby, zingy mocktail combining rosemary-infused simple syrup, pomegranate juice, bubbly fizz, and fresh lime for a non-alcoholic holiday treat.</description>
+        <reviews>
+            <numReviews>601</numReviews>
+            <averageRating>4.7</averageRating>
+        </reviews>
+        <ingredients servings="1">
+            <ingredient name="water" quantity="4" unit="cups"/>
+            <ingredient name="sugar" quantity="4" unit="cups"/>
+            <ingredient name="fresh rosemary" quantity="2" unit="packages"/>
+            <ingredient name="whole cloves" quantity="4-5" />
+            <ingredient name="pomegranate juice" quantity="2-3" unit="ounces"/>
+            <ingredient name="club soda" quantity="2-3" unit="ounces"/>
+            <ingredient name="fresh lime" quantity="a squeeze"/>
+        </ingredients>
+        <allergens>
+            <allergen alref="al15"/>
+            <!-- no allergens -->
+        </allergens>
+        <instructions>
+            <steps>Prepare rosemary simple syrup by heating water, sugar, rosemary, and optional cloves. Simmer until sugar dissolves. Cool, strain, and store. Mix syrup with pomegranate juice, club soda, and lime in a glass over ice for a refreshing mocktail.</steps>
+        </instructions>
+        <nutrition_score>
+            <nutri_value nfref="nf1">
+                <value>0.2</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf2">
+                <value>0</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf3">
+                <value>18.3</value>
+                <percentage>1%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf4">
+                <value>23.2</value>
+                <percentage>8%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf5">
+                <value>0.2</value>
+                <percentage>1%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf6">
+                <value>21</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf7">
+                <value>0.2</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf8">
+                <value>0.6</value>
+                <percentage>0%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf9">
+                <value>8.6</value>
+                <percentage>10%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf10">
+                <value>0.1</value>
+                <percentage>1%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf11">
+                <value>168.9</value>
+                <percentage>4%</percentage>
+            </nutri_value>
+            <nutri_value nfref="nf12">
+                <value>10.9</value>
+                <percentage>1%</percentage>
+            </nutri_value>
+        </nutrition_score>
+        <featured_comment>
+            <content>Delicious! truly tastes like Christmas in a cup. I love having a non-alcoholic option for a drink around the holidays.</content>
+        </featured_comment>
+    </recipe>
+    <!-- ############################################################################################# -->
+    <!-- List of cuisines -->
+    <!-- I have added a description about the cuisine using ChatGPT -->
+    <cuisines>
+        <cuisine id="c1">
+            <name>Italian Cuisine</name>
+            <description>Known for pasta, pizza, risotto, and various sauces like marinara and pesto.</description>
+        </cuisine>
+        <cuisine id="c2">
+            <name>French Cuisine</name>
+            <description>Characterized by dishes such as coq au vin, boeuf bourguignon, croissants, and escargot.</description>
+        </cuisine>
+        <cuisine id="c3">
+            <name>Chinese Cuisine</name>
+            <description>Includes dishes like stir-fries, dumplings, Peking duck, and various noodle dishes.</description>
+        </cuisine>
+        <cuisine id="c4">
+            <name>Indian Cuisine</name>
+            <description>Offers a wide variety of flavors and spices, including dishes like curry, biryani, tandoori chicken, and naan bread.</description>
+        </cuisine>
+        <cuisine id="c5">
+            <name>Japanese Cuisine</name>
+            <description>Known for sushi, sashimi, tempura, ramen, and dishes like teriyaki and miso soup.</description>
+        </cuisine>
+        <cuisine id="c6">
+            <name>Mexican Cuisine</name>
+            <description>Features dishes such as tacos, enchiladas, burritos, guacamole, and salsa.</description>
+        </cuisine>
+        <cuisine id="c7">
+            <name>Thai Cuisine</name>
+            <description>Known for its balance of sweet, sour, spicy, and salty flavors, with dishes like pad Thai, green curry, and tom yum soup.</description>
+        </cuisine>
+        <cuisine id="c8">
+            <name>Mediterranean Cuisine</name>
+            <description>Includes dishes from countries like Greece, Spain, and Turkey, featuring ingredients like olive oil, olives, feta cheese, and grilled meats and seafood.</description>
+        </cuisine>
+        <cuisine id="c9">
+            <name>Middle Eastern Cuisine</name>
+            <description>Includes dishes like falafel, hummus, kebabs, tabbouleh, and shawarma.</description>
+        </cuisine>
+        <cuisine id="c10">
+            <name>American Cuisine</name>
+            <description>Varied and diverse, with regional specialties such as hamburgers, hot dogs, barbecue, clam chowder, and southern fried chicken.</description>
+        </cuisine>
+        <cuisine id="c11">
+            <name>West African Cuisine</name>
+            <description>Most notable food specialties from West Africa is Jollof Rice,Tamale,Waakye </description>
+        </cuisine>
+    </cuisines>
+    <!-- ############################################################################################# -->
+    <!-- List of nutritional values -->
+    <nutritional>
+        <nutrition id="nf1">
+            <name>Total Fat</name>
+            <quantity_type>g</quantity_type>
+        </nutrition>
+        <nutrition id="nf2">
+            <name>Cholesterol</name>
+            <quantity_type>mg</quantity_type>
+        </nutrition>
+        <nutrition id="nf3">
+            <name>Sodium</name>
+            <quantity_type>mg</quantity_type>
+        </nutrition>
+        <nutrition id="nf4">
+            <name>Total Carbohydrate</name>
+            <quantity_type>g</quantity_type>
+        </nutrition>
+        <nutrition id="nf5">
+            <name>Dietary Fiber</name>
+            <quantity_type>g</quantity_type>
+        </nutrition>
+        <nutrition id="nf6">
+            <name>Sugars</name>
+            <quantity_type>g</quantity_type>
+        </nutrition>
+        <nutrition id="nf7">
+            <name>Protein</name>
+            <quantity_type>g</quantity_type>
+        </nutrition>
+        <nutrition id="nf8">
+            <name>Vitamin A</name>
+            <quantity_type>µg</quantity_type>
+        </nutrition>
+        <nutrition id="nf9">
+            <name>Vitamin C</name>
+            <quantity_type>mg</quantity_type>
+        </nutrition>
+        <nutrition id="nf10">
+            <name>Iron</name>
+            <quantity_type>mg</quantity_type>
+        </nutrition>
+        <nutrition id="nf11">
+            <name>Potassium</name>
+            <quantity_type>mg</quantity_type>
+        </nutrition>
+        <nutrition id="nf12">
+            <name>Phosphorus</name>
+            <quantity_type>mg</quantity_type>
+        </nutrition>
+    </nutritional>
+    <!-- ############################################################################################# -->
+    <!-- List of Meal types -->
+    <mealTypes>
+        <mealType id="mt1">
+            <name>Breakfast</name>
+        </mealType>
+        <mealType id="mt2">
+            <name>Lunch</name>
+        </mealType>
+        <mealType id="mt3">
+            <name>Dinner</name>
+        </mealType>
+        <mealType id="mt4">
+            <name>Snacks</name>
+        </mealType>
+        <mealType id="mt5">
+            <name>Drinks</name>
+        </mealType>
+        <mealType id="mt6">
+            <name>Anytime-Consumption</name>
+        </mealType>
+    </mealTypes>
+    <!-- ############################################################################################# -->
+    <!-- List of Diet categories -->
+    <dietCategories>
+        <dietCategory id="dc1">
+            <name>Dairy-Free</name>
+        </dietCategory>
+        <dietCategory id="dc2">
+            <name>Gluten-Free</name>
+        </dietCategory>
+        <dietCategory id="dc3">
+            <name>Healthy</name>
+        </dietCategory>
+        <dietCategory id="dc4">
+            <name>Sugar-Free</name>
+        </dietCategory>
+        <dietCategory id="dc5">
+            <name>Vegan</name>
+        </dietCategory>
+        <dietCategory id="dc6">
+            <name>Vegetarian</name>
+        </dietCategory>
+        <dietCategory id="dc7">
+            <name>Non-Vegetarian</name>
+        </dietCategory>
+        <dietCategory id="dc8">
+            <name>No-Category</name>
+        </dietCategory>
+        <dietCategory id="dc9">
+            <name>Balanced-Diet</name>
+        </dietCategory>
+    </dietCategories>
+    <!-- ############################################################################################# -->
+    <!-- List of Course type -->
+    <courseType>
+        <course id="ct1">
+            <name>Appetizer</name>
+        </course>
+        <course id="ct2">
+            <name>Soup</name>
+        </course>
+        <course id="ct3">
+            <name>Salad</name>
+        </course>
+        <course id="ct4">
+            <name>Sauces</name>
+        </course>
+        <course id="ct5">
+            <name>Dessert</name>
+        </course>
+        <course id="ct6">
+            <name>Snacks</name>
+        </course>
+        <course id="ct7">
+            <name>Baking</name>
+        </course>
+        <course id="ct8">
+            <name>Sandwich</name>
+        </course>
+        <course id="ct9">
+            <name>Main Dish</name>
+        </course>
+        <course id="ct10">
+            <name>Beverage</name>
+        </course>
+    </courseType>
+    <!-- ############################################################################################# -->
+    <!-- List of season -->
+    <seasons>
+        <season id="s1">
+            <name>Spring</name>
+        </season>
+        <season id="s2">
+            <name>Summer</name>
+        </season>
+        <season id="s3">
+            <name>Fall</name>
+        </season>
+        <season id="s4">
+            <name>Winter</name>
+        </season>
+        <season id="s5">
+            <name>All-Year</name>
+        </season>
+    </seasons>
+    <!-- ############################################################################################# -->
+    <!-- List of method use in recipe -->
+    <methods>
+        <method id="m1">
+            <name>Casserole</name>
+        </method>
+        <method id="m2">
+            <name>Instant Pot</name>
+        </method>
+        <method id="m3">
+            <name>Slow Cooker</name>
+        </method>
+        <method id="m4">
+            <name>Sheet Pan</name>
+        </method>
+        <method id="m5">
+            <name>Stovetop</name>
+        </method>
+        <method id="m6">
+            <name>Chop</name>
+        </method>
+        <method id="m7">
+            <name>Bake</name>
+        </method>
+        <method id="m8">
+            <name>Blend</name>
+        </method>
+        <method id="m9">
+            <name>Broil</name>
+        </method>
+        <method id="m10">
+            <name>Freeze</name>
+        </method>
+    </methods>
+    <!-- ############################################################################################# -->
+    <!-- List of allergens, taken from https://www.foodallergy.org/living-food-allergies/ -->
+    <al:allergies>
+        <al:allergie id="al1">
+            <al:name>Wheat</al:name>
+        </al:allergie>
+        <al:allergie id="al2">
+            <al:name>Soya</al:name>
+        </al:allergie>
+        <al:allergie id="al3">
+            <al:name>Celery</al:name>
+        </al:allergie>
+        <al:allergie id="al4">
+            <al:name>Peanut</al:name>
+        </al:allergie>
+        <al:allergie id="al5">
+            <al:name>Sulphites</al:name>
+        </al:allergie>
+        <al:allergie id="al6">
+            <al:name>Sesame</al:name>
+        </al:allergie>
+        <!--Changed "milk allergy" to "dairy allergy" for broader allergy coverage.-->
+        <al:allergie id="al7">
+            <al:name>Dairy</al:name>
+        </al:allergie>
+        <al:allergie id="al8">
+            <al:name>Nuts</al:name>
+        </al:allergie>
+        <al:allergie id="al9">
+            <al:name>Egg</al:name>
+        </al:allergie>
+        <al:allergie id="al10">
+            <al:name>Mustard</al:name>
+        </al:allergie>
+        <al:allergie id="al11">
+            <al:name>Crustacean</al:name>
+        </al:allergie>
+        <al:allergie id="al12">
+            <al:name>Mollusc</al:name>
+        </al:allergie>
+        <al:allergie id="al13">
+            <al:name>Fish</al:name>
+        </al:allergie>
+        <al:allergie id="al14">
+            <al:name>Meat</al:name>
+        </al:allergie>
+        <al:allergie id="al15">
+            <al:name>No-Allergens</al:name>
+        </al:allergie>
+    </al:allergies>
 </Food>
