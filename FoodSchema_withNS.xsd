@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="http://www.dsti-food.com/"
-	xmlns:ds="http://www.dsti-food.com/"
-	xmlns:al="http://allergens.dsti.com/"
+           xmlns:ds="http://www.dsti-food.com/"
+           xmlns:al="http://allergens.dsti.com/"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
 	<xs:import namespace="http://allergens.dsti.com/"
-               schemaLocation="FoodAllergens.xsd"/>
+	           schemaLocation="FoodAllergens.xsd"/>
 	<xs:element name="Food">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element maxOccurs="unbounded"
-                            ref="ds:recipe"/>
+				            ref="ds:recipe"/>
 				<xs:element maxOccurs="unbounded"
 				            ref="ds:cuisines"/>
 				<xs:element maxOccurs="unbounded"
@@ -156,7 +156,7 @@
 				<xs:element name="methodUsed">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="method" maxOccurs="unbounded">
+							<xs:element name="method">
 								<xs:complexType>
 									<xs:attribute name="mref"
 									              type="xs:string"
@@ -192,7 +192,7 @@
 						<xs:documentation>cooking time</xs:documentation>
 					</xs:annotation>
 				</xs:element>
-				<xs:element name="totaltime"
+				<xs:element name=" totaltime"
 				            type="xs:duration">
 					<xs:annotation>
 						<xs:documentation>Total cooking time</xs:documentation>
@@ -228,14 +228,14 @@
 											<!-- Define the 'ingredient' element -->
 											<xs:element name="ingredient"
 														maxOccurs="unbounded">
-												<!-- Define the attributes for 'ingredient' -->
+													<!-- Define the attributes for 'ingredient' -->
 												<xs:complexType>
 													<xs:attribute name="name"
 												    	          type="xs:string"
 												        	      use="required"/>
 													<xs:attribute name="quantity"
 												    	          type="xs:string"
-												        	      use="optional"/>
+												        	      use="optional"/>												              
 													<xs:attribute name="unit"
 												    	          type="xs:string"
 												        	      use="optional"/>
@@ -250,7 +250,7 @@
 								<!-- Define another 'ingredient' element -->
 								<xs:element name="ingredient">
 									<xs:complexType>
-										<!-- Define the attributes for 'ingredient' -->
+								  	<!-- Define the attributes for 'ingredient' -->
 										<xs:attribute name="name"
 									    	          type="xs:string"
 									        	      use="required"/>
