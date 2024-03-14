@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<Recipes xmlns:ds="http://www.dsti-food.com/" xmlns:al="http://allergens.dsti.com/">
+<Recipe>
+<Title>7-Layer Beet Salad</Title>
+<DietCategories>
+<DietCategory>Gluten-Free</DietCategory>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>Dairy</Allergens>
+</Recipe>
+<Recipe>
+<Title>Harissa Meatballs with Whipped Feta</Title>
+<DietCategories>
+<DietCategory>Non-Vegetarian</DietCategory>
+<DietCategory>Gluten-Free</DietCategory>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+</DietCategories>
+<Allergens>DairyMeatSulphites</Allergens>
+</Recipe>
+<Recipe>
+<Title>Spicy Peanut Soup with Sweet Potato + Kale</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+<DietCategory>Gluten-Free</DietCategory>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+<DietCategory>Vegan</DietCategory>
+</DietCategories>
+<Allergens>NutsSulphitesPeanut</Allergens>
+</Recipe>
+<Recipe>
+<Title>The Best Peach Cobbler</Title>
+<DietCategories>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>WheatDairy</Allergens>
+</Recipe>
+<Recipe>
+<Title>Easy Instant Pot Applesauce</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+<DietCategory>Gluten-Free</DietCategory>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+<DietCategory>Vegan</DietCategory>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>Sulphites</Allergens>
+</Recipe>
+<Recipe>
+<Title>Instant Pot Italian Beef Sandwiches</Title>
+<DietCategories>
+<DietCategory>Sugar-Free</DietCategory>
+<DietCategory>Non-Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>DairyMeat</Allergens>
+</Recipe>
+<Recipe>
+<Title>Almond Oat Banana Crepes</Title>
+<DietCategories>
+<DietCategory>Non-Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>WheatDairyNutsEgg</Allergens>
+</Recipe>
+<Recipe>
+<Title>Cashew Golden Milk Latte</Title>
+<DietCategories>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+</DietCategories>
+<Allergens>DairyNuts</Allergens>
+</Recipe>
+<Recipe>
+<Title>English Muffin Baklava</Title>
+<DietCategories>
+<DietCategory>Sugar-Free</DietCategory>
+</DietCategories>
+<Allergens>DairyNuts</Allergens>
+</Recipe>
+<Recipe>
+<Title>The Best Easy Peanut Butter Pie</Title>
+<DietCategories>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>DairyPeanut</Allergens>
+</Recipe>
+<Recipe>
+<Title>Soft Gingerbread Cookies With Maple Glaze</Title>
+<DietCategories>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>WheatDairyEgg</Allergens>
+</Recipe>
+<Recipe>
+<Title>Firecracker Vegan Lettuce Wraps
+		</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+<DietCategory>Vegan</DietCategory>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>SoyaPeanutSulphitesSesame</Allergens>
+</Recipe>
+<Recipe>
+<Title>The Ultimate Breakfast Sandwich
+
+		</Title>
+<DietCategories>
+<DietCategory>Sugar-Free</DietCategory>
+<DietCategory>Non-Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>WheatDairyEggMeat</Allergens>
+</Recipe>
+<Recipe>
+<Title>Spicy Falafel And Roasted Veggie Naan-Wich</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Vegan</DietCategory>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>WheatSulphites</Allergens>
+</Recipe>
+<Recipe>
+<Title>Italian Tomato And Bread Soup</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>WheatMeatDairy</Allergens>
+</Recipe>
+<Recipe>
+<Title>Thai Coconut Soup With Tofu And Rice</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+<DietCategory>Gluten-Free</DietCategory>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Non-Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>Fish</Allergens>
+</Recipe>
+<Recipe>
+<Title>Sopa Tarasca (Pinto Bean Soup) With Jalapeno Corn Fritters
+		</Title>
+<DietCategories>
+<DietCategory>Vegan</DietCategory>
+<DietCategory>Vegetarian</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+</DietCategories>
+<Allergens>Dairy</Allergens>
+</Recipe>
+<Recipe>
+<Title>Instant Pot Summer Soup
+		</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+<DietCategory>Gluten-Free</DietCategory>
+<DietCategory>Healthy</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+<DietCategory>Non-Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>MeatDairy</Allergens>
+</Recipe>
+<Recipe>
+<Title>The Best Easy Pasta Salad</Title>
+<DietCategories>
+<DietCategory>Non-Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>WheatDairy</Allergens>
+</Recipe>
+<Recipe>
+<Title>Holiday Pretzel Bites</Title>
+<DietCategories>
+<DietCategory>Sugar-Free</DietCategory>
+</DietCategories>
+<Allergens>WheatNuts</Allergens>
+</Recipe>
+<Recipe>
+<Title>Homemade Spicy Ramen with Tofu</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+<DietCategory>Sugar-Free</DietCategory>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>WheatEgg</Allergens>
+</Recipe>
+<Recipe>
+<Title>Spicy Instant Pot Carrot Soup</Title>
+<DietCategories>
+<DietCategory>Vegan</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Elote Queso</Title>
+<DietCategories>
+<DietCategory>Dairy-Free</DietCategory>
+</DietCategories>
+<Allergens>Dairy</Allergens>
+</Recipe>
+<Recipe>
+<Title>Basic Soft Pretzels</Title>
+<DietCategories>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Caramelized Onion Dip</Title>
+<DietCategories>
+<DietCategory>No-Category</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>5 Minute Honey Mustard Sauce</Title>
+<DietCategories>
+<DietCategory>No-Category</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>General Tsos Cauliflower</Title>
+<DietCategories>
+<DietCategory>No-Category</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Loaded Caprese Grilled Cheese</Title>
+<DietCategories>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Socca with Whipped Feta and Tomato Salad</Title>
+<DietCategories>
+<DietCategory>Vegan</DietCategory>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Roasted Mushroom Sandwich with Horseradish Aioli</Title>
+<DietCategories>
+<DietCategory>Vegetarian</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Trader Joes Sun-Dried Tomato Focaccia Turkey Sandwich</Title>
+<DietCategories>
+<DietCategory>No-Category</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Detox Rainbow Roll-Ups with Peanut Sauce</Title>
+<DietCategories>
+<DietCategory>Vegan</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Ginger Chicken Meatball Sandos</Title>
+<DietCategories>
+<DietCategory>Balanced-Diet</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Peanut Chicken Lettuce Wraps with Ginger Garlic Sauce</Title>
+<DietCategories>
+<DietCategory>No-Category</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Meal Prep Breakfast Sandwiches</Title>
+<DietCategories>
+<DietCategory>No-Category</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+<Recipe>
+<Title>Rosemary Pom Spritzer AKA The Merry Mocktail</Title>
+<DietCategories>
+<DietCategory>No-Category</DietCategory>
+</DietCategories>
+<Allergens>No-Allergens</Allergens>
+</Recipe>
+</Recipes>
