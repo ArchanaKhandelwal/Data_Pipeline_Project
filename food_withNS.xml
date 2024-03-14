@@ -2828,7 +2828,7 @@
         <categoryofDiet>
             <dietCategory dcref="dc1"/>
         </categoryofDiet>
-        <cuisine cref="c10"/>
+        <cuisine cref="c6"/>
         <course ctref="ct6"/>
         <seasonal>
             <season sref="s2"/>
@@ -3225,7 +3225,7 @@
         <categoryofDiet>
             <dietCategory dcref="dc8"/>
         </categoryofDiet>
-        <cuisine cref="c10"/>
+        <cuisine cref="c3"/>
         <!-- Asian-Inspired -->
         <course ctref="ct9"/>
         <!-- Appetizer/Main Dish -->
@@ -3443,7 +3443,7 @@
             <dietCategory dcref="dc5"/>
             <dietCategory dcref="dc6"/>
         </categoryofDiet>
-        <cuisine cref="c10"/>
+        <cuisine cref="c1"/>
         <course ctref="ct8"/>
         <!-- Lunch -->
         <seasonal>
@@ -3859,7 +3859,7 @@
         <categoryofDiet>
             <dietCategory dcref="dc9"/>
         </categoryofDiet>
-        <cuisine cref="c10"/>
+        <cuisine cref="c3"/>
         <course ctref="ct8"/>
         <seasonal>
             <season sref="s5"/>
@@ -3964,7 +3964,7 @@
         <categoryofDiet>
             <dietCategory dcref="dc8"/>
         </categoryofDiet>
-        <cuisine cref="c10"/>
+        <cuisine cref="c7"/>
         <course ctref="ct9"/>
         <seasonal>
             <season sref="s1"/>
