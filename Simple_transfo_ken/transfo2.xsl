@@ -19,7 +19,9 @@
 <xsl:template name="accumulateSums">
     <xsl:param name="index" select="1"/>
     <xsl:param name="sum" select="0"/>
-  
+	
+ 	<xsl:variable name="totalReviews" select="sum(ds:Food/ds:recipe[ds:course/@ctref = //ds:courseType/ds:course[ds:name = $varCourse]/@id]/ds:reviews/ds:numReviews)"/>
+ 
     <xsl:choose>
 		<!-- Recursive case: accumulate the sum for each  recipe -->
         <xsl:when test="$index &lt;= count(ds:Food/ds:recipe[ds:course/@ctref = //ds:courseType/ds:course[ds:name = $varCourse]/@id])"> 
@@ -40,12 +42,12 @@
 			</p>
 			<p>
 				Total number of reviews: 
-				<xsl:value-of select="sum(ds:Food/ds:recipe[ds:course/@ctref = //ds:courseType/ds:course[ds:name = $varCourse]/@id]/ds:reviews/ds:numReviews)"/>
+				<xsl:value-of select="$totalReviews"/>
 				<xsl:text>&#10;</xsl:text>   
 			</p>
 			<p>
 				Overall average rating:
-				<xsl:value-of select="$sum div sum(ds:Food/ds:recipe[ds:course/@ctref = //ds:courseType/ds:course[ds:name = $varCourse]/@id]/ds:reviews/ds:numReviews)"/>
+				<xsl:value-of select="$sum div $totalReviews"/>
 				<xsl:text>&#10;</xsl:text>    
 			</p>                 
         </xsl:otherwise>
