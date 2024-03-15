@@ -2864,6 +2864,7 @@
         </ingredients>
         <allergens>
             <allergen alref="al7"/>
+			<allergen alref="al1"/>
         </allergens>
         <instructions>
             <steps>Heat the butter and olive oil in a large skillet. Add the jalapeños and garlic and sauté until very soft.</steps>
@@ -2963,7 +2964,8 @@
             <ingredient name="coarse salt" />
         </ingredients>
         <allergens>
-            <allergen alref="al15"/> <!-- no allergens -->
+            <allergen alref="al9"/>
+            <allergen alref="al7"/>
         </allergens>
         <instructions>
             <steps>Whisk warm milk, yeast, brown sugar, butter, and salt. Stir in flour to form a dough. Knead on a floured surface 10-15 times.</steps>
@@ -3065,8 +3067,8 @@
             <ingredient name="Worcestershire sauce or soy sauce" />
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
-            <!-- no allergens -->
+            <allergen alref="al1"/>
+            <allergen alref="al2"/>
         </allergens>
         <instructions>
             <steps>Sauté onions with butter, salt, and sugar. Add wine to caramelize. Mix onions with cream cheese, sour cream, parsley, and optional sauces. Serve with chips or as a spread.</steps>
@@ -3159,8 +3161,7 @@
             <ingredient name="cayenne pepper" quantity="1/4" unit="teaspoon"/>
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
-            <!-- no allergens -->
+            <allergen alref="al9"/>
         </allergens>
         <instructions>
             <steps>Whisk all ingredients in a small dish until smooth.</steps>
@@ -3273,8 +3274,8 @@
             <ingredient name="scallions and sesame seeds for topping"/>
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
-            <!-- no allergens -->
+            <allergen alref="al4"/>
+            <allergen alref="al8"/>
         </allergens>
         <instructions>
             <steps>Sauté ginger and garlic in sesame oil. Add broth, soy sauce, vinegar, sugar, and tomato paste to make the sauce. Prepare a batter, coat cauliflower florets, and fry until golden brown. Toss in the sauce and serve topped with scallions and sesame seeds.</steps>
@@ -3376,8 +3377,8 @@
             <ingredient name="salt and pepper"/>
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
-            <!-- no allergens -->
+            <allergen alref="al2"/>
+			<allergen alref="al9"/>
         </allergens>
         <instructions>
             <steps>Make the garlic butter tomato sauce by charring tomatoes in a skillet, adding butter, garlic, and balsamic vinegar. Assemble sandwiches with pesto, cheese, and tomato sauce. Cook in a skillet with butter until golden brown.</steps>
@@ -3480,8 +3481,8 @@
             <ingredient name="fresh herbs" />
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
-            <!-- no allergens -->
+            <allergen alref="al9"/>
+			<allergen alref="al8"/>
         </allergens>
         <instructions>
             <steps>Preheat oven for socca. Make tomato salad. Whisk socca ingredients, bake in preheated cast iron skillet. Blend feta with creamy ingredient and herbs for whipped feta. Serve socca topped with whipped feta and tomato salad.</steps>
@@ -3587,7 +3588,9 @@
             <ingredient name="arugula" quantity="1" unit="handful"/>
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
+            <allergen alref="al2"/>
+			<allergen alref="al7"/>
+			<allergen alref="al8"/>
         </allergens>
         <instructions>
             <steps>Roast seasoned mushrooms with avocado oil. Prepare horseradish aioli by mixing mayo, garlic, horseradish, and lemon juice. Assemble the sandwich on toasted bread with optional pesto rosso, roasted mushrooms, Havarti cheese, arugula, and aioli.</steps>
@@ -3686,7 +3689,8 @@
             <ingredient name="pesto" quantity="1/4" unit="cup"/>
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
+            <allergen alref="al7"/>
+			<allergen alref="al9"/>
         </allergens>
         <instructions>
             <steps>Toast the focaccia in the oven. Mix pesto and mayo for the sauce. Slice the focaccia bread horizontally. Layer with pesto mayo, turkey, tomato, greens, and red onion. Assemble and serve this flavorful sandwich.</steps>
@@ -4006,8 +4010,8 @@
             <ingredient name="cilantro" quantity="2" unit="tablespoons"/>
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
-            <!-- no allergens -->
+            <allergen alref="al2"/>
+			<allergen alref="al9"/>
         </allergens>
         <instructions>
             <steps>Marinate chicken with sauce ingredients. Cook chicken and peanuts in sesame oil. Add softened rice noodles to skillet and cook until tender. Serve the mixture in lettuce leaves, topped with additional garnishes and drizzle with sauce.</steps>
@@ -4103,8 +4107,8 @@
             <ingredient name="Butter" quantity="" />
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
-            <!-- no allergens -->
+            <allergen alref="al2"/>
+			<allergen alref="al6"/>
         </allergens>
         <instructions>
             <steps>Preheat oven and prepare a sheet pan. Whisk eggs with milk and salt. Cook bacon and wilt spinach, then add to egg mixture. Bake, then cut into rounds. Assemble sandwiches with English muffins, cheese, and optional butter.</steps>
@@ -4199,8 +4203,7 @@
             <ingredient name="fresh lime" quantity="a squeeze"/>
         </ingredients>
         <allergens>
-            <allergen alref="al15"/>
-            <!-- no allergens -->
+            <allergen alref="al5"/>
         </allergens>
         <instructions>
             <steps>Prepare rosemary simple syrup by heating water, sugar, rosemary, and optional cloves. Simmer until sugar dissolves. Cool, strain, and store. Mix syrup with pomegranate juice, club soda, and lime in a glass over ice for a refreshing mocktail.</steps>
