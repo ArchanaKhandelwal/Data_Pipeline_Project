@@ -4285,6 +4285,1899 @@
 		</featured_comment>
 	</recipe>
 	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Springy Blueberry Lemon Bread</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct7"/>
+		<seasonal>
+			<season sref="s1"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT60M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT75M</totaltime>
+		<calories>216</calories>
+		<description>Blueberry Lemon Bread – loaded with juicy lemon and blueberries. SO YUMMY with the perfect thick, soft texture!
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>34</numReviews>
+			<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="10">
+			<ingredient name="Land O Lakes® Butter, room temperature"
+						quantity="1/2"
+						unit="cup"/>
+			<ingredient name=" White sugar"
+			            quantity="1"
+			            unit="cup"/>
+			<ingredient name="Lemon"
+			            unit="juice and zest "/>
+			<ingredient name="Eggs"
+			            quantity="2"/>
+			<ingredient name="Flour"
+			            quantity="11/2"
+			            unit="cups"/>
+			<ingredient name="Baking powder"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Salt"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Milk"
+			            quantity="1/2"
+			            unit="cup"/>
+			<ingredient name="Blueberries"
+			            quantity="1"
+			            unit="cup"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al9"/>
+		</allergens>
+		<instructions>
+			<steps>Prep: Preheat the oven to 350 degrees. Line a loaf pan with parchment paper.</steps>
+			<steps>Mix Part One: Cream the butter and sugar until fluffy. Mix in the lemon juice, lemon zest, and eggs.</steps>
+			<steps>Mix Part Two: Stir in the flour, baking powder, salt, and milk until the batter is mixed. Gently fold in the blueberries.</steps>
+			<steps>Bake: Pour batter into prepared pan. Bake for about one hour – the top should be golden brown and spring back when you touch it.</steps>
+			<steps>Serve: Let cool. Slice, slather on the butter with olive oil, and serve!</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>5.9</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>37.8</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>341.9</value>
+				<percentage>15%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>38</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.1</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>22.1</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>3.8</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>115.2</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>3.5</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.2</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>174</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>125.2</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+		</nutrition_score>		
+		<featured_comment>
+			<content>I made three loaves of this last month. It’s now on my go-to list of recipes to bring new moms. So, so easy to make and so delicious!</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Browned Butter Chocolate Chip Cookies</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct7"/>
+		<seasonal>
+			<season sref="s3"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m4"/>
+			<method mref="m5"/>
+			<method mref="m7"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt4"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT50M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT15M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT65M</totaltime>
+		<calories>207</calories>
+		<description>Browned butter and brown sugar caramelly goodness, crispy edges, barely thick and soft centers, and melty little puddles of chocolate chips. 
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>82</numReviews>
+			<averageRating>4.6</averageRating>
+		</reviews>
+		<ingredients servings="30">
+			<ingredient name="Unsalted butter"
+			            quantity="1"
+			            unit="cups"/>
+			<ingredient name="White sugar"
+			            quantity="1"
+			            unit="cups"/>
+			<ingredient name="Brown sugar"
+			            quantity="1"
+			            unit="cups"/>
+			<ingredient name="Vanilla"
+			            quantity="1"
+			            unit="tablespoon"/>
+			<ingredient name="Eggs"
+			            quantity="2"/>
+			<ingredient name="Flour"
+			            quantity="2 1/2  + 2 "
+			            unit="cup + tablespoons"/>
+			<ingredient name="Baking soda"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Baking powder"
+			            quantity="1"
+			            unit="Teaspoon"/>
+			<ingredient name="Salt"
+			            quantity="3/4"
+			            unit="teaspoon"/>
+			<ingredient name="Chocolate chips or chocolate chunks"
+			            quantity="11/2"
+			            unit="cup"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al9"/>
+		</allergens>
+		<instructions>
+			<steps>Brown the butter: Cut the butter into small pieces for even melting. Melt the butter in a wide stainless steel skillet over medium heat. Swirl the pan a few times as the butter melts. It will get bubbly and then foamy – use a heat-proof spatula to scrape the butter across the bottom of the pan to prevent burning. You’ll see the butter start to turn golden brown very quickly, and you’ll be able to smell it (yum). When it is a nice golden brown color, remove from heat and transfer to a cool bowl or glass measuring cup, being careful not to burn it. The whole process should take about 5 minutes. Let the butter cool for another 5-10 minutes while you measure and prep everything else.</steps>
+			<steps>Add the butter, sugars, and vanilla to the bowl of an electric mixer. Beat on medium high speed for 2-3 minutes.</steps>
+			<steps>Add the eggs and beat for 1-2 minutes until shiny and smooth. </steps>
+			<steps>Add the flour, baking soda, baking powder, and salt. Mix until just combined into a dense, shiny dough. Let the dough cool for 15-20 minutes (if you add the chocolate chips now, they will melt).</steps>
+			<steps>Mix in the chocolate chips or chunks (sometimes it helps to do this by hand). Let the dough rest for another 20-30 minutes. This helps hydrate the flour and carry the browned butter flavor farther in the cookies.</steps> 
+			<steps>Preheat the oven to 350 degrees. Roll or scoop your cookie dough into 3-tablespoon balls onto a baking sheet. Bake for 9 minutes, until the edges look cooked but the middles are still slightly soft and puffy.</steps>
+			<steps>Remove from the oven and let the cookies rest for 15-20 minutes. I KNOW I KNOW I KNOW this is very hard. But as they rest, the middles are going to sink down and kind of densify the middle, so you get that crispy exterior with the barely-thick, underbaked center.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>9.7</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>28.6</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>88.8</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>29</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.1</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>19.6</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>2.4</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>56.9</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>0.6</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>61.4</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>43.4</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>My cookies turned out extra thick. Why?</Question>
+				<Answer>This is because of the flour. It’s really important to get the right amount of flour here, which is why I’m going to recommend that you take the time to spoon your flour into your measuring cups and level them with a knife. That is not something I typically recommend because I don’t have the patience for it – but here, it really does matter! An over-floured cookie will be too thick and won’t get the crispy edge. Watch the video to see the consistency of the dough that we’re going for – I find that it’s easier to go by the feel than by exact measurements since there are so many variables that can affect how much flour you’ll need. If you’re weighing your flour and making the recipe as-is without any scaling, we’ve found that 335 grams of flour works best.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>I measured my butter, but I ended up with less after I browned it. Why?</Question>
+				<Answer>If you brown the butter for longer than 5 minutes, it’ll start to lose moisture which will affect your butter  / flour ratios. I like to transfer my butter to a glass measuring cup after I brown it to make sure I still have very close to 1 cup of butter. If you have less, it’s fine, they’ll still turn out, you just want to scale back on the flour by 1-2 tablespoons if you lost a little of that moisture.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>I see little flecks of brown in my butter. Is that normal?</Question>
+				<Answer>Yes! The browned butter will have flecks of brown in it – those are the browned milk solids and they hold all the yummy flavor, so be sure to really scrape your pan down so you get to use all of them!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How can I store the dough in the fridge or freezer?</Question>
+				<Answer>This makes a very large batch of cookies! If you don’t need all of the cookies at once, here’s what I recommend: split the dough into thirds. One third of it should fit onto one large cookie sheet, so you can bake that immediately. Then store the other two thirds in their own containers and either refrigerate (up to 5 days) or freeze (up to three months) and you’ve got two more fresh batches sometime in the future! You can also freeze the rolled balls or the baked cookies, both with great results.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Do I need to make any changes to this recipe if I live at a high altitude?</Question>
+				<Answer>From a reader: “Due to altitude, I typically add extra flour to get the correct thickness, so for this recipe, I anticipated needing to add about 3-4T extra flour. My browned butter measured about 2 tablespoons shy of 1 cup in liquid form, and I ended up needing to add almost 1/2 cup extra flour and refrigerated as instructed.”</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>What does browned butter do to cookies? (Is it really worth it!?)</Question>
+				<Answer>Browned butter has a sweet and savory flavor, almost like toffee, which makes these cookies rich, delicious, and a little caramelly!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How do you know when your browned butter is done?</Question>
+				<Answer>The whole process should only take about 5 minutes. You’ll see the butter start to turn golden brown very quickly, and you’ll be able to smell it (yum). When it is a nice golden brown color, remove from heat and transfer it to a cool bowl or glass measuring cup. This last part is key – if you keep it in the pan after it’s perfectly browned, it will start to burn.</Answer>
+			</FAQ>
+		</FAQs>
+		<featured_comment>
+			<content>These are amazing!!! I’ve been on the hunt for the perfect chocolate chip cookie recipe and this is it. I increased the bake time a bit because I like my cookies a little less on the chewy side and they turned out delicious. New go-to recipe!</content>	
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Carrot Cake Coffee Cake</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct7"/>
+		<seasonal>
+			<season sref="s1"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT20M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT35M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT55M</totaltime>
+		<calories>297</calories>
+		<description>Carrot Cake Coffee Cake! A super easy batter loaded with shredded carrots, topped with a thick crumbly cinnamony streusel, and finished with a melty sweet honey butter 
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>443</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="10">
+			<ingredient name="Carrots"
+						quantity="2"/>
+			<ingredient name=" Granulated sugar"
+			            quantity="150"
+			            unit="g"/>
+			<ingredient name="Butter, melted"
+			            quantity="114"
+			            unit="g "/>
+			<ingredient name="Eggs"
+			            quantity="2"/>
+			<ingredient name="Flour"
+			            quantity="125"
+			            unit="g"/>
+			<ingredient name="Baking soda"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name=" Cinnamon"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Salt"
+			            quantity="1"
+			            unit="pinch"/>
+			<ingredient name="Butter, melted"
+			            quantity="4"
+			            unit="tablespoon"/>
+			<ingredient name="Flour"
+			            quantity="63"
+			            unit="g"/>
+			<ingredient name=" Brown sugar"
+			            quantity="100"
+			            unit="g"/>
+			<ingredient name="Cinnamon"
+			            quantity="1"
+			            unit="tablespoon"/>
+			<ingredient name="Salt"
+			            quantity="1"
+			            unit="pinch"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al9"/>
+		</allergens>
+		<instructions>
+			<steps>Prep: Preheat the oven to 350 degrees. Peel and grate the carrots (I use my food processor). You should have about 1 1/2 cups.</steps>
+			<steps>Cake Batter: Whisk sugar, melted butter, and eggs. Stir in carrots. Add flour, baking soda, and cinnamon. Mix until just combined. The batter will be very thick.</steps>
+			<steps>Streusel: Mix ingredients for the streusel until you get a texture that looks like pebbles (sometimes I use my hands to mix it all together).</steps>
+			<steps>Bake: Spread batter into a greased 9-inch round baking pan (see FAQs). Sprinkle with streusel. Bake for 30 minutes until the center is just set. Top with honey butter if you’re extra (you are).</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>15</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>73.8</value>
+				<percentage>25%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>269.2</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>38.1</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.1</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>22.7</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>3.5</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>234.4</value>
+				<percentage>26%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0.7</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.2</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>89.2</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>49</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>Absolutely delicious and surprisingly easy to make. Definitely great for family get togethers otherwise you will eat the whole pan.</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Carrot Cake Smoothie Bowl</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc5"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct6"/>
+		<seasonal>
+			<season sref="s3"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt4"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT10M</totaltime>
+		<calories>457</calories>
+		<description>Carrot Cake Smoothie Bowl – an easy, nutrition-packed dessert or snack recipe with a secret super-healthy ingredient! Guilt-free snack!
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>6</numReviews>
+			<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="2">
+			<ingredient name="chopped romaine (I didn’t have romaine so I used spinach)"
+						quantity="1"
+						unit="cup"/>
+			<ingredient name=" unsweetened coconut milk"
+			            quantity="1"
+						unit="cup"/>
+			<ingredient name="chopped raw carrots"
+						quantity="2"
+			            unit="cups"/>
+			<ingredient name="chopped pineapple"
+			            quantity="1"
+						unit="cup"/>
+			<ingredient name=" banana"
+			            quantity="1"/>
+			<ingredient name="clementines, peeled (also didn’t have so I used mango)"
+			            quantity="2"/>
+			<ingredient name="vanilla extract"
+			            quantity="1/2"
+						unit="teaspoon"/>	
+			<ingredient name="ground cinnamon and/or nutmeg"
+						unit="dash"/>									
+		</ingredients>
+		<allergens>
+			<allergen alref="al8"/>
+		</allergens>
+		<instructions>
+			<steps>Blend the romaine (or spinach) and coconut milk until smooth.</steps>
+			<steps>Add the remaining ingredients and blend again until smooth.</steps>
+			<steps>Top with pistachios and toasted coconut! My fave.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>29.4</value>
+				<percentage>38%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>106.3</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>51.4</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>9.3</value>
+				<percentage>33%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>31.1</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>5.9</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>1125.4</value>
+				<percentage>125%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>66.7</value>
+				<percentage>74%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>3</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>1210.9</value>
+				<percentage>26%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>205.8</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+		</nutrition_score>	
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Unbelievably Good Cashew Coffee</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct10"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+			<mealtime mtref="mt5"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT0M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT5M</totaltime>
+		<calories>378</calories>
+		<description>The creamiest morning coffee you’ve ever had! Made with just coffee, cashews, honey, and sea salt.
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>99</numReviews>
+			<averageRating>4.9</averageRating>
+		</reviews>
+		<ingredients servings="1">
+			<ingredient name=" strongly brewed coffee"
+						quantity="11/2"
+						unit="cup"/>
+			<ingredient name="cashews"
+			            quantity="1/4"
+						unit="cup"/>
+			<ingredient name="honey"
+						quantity="1"
+			            unit="tablespoon"/>
+			<ingredient name="coarse sea salt"
+						quantity="1"
+						unit="pinch"/>	
+		</ingredients>
+		<allergens>
+			<allergen alref="al8"/>
+		</allergens>
+		<instructions>
+			<steps>Blend all ingredients for about 45 seconds in a high-powered blender. Start on a lower speed and gradually work your way up, ending with about 15 seconds on a very high speed to ensure smooth and creamy texture. </steps>
+			<steps> Pour into a mug and enjoy, or chill for later</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>24.9</value>
+				<percentage>32%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>305.5</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>34.5</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.9</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>20.6</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>10.8</value>
+				<percentage>22%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0.4</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>4.1</value>
+				<percentage>23%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>557.8</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>341.2</value>
+				<percentage>27%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>Possibly the best coffee I’ve ever had in my life! Without a doubt, it’s creamy, nutty and so satisfying. Cashew coffee will change your life!!</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Cinnamon White Russian</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct10"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m1"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt5"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT10M</totaltime>
+		<calories>367</calories>
+		<description>This Cinnamon White Russian is a perfect holiday party drink! with just four ingredients – vodka, coffee liquor, cinnamon simple syrup, and cream.
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>7</numReviews>
+			<averageRating>4.7</averageRating>
+		</reviews>
+		<ingredients servings="24">
+			<ingredient name=" Water"
+						quantity="3"
+						unit="cups"/>
+			<ingredient name="granulated sugar"
+			            quantity="3"
+						unit="cups"/>
+			<ingredient name="cinnamon sticks"
+						quantity="2"
+			            unit="sticks"/>
+			<ingredient name="large ice cubes"/>
+			<ingredient name="Absolut vodka"
+			            quantity="4"
+						unit="parts"/>
+			<ingredient name="coffee liquor"
+			            quantity="3"
+						unit="parts"/>
+			<ingredient name="cinnamon simple syrup"
+			            quantity="3"
+						unit="parts"/>
+			<ingredient name="cream (okay, fine, a little extra won’t hurt)"
+			            quantity="2"
+						unit="parts"/>			
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al15"/>
+		</allergens>
+		<instructions>
+			<steps>Make the Cinnamon Simple Syrup: Heat the water, sugar, and cinnamon sticks over medium high heat. Stir until the sugar dissolves. Simmer longer for more cinnamon taste.</steps>
+			<steps>Make the Cinnamon White Russian: Place an ice cube in each glass. Add ingredients in order listed. Swirl before and after adding the cream to get everything mixed together real nice. You can also mix the drink in a shaker with ice cubes to chill it faster. </steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>7.3</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>22.4</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>10</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>42</value>
+				<percentage>15%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>0.1</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>38.9</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>0.6</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>81.7</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0.1</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>0.1</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>31.1</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>15.6</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+		</nutrition_score>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>The Best Soft Granola Bars</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct6"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s3"/>
+			<season sref="s2"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m10"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+			<mealtime mtref="mt4"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT30M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT45M</totaltime>
+		<calories>303</calories>
+		<description>The BEST Soft Granola Bars recipe – made with PB, honey, vanilla, oats, pretzels, peanuts (and any other add-ins you like). So easy and SUPER yummy!
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>2</numReviews>
+			<averageRating>4.7</averageRating>
+		</reviews>
+		<ingredients servings="16">
+			<ingredient name="rolled oats"
+						quantity="2"
+						unit="cups"/>
+			<ingredient name=" twisted pretzels, crushed down to about 1 heaping cup"
+			            quantity="2"
+						unit="cups"/>
+			<ingredient name="salted peanut halves"
+						quantity="1/2"
+			            unit="cup"/>
+			<ingredient name="peanut butter (more as needed)"
+			            quantity="1"
+						unit="cup"/>
+			<ingredient name="honey (more as needed)"
+			            quantity="1//2"
+						unit="cup"/>
+			<ingredient name="vanilla"
+			            quantity="1"
+			            unit="teaspoon"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al8"/>
+		</allergens>
+		<instructions>
+			<steps>Toss the oats, crushed pretzels, and salted peanut halves together in a large bowl.</steps>
+			<steps>Stir the peanut butter, honey, and vanilla together in a separate bowl until smooth and creamy. Pour the mixture over the dry ingredients in the other bowl. Stir until combined.</steps>
+			<steps>Press the bar mixture into a 9×9 inch pan lined with parchment paper (9×13 will work – it will just yield wider, flatter bars). Freeze for 30 minutes. Pull out of the pan and cut into bars. Store bars individually wrapped in the freezer for quick grab-and-go snacks.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>11.2</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>127.2</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>44.1</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>4.6</value>
+				<percentage>16%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>10.6</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>9.4</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.7</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>287.2</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>287.3</value>
+				<percentage>23%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>These bars are so good! I’ve told everyone about them. My extra picky toddler gobbles them up. Such a wonderful thing to have on hand when you want something sweet and filling. Excellent recipe!</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Frosted Blueberry Lemonade</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct10"/>
+		<seasonal>
+			<season sref="s1"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt5"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT10M</totaltime>
+		<calories>126</calories>
+		<description>Frosted Blueberry Lemonade – made with just two main ingredients. Super healthy, refreshing, and ready in seconds! So good.
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>8</numReviews>
+			<averageRating>5</averageRating>
+		</reviews>
+		<ingredients servings="2">
+			<ingredient name=" Bai5 Limu Lemon"
+						quantity="11/2"
+						unit="cup"/>
+			<ingredient name="frozen blueberries"
+			            quantity="2"
+						unit="cups"/>
+			<ingredient name="lemon"
+						quantity="1"
+			            unit="juice and zest"/>
+			<ingredient name="light agave nectar"
+						quantity="2"
+						unit="teaspoons"/>
+			<ingredient name="a handful of fresh mint (optional)"/>
+			<ingredient name="yogurt (optional)"
+			            quantity="1/4"
+						unit="cup"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al15"/>
+		</allergens>
+		<instructions>
+			<steps>Soften the blueberries in the microwave for 30 seconds or just leave them sitting out at room temperature for 20 minutes or so. They should still be partially frozen but soft enough to easily blend.</steps>
+			<steps>Blend the blueberries, Bai5 Limu Lemon, lemon juice and zest, agave nectar, mint leaves, and yogurt together until smooth. </steps>
+			<steps>Serve immediately topped with a few fresh mint sprigs. If you can’t serve immediately, just be sure to stir or shake the frosted blueberry lemonade before serving because it will separate as it rests.</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>1.3</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>6.8</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>37.8</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>5.2</value>
+				<percentage>19%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>20.8</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>1.2</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>3.9</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>55.3</value>
+				<percentage>61%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>0.5</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>186.8</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>26.6</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+		</nutrition_score>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Cozy Homemade Peppermint Mocha</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct10"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m1"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt5"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT10M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT15M</totaltime>
+		<calories>285</calories>
+		<description>Cozy Homemade Peppermint Mocha! Creamy, minty, rich dark chocolate… SO yummy. Cozy up, grab a blanket and a book, and get your holidays on.
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>22</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="1">
+			<ingredient name=" Water"
+						quantity="11/2"
+						unit="cup"/>
+			<ingredient name="sugar"
+			            quantity="11/2"
+						unit="cup"/>
+			<ingredient name="fresh mint leaves OR peppermint extract"
+						quantity="1 OR 1"
+			            unit="bunch OR teaspoon"/>
+			<ingredient name="milk"
+			            quantity="3/4"
+						unit="cup"/>
+			<ingredient name="unsweetened chocolate bar or baking bar (not cocoa powder)"
+			            quantity="1"
+						unit="ounce"/>
+			<ingredient name="espresso or strongly brewed coffee"
+			            quantity="1/2"
+						unit="cup"/>
+			<ingredient name="whipped cream"/>	
+			<ingredient name="crushed candy canes"/>					
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+		</allergens>
+		<instructions>
+			<steps>Bring the water to a low boil. Add the sugar and stir until dissolved. Add the mint or peppermint extract and steep for 10-15 minutes (heat off or on low) until the syrup has good flavor to it. Remove the mint leaves and store in the refrigerator for future peppermint mochas.</steps>
+			<steps>Heat the milk and unsweetened chocolate together until melted (could be in the microwave or on the stovetop).</steps>	
+			<steps>Add the milk mixture to a glass jar. Put a cap on the jar and wrap with a towel (the metal lid will get hot). Shake until foamy</steps>	
+			<steps>Pour the milk mixture into a mug. Stir in the coffee and 2-3 tablespoons of mint syrup. Top with whipped cream and candy cane pieces.</steps>	
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>16.6</value>
+				<percentage>21%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>9.7</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>101.7</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>23.5</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>4.7</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>16.1</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>10.2</value>
+				<percentage>20%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>106.4</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>5</value>
+				<percentage>28%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>511</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>287.5</value>
+				<percentage>23%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>This was delicious! We made it both Saturday and Sunday this weekend! Planning to take the rest of the mint syrup to Christmas to make for my family!</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Cookie Dough Energy Bites</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct6"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s2"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m5"/>
+			<method mref="m7"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+			<mealtime mtref="mt4"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT15M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT0M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT15M</totaltime>
+		<calories>119</calories>
+		<description>Nutritious, wholesome, full of goodness AND TASTES LIKE COOKIE DOUGH. No Bake Cookie Dough Energy Bites for the win! Love these little bites!
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>59</numReviews>
+			<averageRating>4.9</averageRating>
+		</reviews>
+		<ingredients servings="30">
+			<ingredient name="rolled oats"
+						quantity="2"
+						unit="cup"/>
+			<ingredient name=" flaked unsweetened coconut"
+			            quantity="1/2"
+						unit="cups"/>
+			<ingredient name="peanut butter (extra as needed)"
+						quantity="1/2"
+			            unit="cup "/>
+			<ingredient name="honey (extra as needed)"
+			            quantity="1/2"
+						unit="cup"/>
+			<ingredient name="chia seeds"
+			            quantity="1/4"/>
+			 <ingredient name="salt"
+			            quantity="1/2"
+						unit="teaspoon"/>
+			<ingredient name="vanilla"
+			            quantity="1/2"
+						unit="teaspoon"/>
+			<ingredient name="chocolate chips"
+			            quantity="1/2"
+			            unit="cup"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al8"/>
+		</allergens>
+		<instructions>
+			<steps>Pulse the oats and the coconut until coarsely ground.</steps>
+			<steps>Add peanut butter, honey, chia seeds, salt, vanilla, and chocolate chips. Pulse again until well-mixed and the chocolate chips are cut into smaller pieces.</steps>
+			<steps>Roll into balls. (If it’s too dry, just add a little more honey / peanut butter and mix again – I usually just eyeball the amounts until it gets sticky enough).</steps>
+			<steps>Freeze until solid. Store in freezer or refrigerator. </steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>6.3</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>58.8</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>13.9</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>2.1</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>7.5</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>2.5</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>0.6</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>52.4</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>121.8</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		
+		<featured_comment>
+			<content>These cookie dough balls are a weekly go to for me! They’re the perfect afternoon snack + coffee pick me up!</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Healthy Carrot Muffins</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct7"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+			<mealtime mtref="mt4"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT10M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT15M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT25M</totaltime>
+		<calories>224</calories>
+		<description>Favorite Carrot Muffins that are warm, cozy, and wholesome! A naturally sweet snacking muffin flecked with tiny bits of carrots and oats, smeared with some butter and honey.
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>114</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="12">
+			<ingredient name="rolled oats"
+						quantity="2"
+						unit="cup"/>
+			<ingredient name=" medjool dates, pits removed"
+			            quantity="8"/>
+			<ingredient name="olive oil"
+						quantity="1/2"
+			            unit="cup "/>
+			<ingredient name="real maple syrup"
+			            quantity="1/4"
+						unit="cup"/>
+			<ingredient name="carrots, peeled and shredded (about 2 cups total)"
+			            quantity="3–4"/>
+			 <ingredient name="eggs"
+			            quantity="2"/>
+			<ingredient name="baking soda"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="cinnamon"
+			            quantity="1/2"
+			            unit="teaspoon"/>
+			<ingredient name="salt"
+			            unit="pinch"/>
+			<ingredient name="walnuts or raisins (optional)"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al8"/>
+			<allergen alref="al9"/>
+		</allergens>
+		<instructions>
+			<steps>Preheat the oven to 350 degrees. Grate your carrots.</steps>
+			<steps>Mix all ingredients in a blender until a chunky batter comes together.</steps>
+			<steps>Pour batter into a greased or lined muffin tin. Bake for 15-18 minutes, until the tops gently spring back when you press into them.</steps>
+			<steps>Smear warm muffins with butter and/or honey. Attempt not to eat them all. Serve warm or cold ALL DAY LONG. </steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>10.2</value>
+				<percentage>13%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>31</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>76</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>29.4</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>3.3</value>
+				<percentage>12%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>15.6</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>3.5</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>184.3</value>
+				<percentage>20%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>12</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.1</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>336.7</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>331</value>
+				<percentage>26%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<FAQs>
+			<FAQ>
+				<Question>Can you use an oil other than olive oil?</Question>
+				<Answer>Yep! Any neutral-tasting oil will work.</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>How do you recommend storing these muffins?</Question>
+				<Answer>I store mine in the fridge in an airtight container! To eat, we usually pop them in the microwave for 15 seconds or so, or toast them up in the air fryer for a minute or two. Spread with butter and mwah! So good!</Answer>
+			</FAQ>
+			<FAQ>
+				<Question>Do these freeze well?</Question>
+				<Answer>Yep! They freeze perfectly. I do it all the time!</Answer>
+			
+			</FAQ>
+			<FAQ>
+				<Question>What can you substitute for the egg?</Question>
+				<Answer>I haven’t tried, but would imagine flax eggs would work well for this!</Answer>
+			
+			</FAQ>
+			<FAQ>
+				<Question>Is there a replacement for the dates? (Applesauce, mashed banana, other dried fruit, more maple syrup?)</Question>
+				<Answer>Other readers have said that mashed banana worked (though it created a wetter batter), or other dried fruit.</Answer>
+			</FAQ>
+		</FAQs>
+		
+		<featured_comment>
+			<content>I made three loaves of this last month. It’s now on my go-to list of recipes to bring new moms. So, so easy to make and so delicious!</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Spicy Popcorn Chicken Bites</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc7"/>
+	
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct6"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt3"/>
+			<mealtime mtref="mt4"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT10M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT18M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT28M</totaltime>
+		<calories>474</calories>
+		<description>Carrot Cake Smoothie Bowl – an easy, nutrition-packed dessert or snack recipe with a secret super-healthy ingredient! Guilt-free snack!
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>15</numReviews>
+			<averageRating>4.8</averageRating>
+		</reviews>
+		<ingredients servings="4">
+			<ingredient name=" Kettle Brand Chips – I used Buffalo Bleu flavor"
+						quantity="3"
+						unit="cups"/>
+			<ingredient name="  flour"
+			            quantity="11/2"
+						unit="cups"/>
+			<ingredient name="cayenne"
+						quantity="1/4"
+			            unit="teaspoon"/>
+			<ingredient name="eggs"
+			            quantity="2"/>
+			<ingredient name=" half and half (milk works, too)"
+			            quantity="1/4"
+						unit="cup"/>
+			<ingredient name="boneless skinless chicken breasts"
+			            quantity="1"
+						unit="lb"/>
+			<ingredient name="olive oil, salt, and pepper"/>	
+			<ingredient name="honey mustard dipping sauce"/>					
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al10"/>
+		</allergens>
+		<instructions>
+			<steps>Preheat the oven to 425 degrees.</steps>
+			<steps>Crush the chips in a food processor until fine crumbs form. Add 1 cup flour and cayenne and pulse again until incorporated into an even crumb-like mixture.</steps>	
+			<steps>Place remaining 1/2 cup flour in a shallow dish.</steps>	
+			<steps>Whisk eggs and half and half together in a shallow dish.</steps>	
+			<steps>Cut the chicken into bite-sized pieces.</steps>	
+			<steps>Rub a baking sheet with olive oil to coat or place a wire rack on the baking sheet if you have one.</steps>	
+			<steps>Set up an assembly line of sorts: flour, egg mixture, kettle chip mixture. Dip each chicken piece in each bowl, moving through the assembly line and making sure it gets coated at each step – starting with flour, then egg, then crumbs. Place on the baking sheet.</steps>	
+			<steps>Bake chicken for 5 minutes, flip if needed, and bake another 5 minutes. I found my total time varied but generally ended up between 12-18 minutes to get the right amount of crisping and browning. These go perfectly with the honey mustard dipping sauce!</steps>		
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>14.1</value>
+				<percentage>18%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>181</value>
+				<percentage>60%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>201.9</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>48.7</value>
+				<percentage>18%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.3</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>1.6</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>34</value>
+				<percentage>68%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>67.1</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>3.3</value>
+				<percentage>18%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>485.4</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>356.1</value>
+				<percentage>28%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		<featured_comment>
+			<content>Total time elapsed between seeing this recipe on Instagram and eating it: less than an hour. So simple and so good. Thanks!</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Rosemary Pom Spritzer AKA The Merry Mocktail</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc6"/>
+	
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct10"/>
+		<seasonal>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m5"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt5"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT5M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT10M</totaltime>
+		<calories>90</calories>
+		<description>Everyone needs a good fancy fun mocktail in their life – especially during the holidays. Herby, zingy rosemary-infused simple syrup, sweet tart pomegranate juice, bubbly fizz, and fresh lime squeezes. Holiday magic!
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>601</numReviews>
+			<averageRating>4.7</averageRating>
+		</reviews>
+		<ingredients servings="1">
+			<ingredient name=" Water"
+						quantity="948"
+						unit="ml"/>
+			<ingredient name="sugar"
+			            quantity="800"
+						unit="g"/>
+			<ingredient name="packages fresh rosemary (basically, a nice big bunch of rosemary)"
+						quantity="2.5"
+			            unit="oz"/>
+			<ingredient name="optional: 4-5 whole cloves"/>
+			<ingredient name="rosemary simple syrup"
+			            quantity="59-89"
+						unit="ml"/>
+			<ingredient name="pomegranate juice (cranberry juice is a good sub)"
+			            quantity="59-89"
+						unit="ml"/>
+			<ingredient name="club soda"
+						quantity="59-89"
+						unit="ml"/>
+			<ingredient name="crushed candy canes"
+						quantity="59-89"
+						unit="ml"/>
+			<ingredient name="fresh lime (OR lime-flavored bubbly water)"
+						quantity="1"
+						unit="squeeze"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al15"/>
+		</allergens>
+		<instructions>
+			<steps>Heat the water, sugar, rosemary, and cloves in a saucepan over medium high heat. Bring to a low boil and let everything simmer for 5-10 minutes until the sugar has fully dissolved. Pour through a fine mesh strainer to remove the cloves and rogue rosemary leaves. Transfer to glass jars and store in the fridge for 2 weeks. (I often stick a sprig of rosemary in there so it keeps getting more intense.)</steps>
+			<steps>Pour your desired ratios of rosemary syrup, pomegranate juice, and limey bubbly water over an ice ball into a glass. Stir gently, taste and adjust, and enjoy. </steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>0.2</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>18.3</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>23.2</value>
+				<percentage>8%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>0.2</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>21</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>0.2</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>0.6</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>8.6</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>0.1</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>168.9</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>10.9</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		
+		<featured_comment>
+			<content>Delicious! truly tastes like Christmas in a cup. I love having a non-alcoholic option for a drink around the holidays.</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Pumpkin Muffins with Maple Cream Cheese Filling</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct7"/>
+		<seasonal>
+			<season sref="s3"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT30M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT20M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT50M</totaltime>
+		<calories>385</calories>
+		<description>Pumpkin muffins are getting a lightly crunchy, sparkly cinnamon sugar topping, and then stuffed to the brim with maple cream cheese whipped cream. YUM. 
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>9</numReviews>
+			<averageRating>4.6</averageRating>
+		</reviews>
+		<ingredients servings="12">
+			<ingredient name="Vegetable oil"
+						quantity="119"
+			            unit="ml"/>
+			<ingredient name=" Granulated sugar"
+			            quantity="100"
+			            unit="g"/>
+			<ingredient name="Light brown sugar"
+			            quantity="100"
+			            unit="g packed"/>
+			<ingredient name="Pumpkin puree"
+			            quantity="368"
+			            unit="g"/>
+			<ingredient name="Vanilla"
+			            quantity="1"
+						unit="teaspoon"/>
+			<ingredient name="Eggs"
+			            quantity="2"/>
+			<ingredient name="Milk"
+			            quantity="59"
+			            unit="ml"/>
+			<ingredient name="All-purpose flour"
+			            quantity="219"
+			            unit="g"/>
+			<ingredient name="Baking soda"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Ground cinnamon"
+			            quantity="11/2"
+			            unit="teaspoon"/>
+			<ingredient name="Ground cloves"
+			            quantity="1/4"
+			            unit="teaspoon"/>
+			<ingredient name="Salt"
+			            quantity="3/4"
+			            unit="teaspoon"/>
+			<ingredient name="Granulated sugar"
+			            quantity="100"
+			            unit="g"/>
+			<ingredient name="Cinnamon"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="Unsalted butter, melted"
+			            quantity="1"
+			            unit="tablespoon"/>
+			<ingredient name="Heavy cream"
+			            quantity="178"
+			            unit="ml"/>
+			<ingredient name="Cream cheese, softened"
+			            quantity="227"
+			            unit="g"/>
+			<ingredient name="Maple syrup (to taste)"
+			            quantity="59"
+			            unit="ml"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al7"/>
+			<allergen alref="al9"/>
+		</allergens>
+		<instructions>
+			<steps>Make Muffin Batter: Preheat the oven to 350 degrees. Whisk oil and sugars. Add pumpkin, vanilla, eggs, and milk; whisk until just combined. Add flour, baking soda, spices, and salt; mix until just combined. Pour muffin batter into an oiled or nonstick muffin tin, filling about 3/4ths of the way to the top of each up</steps>
+			<steps>Make Cinnamon Sugar: Mix up the cinnamon sugar topping in a small bowl.</steps>
+			<steps>Assemble and Bake: Spoon the cinnamon sugar over each muffin. Bake for 20-24 minutes, or until the tops spring back when gently pressed.</steps>
+			<steps>Make Maple Cream Cheese Filling: Add the cream to a small bowl and beat until light and fluffy and stiff peaks form. In a separate bowl, beat the softened cream cheese until smooth. Fold in the whipped cream, using the beaters again to smooth it out if needed. Add the maple syrup and mix until smooth. </steps>
+			<steps>Fill The Muffins: Once the muffins have cooled, cut a cone out of the center of the muffins using a small paring knife. Using a piping bag, or a plastic bag with the corner snipped off, add the filling to the center hole in the muffins. Fill it all the way to the top (the filling will be exposed at the top – cute).</steps>
+			<steps>Serve: These are ready to eat as-is! If making ahead, they should be stored in the fridge. They can be eaten at room temp or cold – both delicious!</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>20.3</value>
+				<percentage>26%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>61.2</value>
+				<percentage>20%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>331.1</value>
+				<percentage>14%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>47.7</value>
+				<percentage>17%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>1.7</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>31</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>4.9</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>348.9</value>
+				<percentage>39%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>1.4</value>
+				<percentage>2%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>1.6</value>
+				<percentage>9%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>163.1</value>
+				<percentage>3%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>77.8</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+		</nutrition_score>
+	</recipe>
+	<!-- ############################################################################################# -->
+	<recipe>
+		<title>Pecan Pie Energy Bites</title>
+		<categoryofDiet>
+			<dietCategory dcref="dc1"/>
+			<dietCategory dcref="dc2"/>
+			<dietCategory dcref="dc3"/>
+			<dietCategory dcref="dc4"/>
+			<dietCategory dcref="dc5"/>
+			<dietCategory dcref="dc6"/>
+		</categoryofDiet>
+		<cuisine cref="c10"/>
+		<course ctref="ct6"/>
+		<seasonal>
+			<season sref="s1"/>
+			<season sref="s3"/>
+			<season sref="s4"/>
+		</seasonal>
+		<methodUsed>
+			<method mref="m7"/>
+			<method mref="m8"/>
+		</methodUsed>
+		<mealtimes>
+			<mealtime mtref="mt1"/>
+			<mealtime mtref="mt4"/>
+		</mealtimes>
+		<!-- Preparation time -->
+		<preptime>PT5M</preptime>
+		<!-- cooking time -->
+		<cooktime>PT0M</cooktime>
+		<!-- Total cooking time -->
+		<totaltime>PT5M</totaltime>
+		<calories>144</calories>
+		<description>These Pecan Pie Energy Bites are a cute lil’ 7-ingredient miracle! Made with dates, pecans, oats, almond butter, and maple syrup, you’re going to be snackin’ on these all. day. long.
+		</description>
+		<!-- Number of reviews and rating given by users -->
+		<reviews>
+			<numReviews>23</numReviews>
+			<averageRating>4.9</averageRating>
+		</reviews>
+		<ingredients servings="18">
+			<ingredient name="dates"
+						quantity="10"
+						unit="cup"/>
+			<ingredient name=" pecans"
+			            quantity="164"
+						unit="g"/>
+			<ingredient name="oats"
+						quantity="78"
+			            unit="g "/>
+			<ingredient name="flaxmeal"
+			            quantity="52"
+						unit="g"/>
+			<ingredient name="almond butter"
+			            quantity="63"
+						unit="g"/>
+			 <ingredient name="maple syrup"
+			            quantity="2"
+						unit="tablespoon"/>
+			<ingredient name="vanilla"
+			            quantity="1"
+			            unit="teaspoon"/>
+			<ingredient name="sea salt"
+			            unit="pinch"/>
+		</ingredients>
+		<allergens>
+			<allergen alref="al8"/>
+		</allergens>
+		<instructions>
+			<steps>Mix everything in the food processor until it’s nice and smooth-ish, like a dough.</steps>
+			<steps>Roll into individual balls.</steps>
+			<steps>Store in the fridge or freezer (I keep mine in the freezer).</steps>
+		</instructions>
+		<nutrition_score>
+			<nutri_value nfref="nf1">
+				<value>8.5</value>
+				<percentage>11%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf2">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf3">
+				<value>1</value>
+				<percentage>1%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf4">
+				<value>15.2</value>
+				<percentage>6%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf5">
+				<value>2.8</value>
+				<percentage>10%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf6">
+				<value>10.8</value>
+			</nutri_value>
+			<nutri_value nfref="nf7">
+				<value>2.5</value>
+				<percentage>5%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf8">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf9">
+				<value>0</value>
+				<percentage>0%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf10">
+				<value>0.7</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf11">
+				<value>169.4</value>
+				<percentage>4%</percentage>
+			</nutri_value>
+			<nutri_value nfref="nf12">
+				<value>91.1</value>
+				<percentage>7%</percentage>
+			</nutri_value>
+		</nutrition_score>
+		
+		<featured_comment>
+			<content>These were so easy to make and so delicious! My four year old has been devouring them as well. Perfect, easy snack to have on hand</content>
+		</featured_comment>
+	</recipe>
+	<!-- ############################################################################################# -->
 	<!-- List of cuisines -->
 	<!-- I have added a description about the cuisine using ChatGPT -->
 	<cuisines>
@@ -4524,7 +6417,7 @@
 		<method id="m10">
 			<name>Freeze</name>
 		</method>
-	</methods>
+	</methods>	
 	<!-- ############################################################################################# -->
 	<!-- List of allergens, taken from https://www.foodallergy.org/living-food-allergies/ -->
 	<al:allergies>
