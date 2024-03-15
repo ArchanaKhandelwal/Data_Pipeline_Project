@@ -4,6 +4,7 @@
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:ds="http://www.dsti-food.com/"
                 xmlns:al="http://allergens.dsti.com/">
+ <!-- Define HTML output format with specific version, encoding, and indentation -->
 	<xsl:output method="html"
 	            version="4.0"
 	            encoding="UTF-8"
@@ -27,6 +28,8 @@
                     <ul>
                         
                         <xsl:for-each select="ds:allergens/ds:allergen">
+			
+						<!-- Display allergy name using the key -->
                             <li><strong>Allergy Name:</strong> <xsl:value-of select="key('allergenKey', @alref)/al:name"/></li>
                         </xsl:for-each>
                     </ul>
