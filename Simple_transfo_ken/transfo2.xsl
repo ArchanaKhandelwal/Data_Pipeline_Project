@@ -2,6 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:ds="http://www.dsti-food.com/">
 
+<!-- List of course types we want to evaluate -->
 <xsl:variable name="course1" select="'Soup'"/>
 <xsl:variable name="course2" select="'Salad'"/>
 <xsl:variable name="course3" select="'Sandwich'"/>
@@ -12,6 +13,7 @@
 <xsl:variable name="course8" select="'Appetizer'"/>
 
 <xsl:template match="/">
+	<!-- Use Recipe course variables -->
 	<xsl:variable name="RecipeCourse1" select="ds:Food/ds:recipe[ds:course/@ctref = //ds:courseType/ds:course[ds:name = $course1]/@id]" />
 	<xsl:variable name="RecipeCourse2" select="ds:Food/ds:recipe[ds:course/@ctref = //ds:courseType/ds:course[ds:name = $course2]/@id]" />
 	<xsl:variable name="RecipeCourse3" select="ds:Food/ds:recipe[ds:course/@ctref = //ds:courseType/ds:course[ds:name = $course3]/@id]" />
@@ -23,6 +25,7 @@
 	<html>
 		<head></head>
 		<body>
+			<!-- Call template for calculation of average rating for course 1 -->
 			<h1>The average note of the <xsl:value-of select="$course1"/> dishes is: </h1>
 			<p>
 				<xsl:variable name="averageNote1">
@@ -32,6 +35,7 @@
 				</xsl:variable>
 				<xsl:value-of select="$averageNote1"/>
 			</p>
+			<!-- Call template for calculation of average rating for course 2 -->
 			<h1>The average note of the <xsl:value-of select="$course2"/> dishes is: </h1>
 			<p>
 				<xsl:variable name="averageNote2">
@@ -41,6 +45,7 @@
 				</xsl:variable>
 				<xsl:value-of select="$averageNote2"/>
 			</p>
+			<!-- Call template for calculation of average rating for course 3 -->
 			<h1>The average note of the <xsl:value-of select="$course3"/> dishes is: </h1>
 			<p>
 				<xsl:variable name="averageNote3">
@@ -50,6 +55,7 @@
 				</xsl:variable>
 				<xsl:value-of select="$averageNote3"/>
 			</p>
+			<!-- Call template for calculation of average rating for course 4 -->
 			<h1>The average note of the <xsl:value-of select="$course4"/> dishes is: </h1>
 			<p>
 				<xsl:variable name="averageNote4">
@@ -59,6 +65,7 @@
 				</xsl:variable>
 				<xsl:value-of select="$averageNote4"/>
 			</p>
+			<!-- Call template for calculation of average rating for course 5 -->
 			<h1>The average note of the <xsl:value-of select="$course5"/> dishes is: </h1>
 			<p>
 				<xsl:variable name="averageNote5">
@@ -68,6 +75,7 @@
 				</xsl:variable>
 				<xsl:value-of select="$averageNote5"/>
 			</p>
+			<!-- Call template for calculation of average rating for course 6 -->
 			<h1>The average note of the <xsl:value-of select="$course6"/> dishes is: </h1>
 			<p>
 				<xsl:variable name="averageNote6">
@@ -77,6 +85,7 @@
 				</xsl:variable>
 				<xsl:value-of select="$averageNote6"/>				
 			</p>
+			<!-- Call template for calculation of average rating for course 7 -->
 			<h1>The average note of the <xsl:value-of select="$course7"/> dishes is: </h1>
 			<p>
 				<xsl:variable name="averageNote7">
@@ -86,6 +95,7 @@
 				</xsl:variable>
 				<xsl:value-of select="$averageNote7"/>
 			</p>
+			<!-- Call template for calculation of average rating for course 8 -->
 			<h1>The average note of the <xsl:value-of select="$course8"/> dishes is: </h1>
 			<p>
 				<xsl:variable name="averageNote8">
@@ -108,36 +118,20 @@
  	<xsl:variable name="totalReviews" select="sum($recipes/ds:reviews/ds:numReviews)"/>
  
     <xsl:choose>
+		<!-- Recursive case: accumulate the sum for each recipe -->
         <xsl:when test="$index &lt;= count($recipes)"> 
 			<xsl:variable name="currentRecipe" select="$recipes[$index]"/>
             <xsl:variable name="currentSum" select="number($currentRecipe/ds:reviews/ds:numReviews) * number($currentRecipe/ds:reviews/ds:averageRating)"/>
-
+			<!-- Recursively call the template with updated index and accumulated sum -->
             <xsl:call-template name="accumulateSums">
 					<xsl:with-param name="recipes" select="$recipes" />
                 <xsl:with-param name="index" select="$index + 1"/>
                 <xsl:with-param name="sum" select="$sum + $currentSum"/>
             </xsl:call-template>
         </xsl:when>
+		<!-- Stop recursion when all recipes have been processed -->
         <xsl:otherwise>
-<!--
-			<p>
-				Total sum of ratings: 
-				<xsl:value-of select="$sum"/>
-				<xsl:text>&#10;</xsl:text>
-			</p>
-			<p>
-				Total number of reviews: 
-				<xsl:value-of select="$totalReviews"/>
-				<xsl:text>&#10;</xsl:text>   
-			</p>
-			<p>
-				Overall average rating:
--->
 				<xsl:value-of select="$sum div $totalReviews"/>
-<!--
-				<xsl:text>&#10;</xsl:text>    
-			</p>                 
--->
         </xsl:otherwise>
     </xsl:choose>
 
