@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ds="http://www.dsti-food.com/">
+<xsl:stylesheet version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns:ds="http://www.dsti-food.com/">
 	<xsl:output method="text"/>
 
 	<!-- Entry template -->
 	<xsl:template match="/ds:Food">
         {
             "mealType": "Dinner",
-            "recipes": [<xsl:apply-templates select="ds:mealTypes/ds:mealType[@id='mt2']"/>]
+            "recipes": [
+                
+		<xsl:apply-templates select="ds:mealTypes/ds:mealType[@id='mt2']"/>
+            ]
         }
+    
 	</xsl:template>
 	<!-- Template for Dinner MealType, adjusted for first 2 recipes only -->
 	<xsl:template match="ds:mealType">
