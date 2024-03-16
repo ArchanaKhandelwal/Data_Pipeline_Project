@@ -8,7 +8,13 @@
 	            version="4.0"
 	            encoding="UTF-8"
 	            indent="yes"/>
-	<!--Create a list of recipes with fewer than 300 calories that are suitable for lunch time during the summer season.-->
+	<!--
+Create a list of recipes with the following criteria:
+- Each recipe should have fewer than 300 calories.
+- The recipes should be suitable for lunchtime.
+- The recipes should be appropriate for the summer season.
+- Display the total cooking time for each recipe.
+-->
 	<xsl:template match="/">
 		<html>
 			<head>
@@ -39,7 +45,11 @@
 			</p>
 			<p>Season: <xsl:value-of select="$seasonName"/>
 			</p>
-			<p>Meal time: <xsl:value-of select="$Mealtime"/>
+			<p>Meal time: <xsl:value-of select="$Mealtime"/></p>
+			
+			<!-- This code retrieves the total time from the variable ds:totaltime and formats it as 'Total Time: [time in minutes] minutes'. -->
+			
+			<p>Total time: <xsl:value-of select="concat('Total Time: ', substring-before(substring-after(ds:totaltime, 'PT'), 'M'), ' minutes', '&#10;')" />
 			</p>
 		</xsl:if>
 	</xsl:template>
