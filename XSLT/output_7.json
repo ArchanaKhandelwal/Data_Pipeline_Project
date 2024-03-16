@@ -1,0 +1,148 @@
+{
+    "mealType": "Dinner",
+    "recipes": [
+      {
+        "title": "7-Layer Beet Salad",
+        "category": "dc2",
+        "cuisine": "c10",
+        "ingredients": [
+          {
+            "name": "Chopped Kale",
+            "quantity": "32-48",
+            "unit": "grams"
+          },
+          {
+            "name": "Balsemic dressing or Green salad dressing or olive oil and lemon",
+            "quantity": "59",
+            "unit": "ml"
+          },
+          {
+            "name": "Oranges",
+            "quantity": "2-3",
+            "unit": ""
+          },
+          {
+            "name": "Cooked beets",
+            "quantity": "8",
+            "unit": "small"
+          },
+          {
+            "name": "Minced shallot",
+            "quantity": "1",
+            "unit": ""
+          },
+          {
+            "name": "Truffle ricotta or ricotta cheese",
+            "quantity": "124",
+            "unit": "grams"
+          },
+          {
+            "name": "Chopped pistachios",
+            "quantity": "62",
+            "unit": "grams"
+          },
+          {
+            "name": "Fresh mint",
+            "quantity": "2",
+            "unit": "tbsp"
+          }
+        ],
+        "instructions": [
+          "Massage kale with a bit of the dressing to soften it.",
+          "steamed them for about 20 minutes and then pulled the skins off once they were cooked.Cut the beets into round shapes and cut oranges also into round shapes",
+          "Spread a little bit of your creamy element onto the serving platter. If this is a salad for one, I would use about 3 tablespoons. If it’s a salad for 4-6, I would use more like 1/2 cup.",
+          "Layer the rest of the 6 ingredients: massaged kale, beets, oranges, shallots, pistachios, and herbs. Finish with olive oil, salt, and pepper if you want. I love this salad with a hunk of good focaccia."
+        ]
+      },
+      {
+        "title": "Harissa Meatballs with Whipped Feta",
+        "category": "dc7",
+        "cuisine": "c10",
+        "ingredients": [
+          {
+            "name": "Frozen Meatballs (store-bought or homemade)",
+            "quantity": "1",
+            "unit": "22-ounce bag"
+          },
+          {
+            "name": "Bell Peppers (yellow and red)",
+            "quantity": "2",
+            "unit": "large"
+          },
+          {
+            "name": "Zucchini",
+            "quantity": "1-2",
+            "unit": "large"
+          },
+          {
+            "name": "Harissa Paste",
+            "quantity": "2",
+            "unit": "tablespoons"
+          },
+          {
+            "name": "Olive Oil",
+            "quantity": "as needed",
+            "unit": ""
+          },
+          {
+            "name": "Garlic Powder",
+            "quantity": "to taste",
+            "unit": ""
+          },
+          {
+            "name": "Lemon Juice",
+            "quantity": "as needed",
+            "unit": ""
+          },
+          {
+            "name": "Salt",
+            "quantity": "to taste",
+            "unit": ""
+          },
+          {
+            "name": "Feta Cheese",
+            "quantity": "1",
+            "unit": "6-ounce container"
+          },
+          {
+            "name": "Cream Cheese or Sour Cream or Plain Yogurt",
+            "quantity": "1-2",
+            "unit": "ounces"
+          },
+          {
+            "name": "Garlic",
+            "quantity": "1",
+            "unit": "clove"
+          },
+          {
+            "name": "Hummus",
+            "quantity": "1",
+            "unit": "cup"
+          },
+          {
+            "name": "Pitas",
+            "quantity": "6",
+            "unit": ""
+          },
+          {
+            "name": "Kalamata Olives",
+            "quantity": "1/4",
+            "unit": "cup"
+          },
+          {
+            "name": "Lemon",
+            "quantity": "1",
+            "unit": ""
+          }
+        ],
+        "instructions": [
+          "Sheet Pan, Part One:",
+          "Preheat the oven to 425 degrees. Place the peppers on one side of a large sheet pan. Drizzle with oil and sprinkle with salt. Mix the harissa with a little bit of olive oil, lemon juice, and garlic powder until you have a nice spreadable red paste. Coat your meatballs with the sauce (you can do this by tossing the meatballs in a bowl with the sauce if they’re pre-cooked, or just brushing the meatballs directly on the sheet pan if your meatballs are raw). Add meatballs to the center of the sheet pan. Bake for 15-20 minutes.",
+          "Sheet Pan, Part Two:",
+          "Chop the Zucchini into half moon and add the zucchini to the pan with some olive oil and salt. Roast for another 10 minutes. For extra browning on everything, broil for about 5 minutes.",
+          "Whip That Feta: In a food processor, chopper, or blender, whip up the feta, cream cheese, and garlic until a thick and creamy sauce forms. ",
+          "Serve: Serve meatballs and veggies with a dollop of hummus, your whipped feta, pita wedges, and anything else you like (olives, lemon, etc.). And now DEVOUR. And repeat. And repeat. And repeat."
+        ]
+      }
+    ]
+  }
