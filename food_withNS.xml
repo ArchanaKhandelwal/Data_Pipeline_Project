@@ -3,7 +3,7 @@
 	xmlns="http://www.dsti-food.com/"
 	xmlns:al="http://allergens.dsti.com/"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
+    xsi:schemaLocation="http://www.dsti-food.com/ FoodSchema_withNS.xsd">
 	<!-- List of recipes -->
 	<recipe>
 		<title>7-Layer Beet Salad</title>
