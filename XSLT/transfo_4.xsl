@@ -23,7 +23,7 @@
                     <!-- Get recipes with cooking time less than 30mn for the current course -->
                     <xsl:variable name="courseId" select="@id"/>
                     <!-- Get recipes with cooking time less than 30mn for the current course -->
-                    <xsl:variable name="courseRecipes" select="//ds:recipe[ds:course/@ctref = $courseId and number(substring-before(substring-after(ds:totaltime, 'PT'), 'M')) &lt;= 30]"/>
+                    <xsl:variable name="courseRecipes" select="//ds:recipe[ds:course/@ctref = $courseId and number(substring-before(substring-after(ds:totaltime, 'PT'), 'M')) &lt; 30]"/>
                     <!-- Check if there are any recipes for the current course -->
                     <xsl:if test="$courseRecipes">
                         <!-- Display course name -->
@@ -39,15 +39,14 @@
                                     <br/>
                                     <!-- Total Cooking Time -->
                                     <b>Total Time: </b>
-                                    <xsl:value-of select="ds:totaltime"/>
-                                    
+                                    <xsl:value-of select="ds:totaltime"/>                                    
                                     <br/>
                                 </li>
                             </xsl:for-each>
                         </ul>
                     </xsl:if>
                 </xsl:for-each>
-				<h1>Recipes by course type with cooking time greater than 30mn</h1>
+				<h1>Recipes by course type with cooking time of 30mn or more</h1>
                 <!-- Loop through each course -->
                 <xsl:for-each select="ds:Food/ds:courseType/ds:course">
                     <!-- Get recipes with cooking time greater than 30mn for the current course -->
