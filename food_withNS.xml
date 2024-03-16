@@ -6171,8 +6171,7 @@
 				<value>91.1</value>
 				<percentage>7%</percentage>
 			</nutri_value>
-		</nutrition_score>
-		
+		</nutrition_score>		
 		<featured_comment>
 			<content>These were so easy to make and so delicious! My four year old has been devouring them as well. Perfect, easy snack to have on hand</content>
 		</featured_comment>
@@ -6417,7 +6416,7 @@
 		<method id="m10">
 			<name>Freeze</name>
 		</method>
-	</methods>	
+	</methods>
 	<!-- ############################################################################################# -->
 	<!-- List of allergens, taken from https://www.foodallergy.org/living-food-allergies/ -->
 	<al:allergies>
