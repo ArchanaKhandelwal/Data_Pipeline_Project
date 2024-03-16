@@ -1,0 +1,73 @@
+{
+    "$schema":"http://json-schema.org/draft-07/schema#",
+    "title":"MealTypeRecipes",
+    "type":"object",
+    "properties":{
+      "mealType":{
+        "type":"string",
+        "description":"The type of the meal, e.g., Lunch."
+      },
+      "recipes":{
+        "type":"array",
+        "items":{
+          "type":"object",
+          "properties":{
+            "title":{
+              "type":"string",
+              "description":"The title of the recipe."
+            },
+            "category":{
+              "type":"string",
+              "description":"The category reference ID of the recipe."
+            },
+            "cuisine":{
+              "type":"string",
+              "description":"The cuisine reference ID."
+            },
+            "ingredients":{
+              "type":"array",
+              "items":{
+                "type":"object",
+                "properties":{
+                  "name":{
+                    "type":"string"
+                  },
+                  "quantity":{
+                    "type":"string"
+                  },
+                  "unit":{
+                    "type":"string"
+                  }
+                },
+                "required":[
+                  "name",
+                  "quantity",
+                  "unit"
+                ]
+              },
+              "description":"The list of ingredients needed for the recipe."
+            },
+            "instructions":{
+              "type":"array",
+              "items":{
+                "type":"string"
+              },
+              "description":"The step-by-step instructions to prepare the recipe."
+            }
+          },
+          "required":[
+            "title",
+            "category",
+            "cuisine",
+            "ingredients",
+            "instructions"
+          ]
+        },
+        "description":"A list of recipes."
+      }
+    },
+    "required":[
+      "mealType",
+      "recipes"
+    ]
+  }
