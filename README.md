@@ -4,6 +4,12 @@ This is the repository for the group project of Data Pipeline course.
 # Project description
 The project subject is the modeling of an XML database for the information system
 of a recipe box company.
+Our database contains 51 recipes of various types of meals with different categories that
+can be visualized using XSLT transformations.
+
+# Webapp
+The project can be easily navigated with a webapp at the following address:
+https://www.dsti-food.com/
 
 # Files
 The repository contains the following files:
@@ -14,6 +20,3 @@ The repository contains the following files:
  - XSLT: transformations to HTML, XML, JSON
  - XML_ProjectReport.pdf: group report detailing model design and transformations.
  
-# Webapp
-The project content can be easily visualized with a webapp at the following address:
-https://www.dsti-food.com/
