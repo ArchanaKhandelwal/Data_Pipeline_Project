@@ -11,6 +11,24 @@ can be visualized using XSLT transformations.
 The project can be easily navigated with a webapp at the following address:
 https://www.dsti-food.com/
 
+Here is a demo : 
+<img src="demos/homepage.gif" alt="dsti-food" width=1000 href="none">
+
+Schema validator
+<img src="demos/validator.gif" alt="validator" width=1000 href="none">
+
+XSLT transformer : 
+<img src="demos/xslt_transformer.gif" alt="XSLT-transformer" width=1000 href="none">
+
+XSLT scenarios : 
+<img src="demos/xslt.gif" alt="XSLT" width=1000 href="none">
+
+Recipes : 
+<img src="demos/recipes.gif" alt="recipes" width=1000 href="none">
+
+Converter & Preview Database : 
+<img src="demos/converter_database.gif" alt="Converter" width=1000 href="none">
+
 # Files
 The repository contains the following files:
  - README.md
