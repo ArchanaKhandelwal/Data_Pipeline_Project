@@ -19,4 +19,3 @@ The repository contains the following files:
  - FoodAllergens.xsd: additional XML schema related to allergies info
  - XSLT: transformations to HTML, XML, JSON
  - XML_ProjectReport.pdf: group report detailing model design and transformations.
- 
