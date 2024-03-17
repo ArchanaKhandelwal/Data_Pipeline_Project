@@ -49,7 +49,7 @@ Create a list of recipes with the following criteria:
 			
 			<!-- This code retrieves the total time from the variable ds:totaltime and formats it as 'Total Time: [time in minutes] minutes'. -->
 			
-			<p>Total time: <xsl:value-of select="concat('Total Time: ', substring-before(substring-after(ds:totaltime, 'PT'), 'M'), ' minutes', '&#10;')" />
+			<p>Total time: <xsl:value-of select="concat(substring-before(substring-after(ds:totaltime, 'PT'), 'M'), ' minutes', '&#10;')" />
 			</p>
 		</xsl:if>
 	</xsl:template>
