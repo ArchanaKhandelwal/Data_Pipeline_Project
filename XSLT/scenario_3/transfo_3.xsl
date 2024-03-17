@@ -95,7 +95,7 @@
         </xsl:when>
 		<!-- Stop recursion when all recipes have been processed -->
         <xsl:otherwise>
-				<xsl:value-of select="$sum div $totalReviews"/>
+				<xsl:value-of select="format-number($sum div $totalReviews, '#.##')"/>
         </xsl:otherwise>
     </xsl:choose>
 
